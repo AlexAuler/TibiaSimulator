@@ -10,11 +10,11 @@
  */
 
 import { create } from 'zustand';
-import { emptyBuild, type Build } from '@/engine/schemas/build';
+import { emptyBuild, migrateBuild, type Build } from '@/engine/schemas/build';
 import type { AttackMode, SkillKey, Slot, Vocation } from '@/engine/schemas/enums';
 import type { CharmStage } from '@/engine/schemas/charm';
 import type { Item } from '@/engine/schemas/item';
-import { itemById, itemFitsVocation, spellById } from './data';
+import { huntingPlaceById, itemById, itemFitsVocation, spellById } from './data';
 
 /** true se a arma (2 mãos) não pode conviver com este item de offhand. */
 export function twoHandedConflict(weapon: Item | undefined, offhand: Item | undefined): boolean {
@@ -37,7 +37,11 @@ interface SimStore {
   setImbuements: (slot: Slot, imbuementIds: string[]) => void;
   setCharm: (charmId?: string) => void;
   setCharmStage: (stage: CharmStage) => void;
-  setTarget: (creatureId?: string) => void;
+  /** adiciona/remove uma criatura-alvo (seleção manual) */
+  toggleTarget: (creatureId: string) => void;
+  /** seleciona todas as criaturas de um local de caça */
+  setHuntingPlace: (placeId?: string) => void;
+  clearTargets: () => void;
   toggleSpell: (spellId: string) => void;
   reset: () => void;
   load: (build: Build) => void;
@@ -127,8 +131,34 @@ export const useSimStore = create<SimStore>((set) => ({
 
   setCharm: (charmId) => set((state) => ({ build: { ...state.build, charmId } })),
   setCharmStage: (charmStage) => set((state) => ({ build: { ...state.build, charmStage } })),
-  setTarget: (targetCreatureId) =>
-    set((state) => ({ build: { ...state.build, targetCreatureId } })),
+  toggleTarget: (creatureId) =>
+    set((state) => {
+      const has = state.build.targetCreatureIds.includes(creatureId);
+      const targetCreatureIds = has
+        ? state.build.targetCreatureIds.filter((id) => id !== creatureId)
+        : [...state.build.targetCreatureIds, creatureId];
+      // seleção manual invalida o rótulo do local quando esvazia a lista
+      const huntingPlaceId =
+        targetCreatureIds.length === 0 ? undefined : state.build.huntingPlaceId;
+      return { build: { ...state.build, targetCreatureIds, huntingPlaceId } };
+    }),
+
+  setHuntingPlace: (placeId) =>
+    set((state) => {
+      if (!placeId) {
+        return { build: { ...state.build, huntingPlaceId: undefined } };
+      }
+      const place = huntingPlaceById.get(placeId);
+      if (!place) return state;
+      return {
+        build: { ...state.build, huntingPlaceId: placeId, targetCreatureIds: place.creatureIds },
+      };
+    }),
+
+  clearTargets: () =>
+    set((state) => ({
+      build: { ...state.build, targetCreatureIds: [], huntingPlaceId: undefined },
+    })),
 
   toggleSpell: (spellId) =>
     set((state) => {
@@ -144,7 +174,8 @@ export const useSimStore = create<SimStore>((set) => ({
     }),
 
   reset: () => set({ build: emptyBuild(), removedByVocation: [], removedByTwoHanded: null }),
-  load: (build) => set({ build, removedByVocation: [], removedByTwoHanded: null }),
+  load: (build) =>
+    set({ build: migrateBuild(build), removedByVocation: [], removedByTwoHanded: null }),
   dismissRemovedNotice: () => set({ removedByVocation: [] }),
   dismissTwoHandedNotice: () => set({ removedByTwoHanded: null }),
 }));

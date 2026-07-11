@@ -14,7 +14,7 @@ import {
 import { WEAPON_SKILL } from './schemas/enums';
 import type { Element } from './schemas/enums';
 import type { Creature } from './schemas/creature';
-import type { DefenseResult } from './schemas/result';
+import type { CreatureAttackDamage, DefenseResult } from './schemas/result';
 import type { CharacterSheet } from './character';
 
 /** Armor total = soma do armor dos itens equipados. */
@@ -97,7 +97,7 @@ export function defenseValue(sheet: CharacterSheet): number {
 export function expectedIncomingDamage(
   sheet: CharacterSheet,
   creature: Creature,
-): DefenseResult['perCreatureAttack'] {
+): CreatureAttackDamage[] {
   const resist = aggregateResistances(sheet);
   const armor = totalArmor(sheet);
   return creature.attacks.map((atk) => {
@@ -111,20 +111,15 @@ export function expectedIncomingDamage(
   });
 }
 
+/** Parte estática da defesa (independe do alvo). O dano recebido por
+ *  criatura entra em cada VsTargetResult (multi-alvo por local de caça). */
 export function computeDefense(sheet: CharacterSheet): DefenseResult {
-  const { build, target } = sheet;
-  const charHp = HP_FORMULA[build.vocation](build.level);
-  const charMana = Math.max(0, MANA_FORMULA[build.vocation](build.level));
-  const perCreatureAttack = target ? expectedIncomingDamage(sheet, target) : [];
-  const avgIncomingPerTurn = perCreatureAttack.reduce((s, a) => s + a.expectedDamage, 0);
+  const { build } = sheet;
   return {
     totalArmor: totalArmor(sheet),
     resistances: aggregateResistances(sheet),
-    charHp,
-    charMana,
+    charHp: HP_FORMULA[build.vocation](build.level),
+    charMana: Math.max(0, MANA_FORMULA[build.vocation](build.level)),
     defenseValue: defenseValue(sheet),
-    perCreatureAttack,
-    avgIncomingPerTurn,
-    hitsToDie: avgIncomingPerTurn > 0 ? charHp / avgIncomingPerTurn : null,
   };
 }

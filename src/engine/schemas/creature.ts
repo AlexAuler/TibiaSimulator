@@ -4,8 +4,9 @@ import { ElementSchema } from './enums';
 /**
  * Criatura-alvo (Seção 4 do PLANO-MVP).
  * `elementModifiers`: fração do dano recebido por elemento
- * (1.0 = neutro, 1.1 = fraco/+10%, 0 = imune) — campos *DmgMod do infobox
- * da TibiaWiki convertidos de % para fração.
+ * (1.0 = neutro, 1.1 = fraco/+10%, 0 = imune; NEGATIVO = a criatura é
+ * CURADA pelo elemento, como documenta a TibiaWiki em alguns *DmgMod) —
+ * campos *DmgMod do infobox convertidos de % para fração.
  * `armor` e `mitigationPct` vêm do Bestiário quando disponíveis; quando
  * ausentes, o engine aplica 1.0 e registra em `assumptions`.
  */
@@ -21,7 +22,7 @@ export const CreatureSchema = z.object({
   id: z.string().regex(/^[a-z0-9-]+$/),
   name: z.string().min(1),
   hitpoints: z.number().int().min(1),
-  elementModifiers: z.record(ElementSchema, z.number().min(0)),
+  elementModifiers: z.record(ElementSchema, z.number().min(-100)),
   /** armor do Bestiário (reduz dano físico recebido pela criatura) */
   armor: z.number().int().min(0).optional(),
   /** mitigation do Bestiário, em % (reduz todo dano comum) */

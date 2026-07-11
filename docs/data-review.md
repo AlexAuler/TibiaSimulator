@@ -7,41 +7,1683 @@ Revisar os valores marcantes de cada registro contra a página fonte.
 
 | Criatura | HP | Armor | Mitigation | Ataques | Fonte |
 |---|---|---|---|---|---|
-| Dragon | 1000 | 25 | 1.56 | 3 | [wiki](https://tibia.fandom.com/wiki/Dragon) |
-| Dragon Lord | 1900 | 34 | 2.04 | 3 | [wiki](https://tibia.fandom.com/wiki/Dragon_Lord) |
-| Demon | 8200 | 44 | 2.76 | 3 | [wiki](https://tibia.fandom.com/wiki/Demon) |
-| Hydra | 2350 | 27 | 1.87 | 4 | [wiki](https://tibia.fandom.com/wiki/Hydra) |
-| Giant Spider | 1300 | 30 | 1.65 | 2 | [wiki](https://tibia.fandom.com/wiki/Giant_Spider) |
+| A Weak Spot | 435000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/A_Weak_Spot) |
+| Abominable Servant | 8900 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Abominable_Servant) |
+| Abyssador | 340000 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Abyssador) |
+| Abyssal Calamary | 300 | 12 | 0.56 | 0 | [wiki](https://tibia.fandom.com/wiki/Abyssal_Calamary) |
+| Achad | 185 | 10 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Achad) |
+| Acid Blob | 250 | 3 | 0.4 | 4 | [wiki](https://tibia.fandom.com/wiki/Acid_Blob) |
+| Acolyte of Darkness | 325 | 19 | 1.22 | 3 | [wiki](https://tibia.fandom.com/wiki/Acolyte_of_Darkness) |
+| Acolyte of the Cult | 390 | 30 | 1.78 | 1 | [wiki](https://tibia.fandom.com/wiki/Acolyte_of_the_Cult) |
+| Adept of the Cult | 430 | 33 | 1.78 | 1 | [wiki](https://tibia.fandom.com/wiki/Adept_of_the_Cult) |
+| Adlerauge | 45000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Adlerauge) |
+| Adult Goanna | 8300 | 84 | 4.15 | 2 | [wiki](https://tibia.fandom.com/wiki/Adult_Goanna) |
+| Adventurer | 65 | 8 | 0.44 | 0 | [wiki](https://tibia.fandom.com/wiki/Adventurer) |
+| Afflicted Strider | 10000 | 68 | 2.99 | 3 | [wiki](https://tibia.fandom.com/wiki/Afflicted_Strider) |
+| Aftershock | 105000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Aftershock) |
+| Aggressive Chicken | 15000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Aggressive_Chicken) |
+| Aggressive Matter | 3000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Aggressive_Matter) |
+| Agrestic Chicken | 15 | 1 | 0.08 | 0 | [wiki](https://tibia.fandom.com/wiki/Agrestic_Chicken) |
+| Ahau | 9000 | — | — | 6 | [wiki](https://tibia.fandom.com/wiki/Ahau) |
+| Albino Dragon | 5000 | 35 | 2.09 | 3 | [wiki](https://tibia.fandom.com/wiki/Albino_Dragon) |
+| Alchemistical Container | 1000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Alchemistical_Container) |
+| Alptramun | 320000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Alptramun) |
+| Amazon | 110 | 10 | 0.44 | 2 | [wiki](https://tibia.fandom.com/wiki/Amazon) |
+| Amenef the Burning | 26000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Amenef_the_Burning) |
+| An Observer Eye | 30000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/An_Observer_Eye) |
+| Ancient Lion Knight | 9100 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Ancient_Lion_Knight) |
+| Ancient Scarab | 1000 | 36 | 1.35 | 2 | [wiki](https://tibia.fandom.com/wiki/Ancient_Scarab) |
+| Ancient Ugly Monster | 10000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Ancient_Ugly_Monster) |
+| Angry Adventurer | 65 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Angry_Adventurer) |
+| Angry Demon | 8200 | 40 | — | 3 | [wiki](https://tibia.fandom.com/wiki/Angry_Demon) |
+| Angry Elemental | 7000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Angry_Elemental) |
+| Angry Plant | 10000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Angry_Plant) |
+| Angry Plant Thing | 100000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Angry_Plant_Thing) |
+| Angry Sugar Fairy | 3000 | 37 | 1.74 | 0 | [wiki](https://tibia.fandom.com/wiki/Angry_Sugar_Fairy) |
+| Animated Clomp | 900 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Animated_Clomp) |
+| Animated Cyclops | 260 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Animated_Cyclops) |
+| Animated Feather | 13000 | 79 | 3.22 | 5 | [wiki](https://tibia.fandom.com/wiki/Animated_Feather) |
+| Animated Guzzlemaw | 6400 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Animated_Guzzlemaw) |
+| Animated Moohtant | 3200 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Animated_Moohtant) |
+| Animated Mummy | 240 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Animated_Mummy) |
+| Animated Ogre Brute | 1000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Animated_Ogre_Brute) |
+| Animated Ogre Savage | 1400 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Animated_Ogre_Savage) |
+| Animated Ogre Shaman | 800 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Animated_Ogre_Shaman) |
+| Animated Rotworm | 65 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Animated_Rotworm) |
+| Animated Skunk | 20 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Animated_Skunk) |
+| Animated Snowman | 450 | 25 | 1.22 | 2 | [wiki](https://tibia.fandom.com/wiki/Animated_Snowman) |
+| Anmothra | 7000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Anmothra) |
+| Annihilon | 46500 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/Annihilon) |
+| Anomaly | 290000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Anomaly) |
+| Antenna | 10000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Antenna) |
+| Apocalypse | 125000 | 188 | — | 7 | [wiki](https://tibia.fandom.com/wiki/Apocalypse) |
+| Apprentice Sheng | 95 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Apprentice_Sheng) |
+| Arachir the Ancient One | 1600 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Arachir_the_Ancient_One) |
+| Arachnophobica | 5000 | 70 | 3.08 | 7 | [wiki](https://tibia.fandom.com/wiki/Arachnophobica) |
+| Arbaziloth | 360000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Arbaziloth) |
+| Arctic Faun | 300 | 30 | 1.31 | 1 | [wiki](https://tibia.fandom.com/wiki/Arctic_Faun) |
+| Armadile | 3800 | 66 | 3.13 | 0 | [wiki](https://tibia.fandom.com/wiki/Armadile) |
+| Armenius (Creature) | 550 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Armenius_(Creature)) |
+| Arthei | 4200 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Arthei) |
+| Arthom the Hunter | 500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Arthom_the_Hunter) |
+| Ashmunrah | 5000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Ashmunrah) |
+| Askarak Demon | 1500 | 35 | 1.65 | 4 | [wiki](https://tibia.fandom.com/wiki/Askarak_Demon) |
+| Askarak Lord | 2100 | 40 | 1.87 | 4 | [wiki](https://tibia.fandom.com/wiki/Askarak_Lord) |
+| Askarak Prince | 2600 | 45 | 2.09 | 4 | [wiki](https://tibia.fandom.com/wiki/Askarak_Prince) |
+| Assassin | 175 | 17 | 1.65 | 2 | [wiki](https://tibia.fandom.com/wiki/Assassin) |
+| Atab | 8100 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Atab) |
+| Avalanche (Creature) | 550 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Avalanche_(Creature)) |
+| Axeitus Headbanger | 365 | 18 | — | 2 | [wiki](https://tibia.fandom.com/wiki/Axeitus_Headbanger) |
+| Ayana the Crimson Curse | 17000 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/Ayana_the_Crimson_Curse) |
+| Azerus | 26000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Azerus) |
+| Azure Frog | 60 | 8 | 0.44 | 1 | [wiki](https://tibia.fandom.com/wiki/Azure_Frog) |
+| Baby Pet of Chayenne | 380 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Baby_Pet_of_Chayenne) |
+| Bad Thought | 500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Bad_Thought) |
+| Badger | 23 | 1 | 0.12 | 1 | [wiki](https://tibia.fandom.com/wiki/Badger) |
+| Bakragore | 660000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Bakragore) |
+| Baleful Bunny | 500 | 35 | 1.22 | 3 | [wiki](https://tibia.fandom.com/wiki/Baleful_Bunny) |
+| Bandit | 245 | 11 | 0.68 | 1 | [wiki](https://tibia.fandom.com/wiki/Bandit) |
+| Bane Bringer | 2500 | 17 | 0.89 | 2 | [wiki](https://tibia.fandom.com/wiki/Bane_Bringer) |
+| Bane Lord | 3000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Bane_Lord) |
+| Bane of Light | 1100 | 38 | 2.31 | 2 | [wiki](https://tibia.fandom.com/wiki/Bane_of_Light) |
+| Banshee | 1000 | 25 | 2.76 | 2 | [wiki](https://tibia.fandom.com/wiki/Banshee) |
+| Barbaria | 345 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Barbaria) |
+| Barbarian Bloodwalker | 305 | 9 | 0.4 | 1 | [wiki](https://tibia.fandom.com/wiki/Barbarian_Bloodwalker) |
+| Barbarian Brutetamer | 145 | 8 | 0.56 | 1 | [wiki](https://tibia.fandom.com/wiki/Barbarian_Brutetamer) |
+| Barbarian Headsplitter | 100 | 7 | 0.56 | 2 | [wiki](https://tibia.fandom.com/wiki/Barbarian_Headsplitter) |
+| Barbarian Skullhunter | 135 | 8 | 0.52 | 1 | [wiki](https://tibia.fandom.com/wiki/Barbarian_Skullhunter) |
+| Barkless Devotee | 2800 | 30 | 1.22 | 1 | [wiki](https://tibia.fandom.com/wiki/Barkless_Devotee) |
+| Barkless Fanatic | 3200 | 30 | 1.22 | 1 | [wiki](https://tibia.fandom.com/wiki/Barkless_Fanatic) |
+| Baron Brute | 5025 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Baron_Brute) |
+| Bashmu | 8200 | 72 | 3.45 | 4 | [wiki](https://tibia.fandom.com/wiki/Bashmu) |
+| Bat | 30 | 1 | 0.24 | 1 | [wiki](https://tibia.fandom.com/wiki/Bat) |
+| Battlemaster Zunzu | 4000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Battlemaster_Zunzu) |
+| Bazir | 110000 | 160 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Bazir) |
+| Bear | 80 | 6 | 0.24 | 1 | [wiki](https://tibia.fandom.com/wiki/Bear) |
+| Bear (Nostalgia) | 80 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Bear_(Nostalgia)) |
 | Behemoth | 4000 | 50 | 2.76 | 2 | [wiki](https://tibia.fandom.com/wiki/Behemoth) |
-| Warlock | 3500 | 33 | 2.09 | 4 | [wiki](https://tibia.fandom.com/wiki/Warlock) |
-| Juggernaut | 18000 | 70 | 2.76 | 2 | [wiki](https://tibia.fandom.com/wiki/Juggernaut) |
-| Grim Reaper | 3900 | 30 | 1.01 | 5 | [wiki](https://tibia.fandom.com/wiki/Grim_Reaper) |
-| Hellspawn | 3500 | 44 | 2.09 | 3 | [wiki](https://tibia.fandom.com/wiki/Hellspawn) |
-| Guzzlemaw | 6400 | 74 | 3.68 | 2 | [wiki](https://tibia.fandom.com/wiki/Guzzlemaw) |
-| Frazzlemaw | 4100 | 74 | 3.68 | 2 | [wiki](https://tibia.fandom.com/wiki/Frazzlemaw) |
-| Silencer | 5400 | 71 | 2.9 | 1 | [wiki](https://tibia.fandom.com/wiki/Silencer) |
-| Dawnfire Asura | 2900 | 48 | 2.31 | 4 | [wiki](https://tibia.fandom.com/wiki/Dawnfire_Asura) |
-| Midnight Asura | 3100 | 55 | 2.54 | 3 | [wiki](https://tibia.fandom.com/wiki/Midnight_Asura) |
-| True Dawnfire Asura | 8500 | 77 | 3.45 | 3 | [wiki](https://tibia.fandom.com/wiki/True_Dawnfire_Asura) |
-| True Midnight Asura | 9000 | 75 | 3.45 | 2 | [wiki](https://tibia.fandom.com/wiki/True_Midnight_Asura) |
-| Falcon Knight | 9000 | 86 | 3.78 | 3 | [wiki](https://tibia.fandom.com/wiki/Falcon_Knight) |
-| Falcon Paladin | 8500 | 82 | 3.68 | 5 | [wiki](https://tibia.fandom.com/wiki/Falcon_Paladin) |
-| Burster Spectre | 6500 | 70 | 3.36 | 4 | [wiki](https://tibia.fandom.com/wiki/Burster_Spectre) |
-| Cloak of Terror | 28000 | 107 | 5.12 | 5 | [wiki](https://tibia.fandom.com/wiki/Cloak_of_Terror) |
+| Bellicose Orger | 700 | 35 | 1.22 | 0 | [wiki](https://tibia.fandom.com/wiki/Bellicose_Orger) |
+| Berrypest | 500 | 0 | 0 | 0 | [wiki](https://tibia.fandom.com/wiki/Berrypest) |
+| Berserker Chicken | 465 | 12 | 0.44 | 1 | [wiki](https://tibia.fandom.com/wiki/Berserker_Chicken) |
+| Betrayed Wraith | 4200 | 42 | 2.31 | 1 | [wiki](https://tibia.fandom.com/wiki/Betrayed_Wraith) |
+| Bibby Bloodbath | 1200 | 58 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Bibby_Bloodbath) |
+| Big Boss Trolliver | 140 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Big_Boss_Trolliver) |
+| Biting Book | 6500 | 76 | 2.99 | 3 | [wiki](https://tibia.fandom.com/wiki/Biting_Book) |
+| Black Cobra | 10000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Black_Cobra) |
+| Black Knight | 1800 | 42 | — | 2 | [wiki](https://tibia.fandom.com/wiki/Black_Knight) |
+| Black Sheep | 20 | 1 | 0.08 | 0 | [wiki](https://tibia.fandom.com/wiki/Black_Sheep) |
+| Black Sphinx Acolyte | 8100 | 82 | 3.64 | 3 | [wiki](https://tibia.fandom.com/wiki/Black_Sphinx_Acolyte) |
+| Black Vixen | 3200 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Black_Vixen) |
+| Blazing Fire Elemental | 650 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Blazing_Fire_Elemental) |
+| Blemished Spawn | 9000 | 61 | 2.54 | 3 | [wiki](https://tibia.fandom.com/wiki/Blemished_Spawn) |
+| Blight Bug | 3700 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Blight_Bug) |
+| Blight Mariner | 20500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Blight_Mariner) |
+| Blightwalker | 8100 | 63 | 1.87 | 2 | [wiki](https://tibia.fandom.com/wiki/Blightwalker) |
+| Blistering Fire Elemental | 1500 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Blistering_Fire_Elemental) |
+| Bloated Man-Maggot | 31700 | 104 | 5.07 | 0 | [wiki](https://tibia.fandom.com/wiki/Bloated_Man-Maggot) |
+| Blocking Stalagmite | 10500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Blocking_Stalagmite) |
+| Blood Beast | 1600 | 32 | 1.87 | 2 | [wiki](https://tibia.fandom.com/wiki/Blood_Beast) |
+| Blood Crab | 290 | 28 | 0.72 | 1 | [wiki](https://tibia.fandom.com/wiki/Blood_Crab) |
+| Blood Hand | 700 | 48 | 1.74 | 1 | [wiki](https://tibia.fandom.com/wiki/Blood_Hand) |
+| Blood Priest | 820 | 55 | 1.87 | 2 | [wiki](https://tibia.fandom.com/wiki/Blood_Priest) |
+| Blood Tear | 3500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Blood_Tear) |
+| Bloodback | 5200 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Bloodback) |
+| Bloodjaw | 40000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Bloodjaw) |
+| Bloodpaw | 100 | 8 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Bloodpaw) |
+| Bloom of Doom | 30000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Bloom_of_Doom) |
+| Blue Djinn | 330 | 20 | 1.22 | 2 | [wiki](https://tibia.fandom.com/wiki/Blue_Djinn) |
+| Bluebeak | 2430 | 40 | 1.65 | 0 | [wiki](https://tibia.fandom.com/wiki/Bluebeak) |
+| Boar | 198 | 10 | 0.4 | 1 | [wiki](https://tibia.fandom.com/wiki/Boar) |
+| Boar Man | 9200 | 72 | 3.45 | 4 | [wiki](https://tibia.fandom.com/wiki/Boar_Man) |
+| Bog Frog | 25 | 2 | 0.24 | 0 | [wiki](https://tibia.fandom.com/wiki/Bog_Frog) |
+| Bog Raider | 1300 | 20 | 1.22 | 2 | [wiki](https://tibia.fandom.com/wiki/Bog_Raider) |
+| Bolfrim (Creature) | 100000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Bolfrim_(Creature)) |
+| Bone Barrier | 10000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Bone_Barrier) |
+| Bone Jaw | 4500 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Bone_Jaw) |
+| Bonebeast | 515 | 40 | 1.82 | 1 | [wiki](https://tibia.fandom.com/wiki/Bonebeast) |
+| Bonelord | 260 | 5 | 0.8 | 5 | [wiki](https://tibia.fandom.com/wiki/Bonelord) |
+| Bonelord (Nostalgia) | 260 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Bonelord_(Nostalgia)) |
+| Bones | 9500 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/Bones) |
+| Bonny Bunny | 200 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Bonny_Bunny) |
+| Bony Sea Devil | 24000 | 100 | 5.36 | 3 | [wiki](https://tibia.fandom.com/wiki/Bony_Sea_Devil) |
+| Boogey | 930 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Boogey) |
+| Boogy | 1300 | 35 | 1.96 | 1 | [wiki](https://tibia.fandom.com/wiki/Boogy) |
+| Boreth | 1400 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Boreth) |
+| Bovinus | 150 | 10 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Bovinus) |
 | Brachiodemon | 25000 | 100 | 4.39 | 3 | [wiki](https://tibia.fandom.com/wiki/Brachiodemon) |
-| Turbulent Elemental | 28000 | 105 | 4.34 | 4 | [wiki](https://tibia.fandom.com/wiki/Turbulent_Elemental) |
-| Rotten Golem | 28000 | 108 | 4.87 | 4 | [wiki](https://tibia.fandom.com/wiki/Rotten_Golem) |
-| Sopping Corpus | 33400 | 112 | 5.21 | 0 | [wiki](https://tibia.fandom.com/wiki/Sopping_Corpus) |
-| Vexclaw | 8500 | 55 | 3.03 | 3 | [wiki](https://tibia.fandom.com/wiki/Vexclaw) |
-| Grimeleech | 9500 | 65 | 2.76 | 2 | [wiki](https://tibia.fandom.com/wiki/Grimeleech) |
-| Hellflayer | 14000 | 55 | 2.54 | 6 | [wiki](https://tibia.fandom.com/wiki/Hellflayer) |
-| Werelion | 2800 | 38 | 1.44 | 4 | [wiki](https://tibia.fandom.com/wiki/Werelion) |
-| Werelioness | 3000 | 38 | 1.44 | 3 | [wiki](https://tibia.fandom.com/wiki/Werelioness) |
+| Bragrumol | 38000 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/Bragrumol) |
+| Brain Head | 230000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Brain_Head) |
+| Brain Squid | 18000 | 78 | 3.45 | 5 | [wiki](https://tibia.fandom.com/wiki/Brain_Squid) |
+| Braindeath | 1225 | 12 | 1.05 | 5 | [wiki](https://tibia.fandom.com/wiki/Braindeath) |
+| Bramble Wyrmling | 2350 | 38 | 1.48 | 0 | [wiki](https://tibia.fandom.com/wiki/Bramble_Wyrmling) |
+| Branchy Crawler | 27000 | 100 | 4.39 | 5 | [wiki](https://tibia.fandom.com/wiki/Branchy_Crawler) |
+| Breach Brood | 3500 | 53 | 2.31 | 2 | [wiki](https://tibia.fandom.com/wiki/Breach_Brood) |
+| Bretzecutioner | 5600 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Bretzecutioner) |
+| Bride of Night | 275 | 15 | 1.01 | 1 | [wiki](https://tibia.fandom.com/wiki/Bride_of_Night) |
+| Brimstone Bug | 1300 | 38 | 1.87 | 2 | [wiki](https://tibia.fandom.com/wiki/Brimstone_Bug) |
+| Brinebrute Inferniarch | 32000 | 80 | 3.92 | 0 | [wiki](https://tibia.fandom.com/wiki/Brinebrute_Inferniarch) |
+| Brittle Skeleton | 50 | 2 | — | 0 | [wiki](https://tibia.fandom.com/wiki/Brittle_Skeleton) |
+| Broken Shaper | 2200 | 37 | 2.31 | 1 | [wiki](https://tibia.fandom.com/wiki/Broken_Shaper) |
+| Brokul | 50000 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/Brokul) |
+| Broodrider Inferniarch | 9600 | 70 | 3.26 | 1 | [wiki](https://tibia.fandom.com/wiki/Broodrider_Inferniarch) |
+| Brother Worm | 290000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Brother_Worm) |
+| Bruise Payne | 1600 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Bruise_Payne) |
+| Bruton | 50000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Bruton) |
+| Brutus Bloodbeard | 1555 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Brutus_Bloodbeard) |
+| Bug | 29 | 2 | 0.12 | 1 | [wiki](https://tibia.fandom.com/wiki/Bug) |
+| Bug (Nostalgia) | 29 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Bug_(Nostalgia)) |
+| Bulltaur Alchemist | 5690 | 67 | 3.36 | 4 | [wiki](https://tibia.fandom.com/wiki/Bulltaur_Alchemist) |
+| Bulltaur Brute | 6560 | 78 | 3.54 | 3 | [wiki](https://tibia.fandom.com/wiki/Bulltaur_Brute) |
+| Bulltaur Forgepriest | 6840 | 73 | 3.26 | 6 | [wiki](https://tibia.fandom.com/wiki/Bulltaur_Forgepriest) |
+| Bullwark | 72000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Bullwark) |
+| Burning Book | 18000 | 82 | 3.45 | 4 | [wiki](https://tibia.fandom.com/wiki/Burning_Book) |
 | Burning Gladiator | 10000 | 89 | 3.92 | 7 | [wiki](https://tibia.fandom.com/wiki/Burning_Gladiator) |
-| Priestess of the Wild Sun | 8500 | 82 | 3.59 | 6 | [wiki](https://tibia.fandom.com/wiki/Priestess_of_the_Wild_Sun) |
+| Burster | 10000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Burster) |
+| Burster Spectre | 6500 | 70 | 3.36 | 4 | [wiki](https://tibia.fandom.com/wiki/Burster_Spectre) |
+| Butterfly (Blue) | 2 | 0 | 0.56 | 0 | [wiki](https://tibia.fandom.com/wiki/Butterfly_(Blue)) |
+| Butterfly (Purple) | 2 | 0 | 0.56 | 0 | [wiki](https://tibia.fandom.com/wiki/Butterfly_(Purple)) |
+| Butterfly (Red) | 2 | 0 | 0.56 | 0 | [wiki](https://tibia.fandom.com/wiki/Butterfly_(Red)) |
+| Butterfly (Yellow) | 2 | — | 0.56 | 0 | [wiki](https://tibia.fandom.com/wiki/Butterfly_(Yellow)) |
+| Cake Golem | 444 | 8 | 0.64 | 1 | [wiki](https://tibia.fandom.com/wiki/Cake_Golem) |
+| Calamary | 75 | 13 | 0.56 | 0 | [wiki](https://tibia.fandom.com/wiki/Calamary) |
+| Candy Floss Elemental | 3700 | 45 | 2 | 0 | [wiki](https://tibia.fandom.com/wiki/Candy_Floss_Elemental) |
+| Candy Horror | 3100 | 43 | 1.91 | 0 | [wiki](https://tibia.fandom.com/wiki/Candy_Horror) |
+| Canopic Jar | 1000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Canopic_Jar) |
+| Capricious Phantom | 30000 | 100 | 3.92 | 4 | [wiki](https://tibia.fandom.com/wiki/Capricious_Phantom) |
+| Captain Jones | 555 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Captain_Jones) |
+| Captured Versperoth | 125000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Captured_Versperoth) |
+| Carniphila | 255 | 22 | 0.8 | 3 | [wiki](https://tibia.fandom.com/wiki/Carniphila) |
+| Carnisylvan Sapling | 750 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Carnisylvan_Sapling) |
+| Carnivorous Butterfly | 100 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Carnivorous_Butterfly) |
+| Carnivostrich | 8250 | 63 | 3.08 | 5 | [wiki](https://tibia.fandom.com/wiki/Carnivostrich) |
+| Carrion Worm | 145 | 8 | 0.6 | 1 | [wiki](https://tibia.fandom.com/wiki/Carrion_Worm) |
+| Cart Packed with Gold | 10000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Cart_Packed_with_Gold) |
+| Cat | 20 | 1 | 0.08 | 0 | [wiki](https://tibia.fandom.com/wiki/Cat) |
+| Cave Chimera | 8000 | 60 | 2.99 | 4 | [wiki](https://tibia.fandom.com/wiki/Cave_Chimera) |
+| Cave Devourer | 4500 | 70 | 3.22 | 0 | [wiki](https://tibia.fandom.com/wiki/Cave_Devourer) |
+| Cave Hydra | 2350 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Cave_Hydra) |
+| Cave Parrot | 30 | 2 | 0.24 | 0 | [wiki](https://tibia.fandom.com/wiki/Cave_Parrot) |
+| Cave Rat | 30 | 1 | 0.16 | 1 | [wiki](https://tibia.fandom.com/wiki/Cave_Rat) |
+| Cave Spider | 1800 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Cave_Spider) |
+| Cellar Rat | 1800 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Cellar_Rat) |
+| Centipede | 70 | 8 | 0.35 | 1 | [wiki](https://tibia.fandom.com/wiki/Centipede) |
+| Cerebellum | 15000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Cerebellum) |
+| Chakoya Toolshaper | 80 | 7 | 0.35 | 2 | [wiki](https://tibia.fandom.com/wiki/Chakoya_Toolshaper) |
+| Chakoya Tribewarden | 68 | 9 | 0.52 | 1 | [wiki](https://tibia.fandom.com/wiki/Chakoya_Tribewarden) |
+| Chakoya Windcaller | 84 | 7 | 0.6 | 4 | [wiki](https://tibia.fandom.com/wiki/Chakoya_Windcaller) |
+| Charged Anomaly | 18000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Charged_Anomaly) |
+| Charged Energy Elemental | 500 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Charged_Energy_Elemental) |
+| Charger | 1600 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Charger) |
+| Charging Outburst | 12000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Charging_Outburst) |
+| Chasm Spawn | 4500 | 74 | 3.08 | 5 | [wiki](https://tibia.fandom.com/wiki/Chasm_Spawn) |
+| Chayenne (Creature) | 100000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Chayenne_(Creature)) |
+| Cheeky Sugar Cube | 28 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Cheeky_Sugar_Cube) |
+| Cheese Thief | 1100 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Cheese_Thief) |
+| Chicken | 15 | 1 | 0.08 | 0 | [wiki](https://tibia.fandom.com/wiki/Chicken) |
+| Chikhaton | 130000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Chikhaton) |
+| Chizzoron the Distorter | 16000 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Chizzoron_the_Distorter) |
+| Chocolate Blob | 70 | 11 | 0.56 | 0 | [wiki](https://tibia.fandom.com/wiki/Chocolate_Blob) |
+| Choking Fear | 5800 | 65 | 3.08 | 3 | [wiki](https://tibia.fandom.com/wiki/Choking_Fear) |
+| Chopper | 7200 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Chopper) |
+| Cinder Wyrmling | 2350 | 38 | 1.48 | 0 | [wiki](https://tibia.fandom.com/wiki/Cinder_Wyrmling) |
+| Clavius | 40000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Clavius) |
+| Clay Guardian | 625 | 42 | 1.09 | 3 | [wiki](https://tibia.fandom.com/wiki/Clay_Guardian) |
+| Cliff Strider | 9400 | 89 | 4.15 | 1 | [wiki](https://tibia.fandom.com/wiki/Cliff_Strider) |
+| Cloak of Terror | 28000 | 107 | 5.12 | 5 | [wiki](https://tibia.fandom.com/wiki/Cloak_of_Terror) |
+| Clomp | 900 | 45 | 2.99 | 1 | [wiki](https://tibia.fandom.com/wiki/Clomp) |
+| Clutter | 1000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Clutter) |
+| Cobra | 65 | 1 | 0.24 | 1 | [wiki](https://tibia.fandom.com/wiki/Cobra) |
 | Cobra Assassin | 8200 | 81 | 3.54 | 3 | [wiki](https://tibia.fandom.com/wiki/Cobra_Assassin) |
 | Cobra Scout | 8500 | 81 | 3.45 | 2 | [wiki](https://tibia.fandom.com/wiki/Cobra_Scout) |
 | Cobra Vizier | 8500 | 82 | 3.68 | 3 | [wiki](https://tibia.fandom.com/wiki/Cobra_Vizier) |
+| Cockroach | 1 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Cockroach) |
+| Coldheart | 7000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Coldheart) |
+| Colerian the Barbarian | 265 | 8 | — | 2 | [wiki](https://tibia.fandom.com/wiki/Colerian_the_Barbarian) |
+| Common Beetle | 3700 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Common_Beetle) |
+| Community Handler 2.0 CipHard | 410000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Community_Handler_2.0_CipHard) |
+| Containment Machine | 6500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Containment_Machine) |
+| Control Tower | 7500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Control_Tower) |
+| Converter | 29600 | 100 | 5.31 | 0 | [wiki](https://tibia.fandom.com/wiki/Converter) |
+| Coral Frog | 60 | 8 | 0.44 | 1 | [wiki](https://tibia.fandom.com/wiki/Coral_Frog) |
+| Corrupt Naga | 5990 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Corrupt_Naga) |
+| Corrupted Ghost | 30 | 0 | 0.04 | 0 | [wiki](https://tibia.fandom.com/wiki/Corrupted_Ghost) |
+| Corrupted Skeleton | 45 | 0 | 0.04 | 0 | [wiki](https://tibia.fandom.com/wiki/Corrupted_Skeleton) |
+| Corrupted Soul | 1100 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Corrupted_Soul) |
+| Corym Charlatan | 250 | 17 | 0.97 | 1 | [wiki](https://tibia.fandom.com/wiki/Corym_Charlatan) |
+| Corym Skirmisher | 450 | 25 | 1.52 | 2 | [wiki](https://tibia.fandom.com/wiki/Corym_Skirmisher) |
+| Corym Vanguard | 700 | 29 | 1.56 | 3 | [wiki](https://tibia.fandom.com/wiki/Corym_Vanguard) |
+| Cosmic Energy Prism A | 1000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Cosmic_Energy_Prism_A) |
+| Cosmic Energy Prism B | 1000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Cosmic_Energy_Prism_B) |
+| Cosmic Energy Prism C | 1000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Cosmic_Energy_Prism_C) |
+| Cosmic Energy Prism D | 1000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Cosmic_Energy_Prism_D) |
+| Count Tofifti (Creature) | 100000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Count_Tofifti_(Creature)) |
+| Count Vlarkorth | 300000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Count_Vlarkorth) |
+| Countess Sorrow | 6500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Countess_Sorrow) |
+| Courage Leech | 27000 | 100 | 4.87 | 5 | [wiki](https://tibia.fandom.com/wiki/Courage_Leech) |
+| Cow | 700 | 28 | 1.22 | 2 | [wiki](https://tibia.fandom.com/wiki/Cow) |
+| Crab | 55 | 28 | 1.22 | 1 | [wiki](https://tibia.fandom.com/wiki/Crab) |
+| Craban (Creature) | 300000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Craban_(Creature)) |
+| Crape Man | 9150 | 80 | 3.4 | 4 | [wiki](https://tibia.fandom.com/wiki/Crape_Man) |
+| Crawler | 1450 | 38 | 2 | 2 | [wiki](https://tibia.fandom.com/wiki/Crawler) |
+| Crazed Beggar | 100 | 4 | 0.32 | 1 | [wiki](https://tibia.fandom.com/wiki/Crazed_Beggar) |
+| Crazed Dwarf | 105 | 9 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Crazed_Dwarf) |
+| Crazed Summer Rearguard | 5300 | 76 | 3.36 | 4 | [wiki](https://tibia.fandom.com/wiki/Crazed_Summer_Rearguard) |
+| Crazed Summer Vanguard | 5500 | 77 | 3.26 | 4 | [wiki](https://tibia.fandom.com/wiki/Crazed_Summer_Vanguard) |
+| Crazed Winter Rearguard | 5200 | 76 | 3.36 | 6 | [wiki](https://tibia.fandom.com/wiki/Crazed_Winter_Rearguard) |
+| Crazed Winter Vanguard | 5800 | 77 | 3.45 | 6 | [wiki](https://tibia.fandom.com/wiki/Crazed_Winter_Vanguard) |
+| Cream Blob | 76 | 7 | 0.56 | 0 | [wiki](https://tibia.fandom.com/wiki/Cream_Blob) |
+| Creepy Crawler | 27000 | 100 | 6.6 | 0 | [wiki](https://tibia.fandom.com/wiki/Creepy_Crawler) |
+| Crimson Frog | 60 | 8 | 0.44 | 1 | [wiki](https://tibia.fandom.com/wiki/Crimson_Frog) |
+| Crocodile | 105 | 13 | 0.2 | 1 | [wiki](https://tibia.fandom.com/wiki/Crocodile) |
+| Crultor | 50000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Crultor) |
+| Crusader | 3400 | 52 | 1.56 | 0 | [wiki](https://tibia.fandom.com/wiki/Crusader) |
+| Crusader Guardian | 3400 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Crusader_Guardian) |
+| Crustacea Gigantica | 1600 | 40 | 1.44 | 3 | [wiki](https://tibia.fandom.com/wiki/Crustacea_Gigantica) |
+| Crypt Construct | 25000 | 100 | 5.36 | 0 | [wiki](https://tibia.fandom.com/wiki/Crypt_Construct) |
+| Crypt Defiler | 185 | 6 | 0.64 | 2 | [wiki](https://tibia.fandom.com/wiki/Crypt_Defiler) |
+| Crypt Fiend | 30000 | 140 | 4.39 | 0 | [wiki](https://tibia.fandom.com/wiki/Crypt_Fiend) |
+| Crypt Mage | 14000 | 105 | 4.87 | 0 | [wiki](https://tibia.fandom.com/wiki/Crypt_Mage) |
+| Crypt Shambler | 330 | 30 | 1.01 | 1 | [wiki](https://tibia.fandom.com/wiki/Crypt_Shambler) |
+| Crypt Warden | 8300 | 84 | 3.68 | 4 | [wiki](https://tibia.fandom.com/wiki/Crypt_Warden) |
+| Crypt Warrior | 7800 | 70 | 3.22 | 0 | [wiki](https://tibia.fandom.com/wiki/Crypt_Warrior) |
+| Crystal Spider | 1250 | 43 | 2.54 | 2 | [wiki](https://tibia.fandom.com/wiki/Crystal_Spider) |
+| Crystal Wolf | 750 | 19 | 1.05 | 3 | [wiki](https://tibia.fandom.com/wiki/Crystal_Wolf) |
+| Crystalcrusher | 570 | 48 | 2.04 | 2 | [wiki](https://tibia.fandom.com/wiki/Crystalcrusher) |
+| Cublarc the Plunderer | 400 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Cublarc_the_Plunderer) |
+| Cult Believer | 975 | 30 | 1.87 | 1 | [wiki](https://tibia.fandom.com/wiki/Cult_Believer) |
+| Cult Enforcer | 1150 | 30 | 1.96 | 2 | [wiki](https://tibia.fandom.com/wiki/Cult_Enforcer) |
+| Cult Scholar | 1650 | 30 | 1.87 | 3 | [wiki](https://tibia.fandom.com/wiki/Cult_Scholar) |
+| Cunning Werepanther | 4300 | 72 | 3.26 | 0 | [wiki](https://tibia.fandom.com/wiki/Cunning_Werepanther) |
+| Cursed Ape | 1700 | 38 | 2.18 | 2 | [wiki](https://tibia.fandom.com/wiki/Cursed_Ape) |
+| Cursed Book | 20000 | 82 | 3.45 | 4 | [wiki](https://tibia.fandom.com/wiki/Cursed_Book) |
+| Cursed Gladiator | 435 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Cursed_Gladiator) |
+| Cursed Prospector | 3900 | 85 | 3.82 | 4 | [wiki](https://tibia.fandom.com/wiki/Cursed_Prospector) |
+| Custodian | 47000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Custodian) |
+| Cyclops | 260 | 17 | 0.97 | 1 | [wiki](https://tibia.fandom.com/wiki/Cyclops) |
+| Cyclops Drone | 325 | 25 | 1.14 | 2 | [wiki](https://tibia.fandom.com/wiki/Cyclops_Drone) |
+| Cyclops Smith | 435 | 28 | 1.52 | 1 | [wiki](https://tibia.fandom.com/wiki/Cyclops_Smith) |
+| Cyclursus | 13500 | 95 | 5.12 | 0 | [wiki](https://tibia.fandom.com/wiki/Cyclursus) |
+| Damage Resonance | 11000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Damage_Resonance) |
+| Damaged Crystal Golem | 500 | 30 | 1.35 | 0 | [wiki](https://tibia.fandom.com/wiki/Damaged_Crystal_Golem) |
+| Damaged Worker Golem | 260 | 16 | 0.52 | 2 | [wiki](https://tibia.fandom.com/wiki/Damaged_Worker_Golem) |
+| Damned Soul | 800 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Damned_Soul) |
+| Darakan the Executioner | 3480 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Darakan_the_Executioner) |
+| Dark Apprentice | 225 | 16 | 0.48 | 4 | [wiki](https://tibia.fandom.com/wiki/Dark_Apprentice) |
+| Dark Carnisylvan | 7500 | 41 | 1.44 | 1 | [wiki](https://tibia.fandom.com/wiki/Dark_Carnisylvan) |
+| Dark Faun | 1100 | 50 | 1.91 | 3 | [wiki](https://tibia.fandom.com/wiki/Dark_Faun) |
+| Dark Magician | 325 | 15 | 1.01 | 3 | [wiki](https://tibia.fandom.com/wiki/Dark_Magician) |
+| Dark Merudri | 6500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Dark_Merudri) |
+| Dark Monk | 190 | 22 | 1.78 | 1 | [wiki](https://tibia.fandom.com/wiki/Dark_Monk) |
+| Dark Torturer | 7350 | 45 | 2.76 | 2 | [wiki](https://tibia.fandom.com/wiki/Dark_Torturer) |
+| Darkfang | 4800 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Darkfang) |
+| Darklight Construct | 32200 | 117 | 4.78 | 0 | [wiki](https://tibia.fandom.com/wiki/Darklight_Construct) |
+| Darklight Emitter | 27500 | 120 | 4.87 | 0 | [wiki](https://tibia.fandom.com/wiki/Darklight_Emitter) |
+| Darklight Matter | 30150 | 98 | 5.26 | 0 | [wiki](https://tibia.fandom.com/wiki/Darklight_Matter) |
+| Darklight Source | 31550 | 115 | 5.12 | 0 | [wiki](https://tibia.fandom.com/wiki/Darklight_Source) |
+| Darklight Striker | 29700 | 112 | 4.97 | 0 | [wiki](https://tibia.fandom.com/wiki/Darklight_Striker) |
+| Dawn Bat | 30 | 1 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Dawn_Bat) |
+| Dawn Scorpion | 65 | 11 | — | 0 | [wiki](https://tibia.fandom.com/wiki/Dawn_Scorpion) |
+| Dawnfire Asura | 2900 | 48 | 2.31 | 4 | [wiki](https://tibia.fandom.com/wiki/Dawnfire_Asura) |
+| Dawnfly | 90 | 3 | — | 2 | [wiki](https://tibia.fandom.com/wiki/Dawnfly) |
+| Dazed Leaf Golem | 10000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Dazed_Leaf_Golem) |
+| Deadeye Devious | 1450 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Deadeye_Devious) |
+| Death Blob | 320 | 15 | 0.72 | 3 | [wiki](https://tibia.fandom.com/wiki/Death_Blob) |
+| Death Dragon | 8350 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Death_Dragon) |
+| Death Priest | 800 | 38 | 2.04 | 2 | [wiki](https://tibia.fandom.com/wiki/Death_Priest) |
+| Death Priest Shargon | 65000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Death_Priest_Shargon) |
+| Deathbine | 525 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Deathbine) |
+| Deathbringer | 8440 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Deathbringer) |
+| Deathling Scout | 7200 | 72 | 2.99 | 4 | [wiki](https://tibia.fandom.com/wiki/Deathling_Scout) |
+| Deathling Spellsinger | 7200 | 72 | 2.99 | 4 | [wiki](https://tibia.fandom.com/wiki/Deathling_Spellsinger) |
+| Deathslicer | 8200 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Deathslicer) |
+| Deathspawn | 225 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Deathspawn) |
+| Deathstrike | 200000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Deathstrike) |
+| Deep Terror | 100000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Deep_Terror) |
+| Deepling Brawler | 380 | 18 | 1.14 | 2 | [wiki](https://tibia.fandom.com/wiki/Deepling_Brawler) |
+| Deepling Elite | 3200 | 45 | 2.18 | 2 | [wiki](https://tibia.fandom.com/wiki/Deepling_Elite) |
+| Deepling Guard | 1900 | 53 | 2.49 | 3 | [wiki](https://tibia.fandom.com/wiki/Deepling_Guard) |
+| Deepling Master Librarian | 1700 | 45 | 2.18 | 0 | [wiki](https://tibia.fandom.com/wiki/Deepling_Master_Librarian) |
+| Deepling Scout | 240 | 7 | 0.89 | 2 | [wiki](https://tibia.fandom.com/wiki/Deepling_Scout) |
+| Deepling Spellsinger | 850 | 42 | 2.04 | 3 | [wiki](https://tibia.fandom.com/wiki/Deepling_Spellsinger) |
+| Deepling Tyrant | 4500 | 54 | 2.63 | 3 | [wiki](https://tibia.fandom.com/wiki/Deepling_Tyrant) |
+| Deepling Warrior | 1600 | 40 | 2 | 3 | [wiki](https://tibia.fandom.com/wiki/Deepling_Warrior) |
+| Deepling Worker | 190 | 7 | 0.72 | 2 | [wiki](https://tibia.fandom.com/wiki/Deepling_Worker) |
+| Deepsea Blood Crab | 320 | 28 | 0.89 | 1 | [wiki](https://tibia.fandom.com/wiki/Deepsea_Blood_Crab) |
+| Deepworm | 3500 | 73 | 2.99 | 3 | [wiki](https://tibia.fandom.com/wiki/Deepworm) |
+| Deer | 25 | 2 | 0.08 | 1 | [wiki](https://tibia.fandom.com/wiki/Deer) |
+| Defiler | 3650 | 60 | 2.09 | 3 | [wiki](https://tibia.fandom.com/wiki/Defiler) |
+| Delany (Creature) | 100000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Delany_(Creature)) |
+| Demodras | 4500 | 45 | — | 3 | [wiki](https://tibia.fandom.com/wiki/Demodras) |
+| Demon | 8200 | 44 | 2.76 | 3 | [wiki](https://tibia.fandom.com/wiki/Demon) |
+| Demon (Goblin) | 50 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Demon_(Goblin)) |
+| Demon Outcast | 6900 | 49 | 2.54 | 2 | [wiki](https://tibia.fandom.com/wiki/Demon_Outcast) |
+| Demon Parrot | 360 | 18 | 0.76 | 1 | [wiki](https://tibia.fandom.com/wiki/Demon_Parrot) |
+| Demon Skeleton | 400 | 25 | 1.44 | 2 | [wiki](https://tibia.fandom.com/wiki/Demon_Skeleton) |
+| Denson Larika (Creature) | 50000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Denson_Larika_(Creature)) |
+| Depowered Minotaur | 1500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Depowered_Minotaur) |
+| Despair | 10000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Despair) |
+| Desperate White Deer | 55 | 1 | — | 0 | [wiki](https://tibia.fandom.com/wiki/Desperate_White_Deer) |
+| Despor | 50000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Despor) |
+| Destroyer | 3700 | 35 | 2.76 | 2 | [wiki](https://tibia.fandom.com/wiki/Destroyer) |
+| Devoted Radiant Acolyte | 39790 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Devoted_Radiant_Acolyte) |
+| Devoted Radiant Inquisitor | 40020 | 120 | 6.1 | 0 | [wiki](https://tibia.fandom.com/wiki/Devoted_Radiant_Inquisitor) |
+| Devoted Radiant Paragon | 41400 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Devoted_Radiant_Paragon) |
+| Devoted Radiant Templar | 42550 | 135 | 5.36 | 0 | [wiki](https://tibia.fandom.com/wiki/Devoted_Radiant_Templar) |
+| Devoted Radiant Warden | 44275 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Devoted_Radiant_Warden) |
+| Devoted Radiant Zealot | 41980 | 106 | 4.63 | 0 | [wiki](https://tibia.fandom.com/wiki/Devoted_Radiant_Zealot) |
+| Devourer | 1900 | 45 | 2.31 | 4 | [wiki](https://tibia.fandom.com/wiki/Devourer) |
+| Devovorga | 500000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Devovorga) |
+| Dharalion | 390 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Dharalion) |
+| Diabolic Imp | 1950 | 29 | 2.31 | 3 | [wiki](https://tibia.fandom.com/wiki/Diabolic_Imp) |
+| Diamond Servant | 1000 | 25 | 1.31 | 3 | [wiki](https://tibia.fandom.com/wiki/Diamond_Servant) |
+| Diamond Servant Replica | 2000 | 25 | 1.31 | 1 | [wiki](https://tibia.fandom.com/wiki/Diamond_Servant_Replica) |
+| Diblis the Fair | 1500 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Diblis_the_Fair) |
+| Dipthrah | 4200 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Dipthrah) |
+| Dire Penguin | 173 | 16 | 0.93 | 2 | [wiki](https://tibia.fandom.com/wiki/Dire_Penguin) |
+| Diremaw | 3600 | 71 | 3.08 | 4 | [wiki](https://tibia.fandom.com/wiki/Diremaw) |
+| Dirtbeard | 630 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Dirtbeard) |
+| Diseased Bill | 1000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Diseased_Bill) |
+| Diseased Dan | 800 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Diseased_Dan) |
+| Diseased Fred | 1100 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Diseased_Fred) |
+| Disruption | 12000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Disruption) |
+| Distorted Phantom | 26000 | 100 | 3.92 | 7 | [wiki](https://tibia.fandom.com/wiki/Distorted_Phantom) |
+| Doctor Perhaps | 475 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Doctor_Perhaps) |
+| Dog | 20 | 1 | 0.08 | 0 | [wiki](https://tibia.fandom.com/wiki/Dog) |
+| Domestikion | 750 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Domestikion) |
+| Doom Deer | 405 | 19 | 1.09 | 2 | [wiki](https://tibia.fandom.com/wiki/Doom_Deer) |
+| Doomhowl | 8500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Doomhowl) |
+| Doomsday Cultist | 125 | 9 | 0.8 | 1 | [wiki](https://tibia.fandom.com/wiki/Doomsday_Cultist) |
+| Dracola | 16200 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Dracola) |
+| Dragolisk | 6180 | 86 | 3.36 | 0 | [wiki](https://tibia.fandom.com/wiki/Dragolisk) |
+| Dragon | 1000 | 25 | 1.56 | 3 | [wiki](https://tibia.fandom.com/wiki/Dragon) |
+| Dragon Essence | 30000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Dragon_Essence) |
+| Dragon Hatchling | 380 | 15 | 1.22 | 3 | [wiki](https://tibia.fandom.com/wiki/Dragon_Hatchling) |
+| Dragon Hoard | 50000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Dragon_Hoard) |
+| Dragon Lord | 1900 | 34 | 2.04 | 3 | [wiki](https://tibia.fandom.com/wiki/Dragon_Lord) |
+| Dragon Lord Hatchling | 750 | 29 | 1.61 | 3 | [wiki](https://tibia.fandom.com/wiki/Dragon_Lord_Hatchling) |
+| Dragonling | 2600 | 58 | 2.31 | 2 | [wiki](https://tibia.fandom.com/wiki/Dragonling) |
+| Draken Abomination | 6250 | 45 | 2.54 | 2 | [wiki](https://tibia.fandom.com/wiki/Draken_Abomination) |
+| Draken Elite | 5550 | 60 | 2.54 | 4 | [wiki](https://tibia.fandom.com/wiki/Draken_Elite) |
+| Draken Spellweaver | 5000 | 25 | 2.13 | 3 | [wiki](https://tibia.fandom.com/wiki/Draken_Spellweaver) |
+| Draken Warmaster | 4150 | 55 | 2.54 | 2 | [wiki](https://tibia.fandom.com/wiki/Draken_Warmaster) |
+| Draptor | 3000 | 40 | 1.44 | 4 | [wiki](https://tibia.fandom.com/wiki/Draptor) |
+| Drasilla | 1260 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Drasilla) |
+| Dread Intruder | 4500 | 50 | 2.44 | 3 | [wiki](https://tibia.fandom.com/wiki/Dread_Intruder) |
+| Dread Minion | 2500 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Dread_Minion) |
+| Dreadbeast | 800 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Dreadbeast) |
+| Dreadful Disruptor | 10000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Dreadful_Disruptor) |
+| Dreadmaw | 3500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Dreadmaw) |
+| Dreadwing | 8500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Dreadwing) |
+| Drillworm | 1500 | 41 | 2 | 3 | [wiki](https://tibia.fandom.com/wiki/Drillworm) |
+| Dromedary | 45 | 4 | 0.24 | 1 | [wiki](https://tibia.fandom.com/wiki/Dromedary) |
+| Drowned Deck Hand | 2000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Drowned_Deck_Hand) |
+| Druid Familiar | 20000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Druid_Familiar) |
+| Druid's Apparition | 25000 | 100 | 4.39 | 0 | [wiki](https://tibia.fandom.com/wiki/Druid's_Apparition) |
+| Drume | 35000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Drume) |
+| Dryad | 310 | 15 | 2 | 2 | [wiki](https://tibia.fandom.com/wiki/Dryad) |
+| Duke Krule | 290000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Duke_Krule) |
+| Duskbringer | 3550 | 42 | 1.65 | 1 | [wiki](https://tibia.fandom.com/wiki/Duskbringer) |
+| Dwarf | 90 | 8 | 0.56 | 1 | [wiki](https://tibia.fandom.com/wiki/Dwarf) |
+| Dwarf Geomancer | 380 | 15 | 1.44 | 2 | [wiki](https://tibia.fandom.com/wiki/Dwarf_Geomancer) |
+| Dwarf Guard | 245 | 15 | 1.61 | 1 | [wiki](https://tibia.fandom.com/wiki/Dwarf_Guard) |
+| Dwarf Henchman | 350 | 16 | 1.01 | 2 | [wiki](https://tibia.fandom.com/wiki/Dwarf_Henchman) |
+| Dwarf Miner | 120 | 7 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Dwarf_Miner) |
+| Dwarf Soldier | 135 | 9 | 0.8 | 2 | [wiki](https://tibia.fandom.com/wiki/Dwarf_Soldier) |
+| Dworc Fleshhunter | 85 | 3 | 0.32 | 2 | [wiki](https://tibia.fandom.com/wiki/Dworc_Fleshhunter) |
+| Dworc Shadowstalker | 8900 | 64 | 2.99 | 0 | [wiki](https://tibia.fandom.com/wiki/Dworc_Shadowstalker) |
+| Dworc Venomsniper | 80 | 3 | 0.6 | 2 | [wiki](https://tibia.fandom.com/wiki/Dworc_Venomsniper) |
+| Dworc Voodoomaster | 80 | 3 | 0.32 | 2 | [wiki](https://tibia.fandom.com/wiki/Dworc_Voodoomaster) |
+| Earth Elemental | 650 | 45 | 1.22 | 5 | [wiki](https://tibia.fandom.com/wiki/Earth_Elemental) |
+| Earth Overlord | 4000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Earth_Overlord) |
+| Earworm | 4000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Earworm) |
+| Eclipse Knight | 45000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Eclipse_Knight) |
+| Efreet | 550 | 24 | 1.44 | 4 | [wiki](https://tibia.fandom.com/wiki/Efreet) |
+| Egg (Creature) | 800 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Egg_(Creature)) |
+| Ekatrix | 500 | 10 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Ekatrix) |
+| Elder Bloodjaw | 86000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Elder_Bloodjaw) |
+| Elder Bonelord | 500 | 13 | 1.05 | 5 | [wiki](https://tibia.fandom.com/wiki/Elder_Bonelord) |
+| Elder Forest Fury | 670 | 25 | 1.44 | 2 | [wiki](https://tibia.fandom.com/wiki/Elder_Forest_Fury) |
+| Elder Mummy | 850 | 35 | 1.05 | 2 | [wiki](https://tibia.fandom.com/wiki/Elder_Mummy) |
+| Elder Wyrm | 2700 | 48 | 2.13 | 3 | [wiki](https://tibia.fandom.com/wiki/Elder_Wyrm) |
+| Elephant | 320 | 20 | 0.64 | 1 | [wiki](https://tibia.fandom.com/wiki/Elephant) |
+| Elf | 100 | 6 | 0.48 | 2 | [wiki](https://tibia.fandom.com/wiki/Elf) |
+| Elf Arcanist | 220 | 15 | 0.8 | 4 | [wiki](https://tibia.fandom.com/wiki/Elf_Arcanist) |
+| Elf Overseer | 500 | 15 | 1.01 | 1 | [wiki](https://tibia.fandom.com/wiki/Elf_Overseer) |
+| Elf Scout | 160 | 7 | 0.72 | 2 | [wiki](https://tibia.fandom.com/wiki/Elf_Scout) |
+| Elvira Hammerthrust | 245 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Elvira_Hammerthrust) |
+| Emerald Damselfly | 90 | 6 | 0.32 | 2 | [wiki](https://tibia.fandom.com/wiki/Emerald_Damselfly) |
+| Emerald Tortoise | 22300 | 97 | 4.11 | 1 | [wiki](https://tibia.fandom.com/wiki/Emerald_Tortoise) |
+| Empowered Glooth Horror | 25000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Empowered_Glooth_Horror) |
+| Energetic Book | 18500 | 82 | 3.45 | 5 | [wiki](https://tibia.fandom.com/wiki/Energetic_Book) |
+| Energized Raging Mage | 3500 | 30 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Energized_Raging_Mage) |
+| Energuardian of Tales | 14000 | 77 | 3.08 | 5 | [wiki](https://tibia.fandom.com/wiki/Energuardian_of_Tales) |
+| Energy Elemental | 500 | 25 | 1.14 | 3 | [wiki](https://tibia.fandom.com/wiki/Energy_Elemental) |
+| Energy Overlord | 4000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Energy_Overlord) |
+| Enfeebled Silencer | 1100 | 44 | 2.27 | 1 | [wiki](https://tibia.fandom.com/wiki/Enfeebled_Silencer) |
+| Enlightened of the Cult | 700 | 40 | 1.87 | 1 | [wiki](https://tibia.fandom.com/wiki/Enlightened_of_the_Cult) |
+| Enpa Yolo | 65 | 8 | — | 0 | [wiki](https://tibia.fandom.com/wiki/Enpa_Yolo) |
+| Enraged Bookworm | 145 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Enraged_Bookworm) |
+| Enraged Crystal Golem | 700 | 38 | 1.65 | 1 | [wiki](https://tibia.fandom.com/wiki/Enraged_Crystal_Golem) |
+| Enraged Morshabaal | 1000000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Enraged_Morshabaal) |
+| Enraged Sand Brood | 2600 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Enraged_Sand_Brood) |
+| Enraged Soul | 150 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Enraged_Soul) |
+| Enraged Squirrel | 35 | 1 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Enraged_Squirrel) |
+| Enraged White Deer | 255 | 1 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Enraged_White_Deer) |
+| Enslaved Dwarf | 3800 | 60 | 2.99 | 3 | [wiki](https://tibia.fandom.com/wiki/Enslaved_Dwarf) |
+| Enthralled Demon | 8200 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Enthralled_Demon) |
+| Enusat the Onyx Wing | 25000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Enusat_the_Onyx_Wing) |
+| Eradicator | 290000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Eradicator) |
+| Eruption of Destruction | 8500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Eruption_of_Destruction) |
+| Esmeralda | 800 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Esmeralda) |
+| Essence of Darkness | 1000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Essence_of_Darkness) |
+| Essence of Malice | 250000 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Essence_of_Malice) |
+| Eternal Guardian | 2500 | 62 | 1.87 | 1 | [wiki](https://tibia.fandom.com/wiki/Eternal_Guardian) |
+| Ethershreck | 9500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Ethershreck) |
+| Evil Mastermind | 1295 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Evil_Mastermind) |
+| Evil Prospector | 8500 | 100 | 4.49 | 2 | [wiki](https://tibia.fandom.com/wiki/Evil_Prospector) |
+| Evil Sheep | 350 | 18 | 1.22 | 2 | [wiki](https://tibia.fandom.com/wiki/Evil_Sheep) |
+| Evil Sheep Lord | 400 | 24 | 1.44 | 1 | [wiki](https://tibia.fandom.com/wiki/Evil_Sheep_Lord) |
+| Execowtioner | 3500 | 41 | 2.54 | 2 | [wiki](https://tibia.fandom.com/wiki/Execowtioner) |
+| Exotic Bat | 1500 | 40 | 1.87 | 2 | [wiki](https://tibia.fandom.com/wiki/Exotic_Bat) |
+| Exotic Cave Spider | 1900 | 40 | 2.54 | 2 | [wiki](https://tibia.fandom.com/wiki/Exotic_Cave_Spider) |
+| Eye of the Seven | 120 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Eye_of_the_Seven) |
+| Eyeless Devourer | 10000 | 63 | 2.9 | 4 | [wiki](https://tibia.fandom.com/wiki/Eyeless_Devourer) |
+| Faceless Bane | 17000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Faceless_Bane) |
+| Fahim the Wise | 2000 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Fahim_the_Wise) |
+| Falcon Knight | 9000 | 86 | 3.78 | 3 | [wiki](https://tibia.fandom.com/wiki/Falcon_Knight) |
+| Falcon Paladin | 8500 | 82 | 3.68 | 5 | [wiki](https://tibia.fandom.com/wiki/Falcon_Paladin) |
+| Fallen Challenger | 9000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Fallen_Challenger) |
+| Fallen Mooh'Tah Master Ghar | 7990 | — | — | 6 | [wiki](https://tibia.fandom.com/wiki/Fallen_Mooh'Tah_Master_Ghar) |
+| Fan | 2000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Fan) |
+| Fat Porker | 20000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Fat_Porker) |
+| Fatality | 6000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Fatality) |
+| Faun | 900 | 45 | 1.74 | 3 | [wiki](https://tibia.fandom.com/wiki/Faun) |
+| Fazzrah | 2955 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Fazzrah) |
+| Feeble Glooth Horror | 5000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Feeble_Glooth_Horror) |
+| Feral Sphinx | 9800 | 90 | 4.3 | 5 | [wiki](https://tibia.fandom.com/wiki/Feral_Sphinx) |
+| Feral Werecrocodile | 6400 | 85 | 3.78 | 0 | [wiki](https://tibia.fandom.com/wiki/Feral_Werecrocodile) |
+| Fernfang | 400 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Fernfang) |
+| Feroxa (Killable Werewolf) | 150000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Feroxa_(Killable_Werewolf)) |
+| Ferumbras | 90000 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Ferumbras) |
+| Ferumbras Mortal Shell | 300000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Ferumbras_Mortal_Shell) |
+| Ferumbras Soul Splinter | 90000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Ferumbras_Soul_Splinter) |
+| Fetter | 5500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Fetter) |
+| Feverish Citizen | 125 | 14 | 0.4 | 1 | [wiki](https://tibia.fandom.com/wiki/Feverish_Citizen) |
+| Feversleep | 5900 | 73 | 1.74 | 1 | [wiki](https://tibia.fandom.com/wiki/Feversleep) |
+| Fiery Blood | 25000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Fiery_Blood) |
+| Fiery Heart (Creature) | 7500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Fiery_Heart_(Creature)) |
+| Filth Toad | 185 | 6 | 0.64 | 2 | [wiki](https://tibia.fandom.com/wiki/Filth_Toad) |
+| Fire Devil | 200 | 13 | 0.6 | 3 | [wiki](https://tibia.fandom.com/wiki/Fire_Devil) |
+| Fire Elemental | 280 | 18 | 0.8 | 2 | [wiki](https://tibia.fandom.com/wiki/Fire_Elemental) |
+| Fire Overlord | 4000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Fire_Overlord) |
+| Firestarter | 180 | 15 | 0.8 | 3 | [wiki](https://tibia.fandom.com/wiki/Firestarter) |
+| Fish (Creature) | 25 | 9 | 0.16 | 0 | [wiki](https://tibia.fandom.com/wiki/Fish_(Creature)) |
+| Flame of Omrafir | 800 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Flame_of_Omrafir) |
+| Flameborn | 3500 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Flameborn) |
+| Flamecaller Zazrak | 2690 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Flamecaller_Zazrak) |
+| Flamethrower | 100 | 1 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Flamethrower) |
+| Flamingo | 25 | 1 | 0.24 | 0 | [wiki](https://tibia.fandom.com/wiki/Flamingo) |
+| Fleabringer | 265 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Fleabringer) |
+| Fleshcrawler | 1450 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Fleshcrawler) |
+| Fleshslicer | 5700 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Fleshslicer) |
+| Flickering Spirit Elemental | 600 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Flickering_Spirit_Elemental) |
+| Flimsy Lost Soul | 4000 | 79 | 3.54 | 3 | [wiki](https://tibia.fandom.com/wiki/Flimsy_Lost_Soul) |
+| Floating Savant | 8000 | 74 | 3.13 | 4 | [wiki](https://tibia.fandom.com/wiki/Floating_Savant) |
+| Fluffy | 4500 | — | — | 6 | [wiki](https://tibia.fandom.com/wiki/Fluffy) |
+| Flying Book | 500 | 45 | 2.31 | 2 | [wiki](https://tibia.fandom.com/wiki/Flying_Book) |
+| Foam Stalker | 4500 | 64 | 2.76 | 5 | [wiki](https://tibia.fandom.com/wiki/Foam_Stalker) |
+| Football (Creature) | 20000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Football_(Creature)) |
+| Foreman Kneebiter | 570 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Foreman_Kneebiter) |
+| Foreshock | 105000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Foreshock) |
+| Forest Fury | 480 | 19 | 1.26 | 1 | [wiki](https://tibia.fandom.com/wiki/Forest_Fury) |
+| Fox | 22 | 2 | 0.28 | 0 | [wiki](https://tibia.fandom.com/wiki/Fox) |
+| Frazzlemaw | 4100 | 74 | 3.68 | 2 | [wiki](https://tibia.fandom.com/wiki/Frazzlemaw) |
+| Freakish Lost Soul | 7000 | 85 | 4.15 | 0 | [wiki](https://tibia.fandom.com/wiki/Freakish_Lost_Soul) |
+| Frenzied Plant Thing | 100000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Frenzied_Plant_Thing) |
+| Frenzy | 8210 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Frenzy) |
+| Frost Dragon | 1800 | 38 | 1.69 | 7 | [wiki](https://tibia.fandom.com/wiki/Frost_Dragon) |
+| Frost Dragon Hatchling | 800 | 32 | 1.65 | 3 | [wiki](https://tibia.fandom.com/wiki/Frost_Dragon_Hatchling) |
+| Frost Flower Asura | 3500 | 56 | 2.58 | 0 | [wiki](https://tibia.fandom.com/wiki/Frost_Flower_Asura) |
+| Frost Giant | 270 | 22 | 0.72 | 2 | [wiki](https://tibia.fandom.com/wiki/Frost_Giant) |
+| Frost Giantess | 275 | 20 | 1.05 | 2 | [wiki](https://tibia.fandom.com/wiki/Frost_Giantess) |
+| Frost Servant | 385 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Frost_Servant) |
+| Frost Spider | 1250 | 38 | — | 0 | [wiki](https://tibia.fandom.com/wiki/Frost_Spider) |
+| Frost Troll | 55 | 6 | 0.35 | 1 | [wiki](https://tibia.fandom.com/wiki/Frost_Troll) |
+| Frostfur | 65 | 5 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Frostfur) |
+| Fruit Drop | 63 | 8 | 0.56 | 0 | [wiki](https://tibia.fandom.com/wiki/Fruit_Drop) |
+| Fugue | 32000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Fugue) |
+| Fungosaurus | 30000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Fungosaurus) |
+| Furious Fire Elemental | 280 | 18 | 0.8 | 2 | [wiki](https://tibia.fandom.com/wiki/Furious_Fire_Elemental) |
+| Furious Morshabaal | 1000000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Furious_Morshabaal) |
+| Furious Scorpion | 15000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Furious_Scorpion) |
+| Furious Troll | 245 | 15 | 1.61 | 1 | [wiki](https://tibia.fandom.com/wiki/Furious_Troll) |
+| Fury | 4100 | 35 | 2.09 | 5 | [wiki](https://tibia.fandom.com/wiki/Fury) |
+| Fury of the Emperor | 51000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Fury_of_the_Emperor) |
+| Furyosa | 25000 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Furyosa) |
+| Gaffir | 48500 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Gaffir) |
+| Gang Member | 295 | 8 | 0.6 | 2 | [wiki](https://tibia.fandom.com/wiki/Gang_Member) |
+| Gargoyle | 250 | 26 | 1.22 | 1 | [wiki](https://tibia.fandom.com/wiki/Gargoyle) |
+| Gaz'haragoth | 350000 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Gaz'haragoth) |
+| Gazer | 120 | 4 | 0.6 | 1 | [wiki](https://tibia.fandom.com/wiki/Gazer) |
+| Gazer Spectre | 4500 | 68 | 3.22 | 2 | [wiki](https://tibia.fandom.com/wiki/Gazer_Spectre) |
+| Gelidrazah the Frozen | 10000 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Gelidrazah_the_Frozen) |
+| General Murius | 550 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/General_Murius) |
+| Ghastly Dragon | 7800 | 30 | 1.96 | 5 | [wiki](https://tibia.fandom.com/wiki/Ghastly_Dragon) |
+| Ghazbaran | 77000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Ghazbaran) |
+| Ghost | 150 | 10 | 0.8 | 1 | [wiki](https://tibia.fandom.com/wiki/Ghost) |
+| Ghost Wolf | 160 | 12 | 0.8 | 1 | [wiki](https://tibia.fandom.com/wiki/Ghost_Wolf) |
+| Ghost of a Planegazer | 1450 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Ghost_of_a_Planegazer) |
+| Ghostly Apparition | 150 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Ghostly_Apparition) |
+| Ghoul | 100 | 8 | 0.68 | 1 | [wiki](https://tibia.fandom.com/wiki/Ghoul) |
+| Ghoulish Hyaena | 400 | 21 | 1.26 | 2 | [wiki](https://tibia.fandom.com/wiki/Ghoulish_Hyaena) |
+| Giant Spider | 1300 | 30 | 1.65 | 2 | [wiki](https://tibia.fandom.com/wiki/Giant_Spider) |
+| Giant Spider (Nostalgia) | 1300 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Giant_Spider_(Nostalgia)) |
+| Giant Spider (Wyda) | 20 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Giant_Spider_(Wyda)) |
+| Giant Spider 7.4 | 3250 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Giant_Spider_7.4) |
+| Giant Spider Brood 7.4 | 1050 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Giant_Spider_Brood_7.4) |
+| Giant Spider Brood 7.6 | 1100 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Giant_Spider_Brood_7.6) |
+| Giant Spider Brood 8.1 | 1700 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Giant_Spider_Brood_8.1) |
+| Giant Spider Drone 7.4 | 1150 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Giant_Spider_Drone_7.4) |
+| Giant Spider Hatchling 7.4 | 950 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Giant_Spider_Hatchling_7.4) |
+| Gingerbread Man | 85 | 13 | 0.64 | 0 | [wiki](https://tibia.fandom.com/wiki/Gingerbread_Man) |
+| Girtablilu Warrior | 8500 | 76 | 3.54 | 3 | [wiki](https://tibia.fandom.com/wiki/Girtablilu_Warrior) |
+| Gladiator | 185 | 14 | 1.22 | 1 | [wiki](https://tibia.fandom.com/wiki/Gladiator) |
+| Glitterscale | 1111 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Glitterscale) |
+| Gloom Maw | 8700 | 68 | 2.81 | 0 | [wiki](https://tibia.fandom.com/wiki/Gloom_Maw) |
+| Gloom Wolf | 200 | 10 | 0.8 | 1 | [wiki](https://tibia.fandom.com/wiki/Gloom_Wolf) |
+| Gloombringer | 50000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Gloombringer) |
+| Glooth Anemone | 2400 | 42 | 1.61 | 1 | [wiki](https://tibia.fandom.com/wiki/Glooth_Anemone) |
+| Glooth Bandit | 2600 | 46 | 2.63 | 2 | [wiki](https://tibia.fandom.com/wiki/Glooth_Bandit) |
+| Glooth Battery | 8000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Glooth_Battery) |
+| Glooth Blob | 750 | 30 | 1.65 | 4 | [wiki](https://tibia.fandom.com/wiki/Glooth_Blob) |
+| Glooth Bomb | 250000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Glooth_Bomb) |
+| Glooth Brigand | 2400 | 51 | 2.76 | 2 | [wiki](https://tibia.fandom.com/wiki/Glooth_Brigand) |
+| Glooth Fairy | 59000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Glooth_Fairy) |
+| Glooth Golem | 2700 | 43 | 2.18 | 2 | [wiki](https://tibia.fandom.com/wiki/Glooth_Golem) |
+| Glooth Horror | 15000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Glooth_Horror) |
+| Glooth-Generator | 12000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Glooth-Generator) |
+| Gnarlhound | 198 | 10 | 0.4 | 1 | [wiki](https://tibia.fandom.com/wiki/Gnarlhound) |
+| Gnomevil | 250000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Gnomevil) |
+| Gnorre Chyllson | 7150 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Gnorre_Chyllson) |
+| Goblin | 50 | 6 | 0.32 | 1 | [wiki](https://tibia.fandom.com/wiki/Goblin) |
+| Goblin Assassin | 75 | 6 | 0.24 | 2 | [wiki](https://tibia.fandom.com/wiki/Goblin_Assassin) |
+| Goblin Leader | 50 | 7 | 0.52 | 2 | [wiki](https://tibia.fandom.com/wiki/Goblin_Leader) |
+| Goblin Scavenger | 60 | 7 | 0.35 | 2 | [wiki](https://tibia.fandom.com/wiki/Goblin_Scavenger) |
+| Goggle Cake | 2700 | 38 | 1.56 | 0 | [wiki](https://tibia.fandom.com/wiki/Goggle_Cake) |
+| Golden Servant | 550 | 29 | 1.39 | 3 | [wiki](https://tibia.fandom.com/wiki/Golden_Servant) |
+| Golden Servant Replica | 2000 | 29 | 1.39 | 1 | [wiki](https://tibia.fandom.com/wiki/Golden_Servant_Replica) |
+| Goldhanded Cultist | 3000 | 30 | 1.22 | 1 | [wiki](https://tibia.fandom.com/wiki/Goldhanded_Cultist) |
+| Goldhanded Cultist Bride | 3000 | 30 | 1.22 | 0 | [wiki](https://tibia.fandom.com/wiki/Goldhanded_Cultist_Bride) |
+| Golgordan | 40000 | — | — | 6 | [wiki](https://tibia.fandom.com/wiki/Golgordan) |
+| Gore Horn | 20620 | 78 | 3.64 | 1 | [wiki](https://tibia.fandom.com/wiki/Gore_Horn) |
+| Gorerilla | 16850 | 76 | 3.17 | 1 | [wiki](https://tibia.fandom.com/wiki/Gorerilla) |
+| Gorga | 15000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Gorga) |
+| Gorger Inferniarch | 9450 | 74 | 3.17 | 4 | [wiki](https://tibia.fandom.com/wiki/Gorger_Inferniarch) |
+| Gorgo | 4500 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Gorgo) |
+| Gorzindel | 350000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Gorzindel) |
+| Gozzler | 240 | 25 | 2.18 | 1 | [wiki](https://tibia.fandom.com/wiki/Gozzler) |
+| Gralvalon | 33000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Gralvalon) |
+| Grand Canon Dominus | 15000 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/Grand_Canon_Dominus) |
+| Grand Chaplain Gaunder | 18000 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Grand_Chaplain_Gaunder) |
+| Grand Commander Soeren | 17000 | — | — | 7 | [wiki](https://tibia.fandom.com/wiki/Grand_Commander_Soeren) |
+| Grand Master Oberon | 30000 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Grand_Master_Oberon) |
+| Grand Mother Foulscale | 1850 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Grand_Mother_Foulscale) |
+| Grandfather Tridian | 1800 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Grandfather_Tridian) |
+| Grave Guard | 720 | 35 | 1.96 | 1 | [wiki](https://tibia.fandom.com/wiki/Grave_Guard) |
+| Grave Robber | 165 | 7 | 0.6 | 0 | [wiki](https://tibia.fandom.com/wiki/Grave_Robber) |
+| Gravedigger | 1500 | 58 | 2.67 | 2 | [wiki](https://tibia.fandom.com/wiki/Gravedigger) |
+| Gravelord Oshuran | 3100 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Gravelord_Oshuran) |
+| Great Timedisplaced Anomaly | 250000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Great_Timedisplaced_Anomaly) |
+| Greater Canopic Jar | 7000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Greater_Canopic_Jar) |
+| Greater Death Minion | 1500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Greater_Death_Minion) |
+| Greater Energy Elemental | 1100 | 35 | — | 3 | [wiki](https://tibia.fandom.com/wiki/Greater_Energy_Elemental) |
+| Greater Fire Elemental | 1800 | 57 | — | 3 | [wiki](https://tibia.fandom.com/wiki/Greater_Fire_Elemental) |
+| Greedok | 50000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Greedok) |
+| Green Djinn | 330 | 20 | 1.22 | 2 | [wiki](https://tibia.fandom.com/wiki/Green_Djinn) |
+| Green Frog | 25 | 2 | 0.24 | 0 | [wiki](https://tibia.fandom.com/wiki/Green_Frog) |
+| Grim Reaper | 3900 | 30 | 1.01 | 5 | [wiki](https://tibia.fandom.com/wiki/Grim_Reaper) |
+| Grimeleech | 9500 | 65 | 2.76 | 2 | [wiki](https://tibia.fandom.com/wiki/Grimeleech) |
+| Grimgor Guteater | 1155 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Grimgor_Guteater) |
+| Grims Little Hamster | 5500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Grims_Little_Hamster) |
+| Groam | 400 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Groam) |
+| Grorlam | 3000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Grorlam) |
+| Groupie | 2000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Groupie) |
+| Grove Guardian | 20000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Grove_Guardian) |
+| Grynch Clan Goblin | 80 | 5 | 0.4 | 0 | [wiki](https://tibia.fandom.com/wiki/Grynch_Clan_Goblin) |
+| Gryphon | 3200 | 76 | 3.5 | 1 | [wiki](https://tibia.fandom.com/wiki/Gryphon) |
+| Guard Captain Quaid | 55000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Guard_Captain_Quaid) |
+| Guardian Golem | 2500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Guardian_Golem) |
+| Guardian of Tales | 15000 | 77 | 3.08 | 5 | [wiki](https://tibia.fandom.com/wiki/Guardian_of_Tales) |
+| Guzzlemaw | 6400 | 74 | 3.68 | 2 | [wiki](https://tibia.fandom.com/wiki/Guzzlemaw) |
+| Hacker (Creature) | 430 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Hacker_(Creature)) |
+| Hairman the Huge | 600 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Hairman_the_Huge) |
+| Hand of Cursed Fate | 6600 | 53 | 2.99 | 2 | [wiki](https://tibia.fandom.com/wiki/Hand_of_Cursed_Fate) |
+| Harbinger of Darkness | 120000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Harbinger_of_Darkness) |
+| Hardened Usurper Archer | 7300 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Hardened_Usurper_Archer) |
+| Hardened Usurper Knight | 8200 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Hardened_Usurper_Knight) |
+| Hardened Usurper Warlock | 7500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Hardened_Usurper_Warlock) |
+| Harpy | 7700 | 58 | 2.94 | 6 | [wiki](https://tibia.fandom.com/wiki/Harpy) |
+| Hatebreeder | 18000 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Hatebreeder) |
+| Haunted Dragon | 6500 | 58 | 2.54 | 2 | [wiki](https://tibia.fandom.com/wiki/Haunted_Dragon) |
+| Haunted Hunter | 23000 | 90 | 4.87 | 0 | [wiki](https://tibia.fandom.com/wiki/Haunted_Hunter) |
+| Haunted Treeling | 450 | 20 | 1.44 | 3 | [wiki](https://tibia.fandom.com/wiki/Haunted_Treeling) |
+| Haunter | 8500 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Haunter) |
+| Hawk Hopper | 2180 | 36 | 1.48 | 0 | [wiki](https://tibia.fandom.com/wiki/Hawk_Hopper) |
+| Hazardous Phantom | 70000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Hazardous_Phantom) |
+| Headpecker | 16300 | 68 | 3.26 | 0 | [wiki](https://tibia.fandom.com/wiki/Headpecker) |
+| Headwalker | 2460 | 38 | 1.52 | 0 | [wiki](https://tibia.fandom.com/wiki/Headwalker) |
+| Hell Hole | 120 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Hell_Hole) |
+| Hellfire Fighter | 3800 | 62 | 2.54 | 3 | [wiki](https://tibia.fandom.com/wiki/Hellfire_Fighter) |
+| Hellflayer | 14000 | 55 | 2.54 | 6 | [wiki](https://tibia.fandom.com/wiki/Hellflayer) |
+| Hellgorak | 25850 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Hellgorak) |
+| Hellhound | 7500 | 60 | 4.39 | 6 | [wiki](https://tibia.fandom.com/wiki/Hellhound) |
+| Hellhunter Inferniarch | 11300 | 73 | 3.5 | 0 | [wiki](https://tibia.fandom.com/wiki/Hellhunter_Inferniarch) |
+| Hellspawn | 3500 | 44 | 2.09 | 3 | [wiki](https://tibia.fandom.com/wiki/Hellspawn) |
+| Hemming | 3000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Hemming) |
+| Heoni | 900 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Heoni) |
+| Herald of Fire | 900 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Herald_of_Fire) |
+| Herald of Gloom | 340 | 25 | 2.09 | 2 | [wiki](https://tibia.fandom.com/wiki/Herald_of_Gloom) |
+| Herd Weevil | 3700 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Herd_Weevil) |
+| Hero | 1400 | 35 | 2.09 | 1 | [wiki](https://tibia.fandom.com/wiki/Hero) |
+| Hibernal Moth | 850 | 37 | 1.87 | 0 | [wiki](https://tibia.fandom.com/wiki/Hibernal_Moth) |
+| Hide | 500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Hide) |
+| Hideous Fungus | 4600 | 60 | 2.76 | 2 | [wiki](https://tibia.fandom.com/wiki/Hideous_Fungus) |
+| High Templar Cobrass | 410 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/High_Templar_Cobrass) |
+| High Voltage Elemental | 1500 | 35 | 2.54 | 3 | [wiki](https://tibia.fandom.com/wiki/High_Voltage_Elemental) |
+| Hirintror | 1500 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Hirintror) |
+| Hive Overseer | 7500 | 57 | 3.82 | 2 | [wiki](https://tibia.fandom.com/wiki/Hive_Overseer) |
+| Holy Bog Frog | 25 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Holy_Bog_Frog) |
+| Honey Elemental | 2560 | 34 | 1.61 | 0 | [wiki](https://tibia.fandom.com/wiki/Honey_Elemental) |
+| Honour Guard | 85 | 4 | 0.32 | 1 | [wiki](https://tibia.fandom.com/wiki/Honour_Guard) |
+| Hoodinion | 800 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Hoodinion) |
+| Horadron | 30000 | 72 | — | 4 | [wiki](https://tibia.fandom.com/wiki/Horadron) |
+| Horestis | 6000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Horestis) |
+| Horse (Brown) | 75 | 2 | 0.08 | 0 | [wiki](https://tibia.fandom.com/wiki/Horse_(Brown)) |
+| Horse (Grey) | 75 | 2 | 0.08 | 0 | [wiki](https://tibia.fandom.com/wiki/Horse_(Grey)) |
+| Horse (Taupe) | 75 | 2 | 0.08 | 0 | [wiki](https://tibia.fandom.com/wiki/Horse_(Taupe)) |
+| Hot Dog | 505 | 24 | 1.14 | 3 | [wiki](https://tibia.fandom.com/wiki/Hot_Dog) |
+| Hulking Carnisylvan | 8600 | 51 | 2.09 | 4 | [wiki](https://tibia.fandom.com/wiki/Hulking_Carnisylvan) |
+| Hulking Prehemoth | 20700 | 84 | 4.01 | 2 | [wiki](https://tibia.fandom.com/wiki/Hulking_Prehemoth) |
+| Human (Creature) | 150 | 0 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Human_(Creature)) |
+| Humongous Fungus | 3400 | 70 | 3.22 | 2 | [wiki](https://tibia.fandom.com/wiki/Humongous_Fungus) |
+| Humorless Fungus | 1600 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Humorless_Fungus) |
+| Hunter | 150 | 8 | 0.4 | 2 | [wiki](https://tibia.fandom.com/wiki/Hunter) |
+| Husky | 140 | 1 | 0.2 | 0 | [wiki](https://tibia.fandom.com/wiki/Husky) |
+| Hyaena | 60 | 1 | 0.2 | 1 | [wiki](https://tibia.fandom.com/wiki/Hyaena) |
+| Hydra | 2350 | 27 | 1.87 | 4 | [wiki](https://tibia.fandom.com/wiki/Hydra) |
+| Ice Dragon | 2500 | 41 | 1.78 | 1 | [wiki](https://tibia.fandom.com/wiki/Ice_Dragon) |
+| Ice Golem | 385 | 47 | 1.09 | 2 | [wiki](https://tibia.fandom.com/wiki/Ice_Golem) |
+| Ice Overlord | 4000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Ice_Overlord) |
+| Ice Witch | 650 | 70 | 1.44 | 3 | [wiki](https://tibia.fandom.com/wiki/Ice_Witch) |
+| Icecold Book | 21000 | 82 | 3.45 | 4 | [wiki](https://tibia.fandom.com/wiki/Icecold_Book) |
+| Iceplume Strider | 8500 | 85 | 3.68 | 0 | [wiki](https://tibia.fandom.com/wiki/Iceplume_Strider) |
+| Iks Ahpututu | 1630 | 34 | 2 | 5 | [wiki](https://tibia.fandom.com/wiki/Iks_Ahpututu) |
+| Iks Aucar | 1520 | 36 | 2.09 | 3 | [wiki](https://tibia.fandom.com/wiki/Iks_Aucar) |
+| Iks Chuka | 1240 | 29 | 1.56 | 3 | [wiki](https://tibia.fandom.com/wiki/Iks_Chuka) |
+| Iks Churrascan | 1520 | 36 | 2.09 | 1 | [wiki](https://tibia.fandom.com/wiki/Iks_Churrascan) |
+| Iks Pututu | 1310 | 32 | 1.87 | 5 | [wiki](https://tibia.fandom.com/wiki/Iks_Pututu) |
+| Iks Yapunac | 3125 | 45 | 3.22 | 0 | [wiki](https://tibia.fandom.com/wiki/Iks_Yapunac) |
+| Imp Warden | 10500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Imp_Warden) |
+| Imperial | 100 | 2 | 0.08 | 0 | [wiki](https://tibia.fandom.com/wiki/Imperial) |
+| Incineron | 7000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Incineron) |
+| Incredibly Old Witch | 620 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Incredibly_Old_Witch) |
+| Infected Weeper | 3000 | 76 | 3.5 | 2 | [wiki](https://tibia.fandom.com/wiki/Infected_Weeper) |
+| Infernal Demon | 32000 | 120 | 5.36 | 5 | [wiki](https://tibia.fandom.com/wiki/Infernal_Demon) |
+| Infernal Frog | 655 | 18 | 1.44 | 2 | [wiki](https://tibia.fandom.com/wiki/Infernal_Frog) |
+| Infernal Phantom | 26000 | 100 | 3.92 | 3 | [wiki](https://tibia.fandom.com/wiki/Infernal_Phantom) |
+| Infernalist | 3650 | 33 | 1.82 | 4 | [wiki](https://tibia.fandom.com/wiki/Infernalist) |
+| Infernatil | 110000 | 165 | — | 7 | [wiki](https://tibia.fandom.com/wiki/Infernatil) |
+| Infernoid Blob | 85 | 2 | 0.12 | 0 | [wiki](https://tibia.fandom.com/wiki/Infernoid_Blob) |
+| Infernoid Hound | 86 | 3 | 0.12 | 1 | [wiki](https://tibia.fandom.com/wiki/Infernoid_Hound) |
+| Infernoid Soul | 95 | 2 | 0.12 | 0 | [wiki](https://tibia.fandom.com/wiki/Infernoid_Soul) |
+| Infernoid Spiritual | 102 | 3 | 0.2 | 0 | [wiki](https://tibia.fandom.com/wiki/Infernoid_Spiritual) |
+| Ink Blob | 9500 | 70 | 3.22 | 6 | [wiki](https://tibia.fandom.com/wiki/Ink_Blob) |
+| Ink Splash | 1950 | 36 | 1.56 | 0 | [wiki](https://tibia.fandom.com/wiki/Ink_Splash) |
+| Inkwing | 12000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Inkwing) |
+| Inky | 750 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Inky) |
+| Insane Siren | 6500 | 76 | 3.36 | 7 | [wiki](https://tibia.fandom.com/wiki/Insane_Siren) |
+| Insect Swarm | 50 | 4 | 0.68 | 1 | [wiki](https://tibia.fandom.com/wiki/Insect_Swarm) |
+| Insectoid Scout | 230 | 27 | 0.89 | 1 | [wiki](https://tibia.fandom.com/wiki/Insectoid_Scout) |
+| Insectoid Worker | 950 | 30 | 1.44 | 1 | [wiki](https://tibia.fandom.com/wiki/Insectoid_Worker) |
+| Instable Breach Brood | 2200 | 43 | 2.09 | 2 | [wiki](https://tibia.fandom.com/wiki/Instable_Breach_Brood) |
+| Instable Fire | 1000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Instable_Fire) |
+| Instable Sparkion | 1900 | 37 | 1.87 | 1 | [wiki](https://tibia.fandom.com/wiki/Instable_Sparkion) |
+| Irahsae | 35000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Irahsae) |
+| Irgix the Flimsy | 24000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Irgix_the_Flimsy) |
+| Iron Servant | 350 | 17 | 0.97 | 1 | [wiki](https://tibia.fandom.com/wiki/Iron_Servant) |
+| Iron Servant Replica | 1000 | 17 | 0.97 | 1 | [wiki](https://tibia.fandom.com/wiki/Iron_Servant_Replica) |
+| Ironblight | 6600 | 84 | 3.82 | 4 | [wiki](https://tibia.fandom.com/wiki/Ironblight) |
+| Island Troll | 50 | 6 | 0.32 | 1 | [wiki](https://tibia.fandom.com/wiki/Island_Troll) |
+| Jagged Earth Elemental | 1500 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Jagged_Earth_Elemental) |
+| Jailer | 65 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Jailer) |
+| Jaracal | 3200 | 65 | 3.08 | 0 | [wiki](https://tibia.fandom.com/wiki/Jaracal) |
+| Jaul | 90000 | — | — | 6 | [wiki](https://tibia.fandom.com/wiki/Jaul) |
+| Jellyfish | 55 | 11 | 0.48 | 1 | [wiki](https://tibia.fandom.com/wiki/Jellyfish) |
+| Jesse the Wicked | 280 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Jesse_the_Wicked) |
+| Juggernaut | 18000 | 70 | 2.76 | 2 | [wiki](https://tibia.fandom.com/wiki/Juggernaut) |
+| Jungle Moa | 1300 | 30 | 1.65 | 4 | [wiki](https://tibia.fandom.com/wiki/Jungle_Moa) |
+| Juvenile Bashmu | 7500 | 75 | 3.5 | 4 | [wiki](https://tibia.fandom.com/wiki/Juvenile_Bashmu) |
+| Juvenile Cyclops | 260 | 11 | — | 2 | [wiki](https://tibia.fandom.com/wiki/Juvenile_Cyclops) |
+| Kalyassa | 10000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Kalyassa) |
+| Katex Blood Tongue | 6300 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Katex_Blood_Tongue) |
+| Kerberos | 11000 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/Kerberos) |
+| Killer Caiman | 1500 | 40 | 0.6 | 1 | [wiki](https://tibia.fandom.com/wiki/Killer_Caiman) |
+| Killer Rabbit | 205 | 17 | 0.8 | 1 | [wiki](https://tibia.fandom.com/wiki/Killer_Rabbit) |
+| King Zelos | 480000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/King_Zelos) |
+| Knight Familiar | 10000 | — | — | 7 | [wiki](https://tibia.fandom.com/wiki/Knight_Familiar) |
+| Knight's Apparition | 25000 | 100 | 4.87 | 0 | [wiki](https://tibia.fandom.com/wiki/Knight's_Apparition) |
+| Knowledge Elemental | 10500 | 76 | 3.31 | 6 | [wiki](https://tibia.fandom.com/wiki/Knowledge_Elemental) |
+| Kollos | 3800 | 52 | 2.71 | 1 | [wiki](https://tibia.fandom.com/wiki/Kollos) |
+| Kongra | 340 | 18 | 0.56 | 1 | [wiki](https://tibia.fandom.com/wiki/Kongra) |
+| Kongra (Anti-Botter) | 20000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Kongra_(Anti-Botter)) |
+| Koshei the Deathless | 3000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Koshei_the_Deathless) |
+| Kraknaknork | 80 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Kraknaknork) |
+| Kreebosh the Exile | 705 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/Kreebosh_the_Exile) |
+| Kroazur | 3000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Kroazur) |
+| Kusuma | 7650 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Kusuma) |
+| Lab Assistant | 4000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Lab_Assistant) |
+| Lacewing Moth | 900 | 42 | 1.65 | 0 | [wiki](https://tibia.fandom.com/wiki/Lacewing_Moth) |
+| Lady Tenebris | 250000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Lady_Tenebris) |
+| Ladybug | 255 | 8 | 1.01 | 2 | [wiki](https://tibia.fandom.com/wiki/Ladybug) |
+| Lamassu | 8700 | 82 | 3.45 | 3 | [wiki](https://tibia.fandom.com/wiki/Lamassu) |
+| Lancer Beetle | 400 | 35 | 1.09 | 2 | [wiki](https://tibia.fandom.com/wiki/Lancer_Beetle) |
+| Larva | 70 | 5 | 0.44 | 1 | [wiki](https://tibia.fandom.com/wiki/Larva) |
+| Last Planegazer | 50000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Last_Planegazer) |
+| Latrivan | 25000 | — | — | 6 | [wiki](https://tibia.fandom.com/wiki/Latrivan) |
+| Lava Golem | 9000 | 84 | 4.01 | 3 | [wiki](https://tibia.fandom.com/wiki/Lava_Golem) |
+| Lava Lurker | 5900 | 82 | 3.45 | 0 | [wiki](https://tibia.fandom.com/wiki/Lava_Lurker) |
+| Lava Puddle (Creature) | 6000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Lava_Puddle_(Creature)) |
+| Lavafungus | 7200 | 70 | 2.54 | 6 | [wiki](https://tibia.fandom.com/wiki/Lavafungus) |
+| Lavaworm | 7500 | 60 | 2.54 | 4 | [wiki](https://tibia.fandom.com/wiki/Lavaworm) |
+| Leaf Golem | 90 | 11 | 0.64 | 1 | [wiki](https://tibia.fandom.com/wiki/Leaf_Golem) |
+| Leiden | 30000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Leiden) |
+| Lersatio | 1645 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Lersatio) |
+| Lesser Death Minion | 550 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Lesser_Death_Minion) |
+| Lesser Fire Devil | 175 | 9 | — | 3 | [wiki](https://tibia.fandom.com/wiki/Lesser_Fire_Devil) |
+| Lesser Magma Crystal | 10000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Lesser_Magma_Crystal) |
+| Lesser Swarmer | 230 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Lesser_Swarmer) |
+| Lethal Lissy | 1450 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Lethal_Lissy) |
+| Leviathan | 6000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Leviathan) |
+| Librarian | 11000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Librarian) |
+| Lich | 880 | 50 | 2.54 | 1 | [wiki](https://tibia.fandom.com/wiki/Lich) |
+| Liodile | 8600 | 71 | 3.22 | 0 | [wiki](https://tibia.fandom.com/wiki/Liodile) |
+| Lion | 80 | 6 | 0.52 | 1 | [wiki](https://tibia.fandom.com/wiki/Lion) |
+| Lion Archer | 7300 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Lion_Archer) |
+| Lion Commander | 8500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Lion_Commander) |
+| Lion Hydra | 2760 | 42 | 1.82 | 0 | [wiki](https://tibia.fandom.com/wiki/Lion_Hydra) |
+| Lion Knight | 8200 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Lion_Knight) |
+| Lion Warlock | 7500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Lion_Warlock) |
+| Lionet (Creature) | 100000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Lionet_(Creature)) |
+| Lisa | 55000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Lisa) |
+| Little Corym Charlatan | 90 | 3 | 0.35 | 1 | [wiki](https://tibia.fandom.com/wiki/Little_Corym_Charlatan) |
+| Lizard Abomination | 95000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Lizard_Abomination) |
+| Lizard Chosen | 3050 | 28 | 1.48 | 4 | [wiki](https://tibia.fandom.com/wiki/Lizard_Chosen) |
+| Lizard Commander | 160 | 4 | 0.24 | 0 | [wiki](https://tibia.fandom.com/wiki/Lizard_Commander) |
+| Lizard Dragon Priest | 1450 | 22 | 1.22 | 2 | [wiki](https://tibia.fandom.com/wiki/Lizard_Dragon_Priest) |
+| Lizard Executioner | 74 | 3 | 0.16 | 0 | [wiki](https://tibia.fandom.com/wiki/Lizard_Executioner) |
+| Lizard Gate Guardian | 5000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Lizard_Gate_Guardian) |
+| Lizard Henchman | 58 | 2 | 0.12 | 0 | [wiki](https://tibia.fandom.com/wiki/Lizard_Henchman) |
+| Lizard High Guard | 1800 | 40 | 1.87 | 1 | [wiki](https://tibia.fandom.com/wiki/Lizard_High_Guard) |
+| Lizard Legionnaire | 1400 | 30 | 1.69 | 2 | [wiki](https://tibia.fandom.com/wiki/Lizard_Legionnaire) |
+| Lizard Magician | 62 | 1 | 0.16 | 0 | [wiki](https://tibia.fandom.com/wiki/Lizard_Magician) |
+| Lizard Magistratus | 6250 | 25 | 1.87 | 2 | [wiki](https://tibia.fandom.com/wiki/Lizard_Magistratus) |
+| Lizard Noble | 7000 | 27 | 1.61 | 2 | [wiki](https://tibia.fandom.com/wiki/Lizard_Noble) |
+| Lizard Sentinel | 265 | 17 | 0.97 | 2 | [wiki](https://tibia.fandom.com/wiki/Lizard_Sentinel) |
+| Lizard Snakecharmer | 325 | 22 | 0.6 | 3 | [wiki](https://tibia.fandom.com/wiki/Lizard_Snakecharmer) |
+| Lizard Swordmaster | 68 | 3 | 0.12 | 0 | [wiki](https://tibia.fandom.com/wiki/Lizard_Swordmaster) |
+| Lizard Templar | 410 | 26 | 0.8 | 1 | [wiki](https://tibia.fandom.com/wiki/Lizard_Templar) |
+| Lizard Zaogun | 2955 | 42 | 2.18 | 2 | [wiki](https://tibia.fandom.com/wiki/Lizard_Zaogun) |
+| Lloyd | 65000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Lloyd) |
+| Lord Azaram | 300000 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Lord_Azaram) |
+| Lord Retro | 2500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Lord_Retro) |
+| Lord of the Elements | 8000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Lord_of_the_Elements) |
+| Loricate Orger | 750 | 37 | 1.35 | 0 | [wiki](https://tibia.fandom.com/wiki/Loricate_Orger) |
+| Lost Basher | 2600 | 57 | 2.58 | 2 | [wiki](https://tibia.fandom.com/wiki/Lost_Basher) |
+| Lost Berserker | 5900 | 80 | 3.82 | 0 | [wiki](https://tibia.fandom.com/wiki/Lost_Berserker) |
+| Lost Exile | 1600 | 55 | 2.13 | 3 | [wiki](https://tibia.fandom.com/wiki/Lost_Exile) |
+| Lost Gnome | 10000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Lost_Gnome) |
+| Lost Husher | 1600 | 55 | 2.13 | 4 | [wiki](https://tibia.fandom.com/wiki/Lost_Husher) |
+| Lost Soul | 5800 | 28 | 2.54 | 2 | [wiki](https://tibia.fandom.com/wiki/Lost_Soul) |
+| Lost Thrower | 1700 | 50 | 2.22 | 3 | [wiki](https://tibia.fandom.com/wiki/Lost_Thrower) |
+| Lost Time | 4000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Lost_Time) |
+| Lucifuga Aranea | 12000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Lucifuga_Aranea) |
+| Lumbering Carnivor | 2600 | 65 | 2.9 | 1 | [wiki](https://tibia.fandom.com/wiki/Lumbering_Carnivor) |
+| Lyxoph (Creature) | 45000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Lyxoph_(Creature)) |
+| Mad Mage | 2500 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Mad_Mage) |
+| Mad Scientist | 325 | 15 | 1.01 | 2 | [wiki](https://tibia.fandom.com/wiki/Mad_Scientist) |
+| Mad Sheep | 22 | 1 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Mad_Sheep) |
+| Mad Technomancer | 1800 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Mad_Technomancer) |
+| Madareth | 75000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Madareth) |
+| Magicthrower | 100 | 1 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Magicthrower) |
+| Magma Bubble | 150000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Magma_Bubble) |
+| Magma Crawler | 4800 | 84 | 4.01 | 4 | [wiki](https://tibia.fandom.com/wiki/Magma_Crawler) |
+| Magma Crystal | 22000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Magma_Crystal) |
+| Magma Fiend | 1600 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Magma_Fiend) |
+| Magmaoid | 15000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Magmaoid) |
+| Magnor Mournbringer | 250000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Magnor_Mournbringer) |
+| Mahatheb | 650 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Mahatheb) |
+| Mahrdis | 3900 | 42 | — | 4 | [wiki](https://tibia.fandom.com/wiki/Mahrdis) |
+| Major Timedisplaced Anomaly (Fiehonja) | 75000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Major_Timedisplaced_Anomaly_(Fiehonja)) |
+| Major Timedisplaced Anomaly (Issavi) | 70000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Major_Timedisplaced_Anomaly_(Issavi)) |
+| Major Timedisplaced Anomaly (Rascacoon) | 65000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Major_Timedisplaced_Anomaly_(Rascacoon)) |
+| Makara | 5050 | 74 | 3.17 | 4 | [wiki](https://tibia.fandom.com/wiki/Makara) |
+| Makeshift Home | 7000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Makeshift_Home) |
+| Malicious Minion | 4000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Malicious_Minion) |
+| Maliz | 50000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Maliz) |
+| Malofur Mangrinder | 320000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Malofur_Mangrinder) |
+| Malvaroth | 40000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Malvaroth) |
+| Mamma Longlegs | 1800 | 58 | — | 3 | [wiki](https://tibia.fandom.com/wiki/Mamma_Longlegs) |
+| Mammoth | 320 | 20 | 0.64 | 1 | [wiki](https://tibia.fandom.com/wiki/Mammoth) |
+| Man in the Cave | 485 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Man_in_the_Cave) |
+| Manta Ray | 680 | 42 | 2.18 | 3 | [wiki](https://tibia.fandom.com/wiki/Manta_Ray) |
+| Manticore | 6700 | 78 | 3.45 | 3 | [wiki](https://tibia.fandom.com/wiki/Manticore) |
+| Mantosaurus | 19400 | 65 | 2.85 | 0 | [wiki](https://tibia.fandom.com/wiki/Mantosaurus) |
+| Many Faces | 30000 | 105 | 5.36 | 2 | [wiki](https://tibia.fandom.com/wiki/Many_Faces) |
+| Marid | 550 | 24 | 1.44 | 4 | [wiki](https://tibia.fandom.com/wiki/Marid) |
+| Marsh Stalker | 100 | 3 | 0.35 | 2 | [wiki](https://tibia.fandom.com/wiki/Marsh_Stalker) |
+| Marziel | 1900 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Marziel) |
+| Massacre | 32000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Massacre) |
+| Massive Earth Elemental | 1330 | 60 | 1.65 | 5 | [wiki](https://tibia.fandom.com/wiki/Massive_Earth_Elemental) |
+| Massive Energy Elemental | 1100 | 35 | 1.65 | 3 | [wiki](https://tibia.fandom.com/wiki/Massive_Energy_Elemental) |
+| Massive Fire Elemental | 1800 | 57 | 2.09 | 3 | [wiki](https://tibia.fandom.com/wiki/Massive_Fire_Elemental) |
+| Massive Water Elemental | 1250 | 45 | 2.09 | 3 | [wiki](https://tibia.fandom.com/wiki/Massive_Water_Elemental) |
+| Maw | 8200 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Maw) |
+| Mawhawk | 45000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Mawhawk) |
+| Maxxenius | 320000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Maxxenius) |
+| Mazoran | 290000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Mazoran) |
+| Mazzinor | 350000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Mazzinor) |
+| Meadow Strider | 100 | 1 | — | 2 | [wiki](https://tibia.fandom.com/wiki/Meadow_Strider) |
+| Mean Lost Soul | 5000 | 80 | 3.68 | 0 | [wiki](https://tibia.fandom.com/wiki/Mean_Lost_Soul) |
+| Mean Termite | 4300 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Mean_Termite) |
+| Meandering Mushroom | 29100 | 115 | 5.12 | 0 | [wiki](https://tibia.fandom.com/wiki/Meandering_Mushroom) |
+| Mearidion | 850 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Mearidion) |
+| Mechanical Fighter | 420 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Mechanical_Fighter) |
+| Medusa | 4500 | 45 | 2.76 | 2 | [wiki](https://tibia.fandom.com/wiki/Medusa) |
+| Mega Dragon | 7920 | 76 | 3.13 | 0 | [wiki](https://tibia.fandom.com/wiki/Mega_Dragon) |
+| Megasylvan Sapling (Creature) | 10000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Megasylvan_Sapling_(Creature)) |
+| Megasylvan Yselda | 32000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Megasylvan_Yselda) |
+| Memory of a Banshee | 3600 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Memory_of_a_Banshee) |
+| Memory of a Book | 3670 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Memory_of_a_Book) |
+| Memory of a Carnisylvan | 3800 | 37 | — | 3 | [wiki](https://tibia.fandom.com/wiki/Memory_of_a_Carnisylvan) |
+| Memory of a Dwarf | 3730 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Memory_of_a_Dwarf) |
+| Memory of a Faun | 3500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Memory_of_a_Faun) |
+| Memory of a Frazzlemaw | 3770 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Memory_of_a_Frazzlemaw) |
+| Memory of a Fungus | 3580 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Memory_of_a_Fungus) |
+| Memory of a Golem | 3660 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Memory_of_a_Golem) |
+| Memory of a Hero | 3850 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Memory_of_a_Hero) |
+| Memory of a Hydra | 3550 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Memory_of_a_Hydra) |
+| Memory of a Lizard | 3520 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Memory_of_a_Lizard) |
+| Memory of a Mammoth | 3850 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Memory_of_a_Mammoth) |
+| Memory of a Manticore | 3730 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Memory_of_a_Manticore) |
+| Memory of a Pirate | 3750 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Memory_of_a_Pirate) |
+| Memory of a Scarab | 3620 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Memory_of_a_Scarab) |
+| Memory of a Shaper | 3710 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Memory_of_a_Shaper) |
+| Memory of a Vampire | 3650 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Memory_of_a_Vampire) |
+| Memory of a Werelion | 3880 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Memory_of_a_Werelion) |
+| Memory of a Wolf | 3640 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Memory_of_a_Wolf) |
+| Memory of a Yalahari | 3540 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Memory_of_a_Yalahari) |
+| Memory of an Amazon | 3600 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Memory_of_an_Amazon) |
+| Memory of an Elf | 3440 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Memory_of_an_Elf) |
+| Memory of an Insectoid | 3630 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Memory_of_an_Insectoid) |
+| Memory of an Ogre | 3570 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Memory_of_an_Ogre) |
+| Menace | 6000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Menace) |
+| Menacing Carnivor | 3500 | 68 | 2.99 | 1 | [wiki](https://tibia.fandom.com/wiki/Menacing_Carnivor) |
+| Mental-Nexus | 70 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Mental-Nexus) |
+| Mephiles | 415 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Mephiles) |
+| Mercurial Menace | 18500 | 91 | 4.06 | 0 | [wiki](https://tibia.fandom.com/wiki/Mercurial_Menace) |
+| Mercury Blob | 150 | 3 | 0.4 | 2 | [wiki](https://tibia.fandom.com/wiki/Mercury_Blob) |
+| Merikh the Slaughterer | 2000 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/Merikh_the_Slaughterer) |
+| Merlkin | 235 | 16 | 1.65 | 3 | [wiki](https://tibia.fandom.com/wiki/Merlkin) |
+| Merlkin (Anti-Botter) | 20000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Merlkin_(Anti-Botter)) |
+| Metal Gargoyle | 2100 | 60 | 2.49 | 2 | [wiki](https://tibia.fandom.com/wiki/Metal_Gargoyle) |
+| Michael the Stalwart | 60000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Michael_the_Stalwart) |
+| Midnight Asura | 3100 | 55 | 2.54 | 3 | [wiki](https://tibia.fandom.com/wiki/Midnight_Asura) |
+| Midnight Panther | 1200 | 30 | 1.56 | 2 | [wiki](https://tibia.fandom.com/wiki/Midnight_Panther) |
+| Midnight Spawn | 2000 | 40 | 1.87 | 3 | [wiki](https://tibia.fandom.com/wiki/Midnight_Spawn) |
+| Midnight Warrior | 1000 | 30 | 1.44 | 2 | [wiki](https://tibia.fandom.com/wiki/Midnight_Warrior) |
+| Mimic | 1200 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Mimic) |
+| Mindmasher | 9500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Mindmasher) |
+| Minion of Gaz'haragoth | 5500 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Minion_of_Gaz'haragoth) |
+| Minion of Versperoth | 9000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Minion_of_Versperoth) |
+| Minishabaal | 6000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Minishabaal) |
+| Minor Timedisplaced Anomaly (Ankrahmun) | 48000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Minor_Timedisplaced_Anomaly_(Ankrahmun)) |
+| Minor Timedisplaced Anomaly (Greenshore) | 44000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Minor_Timedisplaced_Anomaly_(Greenshore)) |
+| Minor Timedisplaced Anomaly (Rookgaard) | 40000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Minor_Timedisplaced_Anomaly_(Rookgaard)) |
+| Minotaur | 100 | 11 | 0.44 | 1 | [wiki](https://tibia.fandom.com/wiki/Minotaur) |
+| Minotaur Amazon | 2600 | 37 | 1.87 | 1 | [wiki](https://tibia.fandom.com/wiki/Minotaur_Amazon) |
+| Minotaur Archer | 100 | 6 | 0.32 | 2 | [wiki](https://tibia.fandom.com/wiki/Minotaur_Archer) |
+| Minotaur Bruiser | 100 | 11 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Minotaur_Bruiser) |
+| Minotaur Cult Follower | 1600 | 32 | 1.96 | 2 | [wiki](https://tibia.fandom.com/wiki/Minotaur_Cult_Follower) |
+| Minotaur Cult Prophet | 1700 | 28 | 1.74 | 3 | [wiki](https://tibia.fandom.com/wiki/Minotaur_Cult_Prophet) |
+| Minotaur Cult Zealot | 1800 | 35 | 2.18 | 3 | [wiki](https://tibia.fandom.com/wiki/Minotaur_Cult_Zealot) |
+| Minotaur Guard | 185 | 15 | 1.31 | 1 | [wiki](https://tibia.fandom.com/wiki/Minotaur_Guard) |
+| Minotaur Hunter | 1400 | 36 | 2.71 | 4 | [wiki](https://tibia.fandom.com/wiki/Minotaur_Hunter) |
+| Minotaur Idol | 6500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Minotaur_Idol) |
+| Minotaur Invader | 1850 | 40 | 2.81 | 1 | [wiki](https://tibia.fandom.com/wiki/Minotaur_Invader) |
+| Minotaur Mage | 155 | 18 | 1.65 | 3 | [wiki](https://tibia.fandom.com/wiki/Minotaur_Mage) |
+| Minotaur Occultist | 125 | 8 | — | 3 | [wiki](https://tibia.fandom.com/wiki/Minotaur_Occultist) |
+| Minotaur Poacher | 160 | 6 | — | 0 | [wiki](https://tibia.fandom.com/wiki/Minotaur_Poacher) |
+| Minotaur Totem | 6000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Minotaur_Totem) |
+| Mint Drop | 20 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Mint_Drop) |
+| Mirade (Creature) | 100000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Mirade_(Creature)) |
+| Mirror Image | 35000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Mirror_Image) |
+| Misguided Bully | 2000 | 30 | 2.09 | 2 | [wiki](https://tibia.fandom.com/wiki/Misguided_Bully) |
+| Misguided Shadow | 3000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Misguided_Shadow) |
+| Misguided Thief | 1800 | 25 | 2.09 | 2 | [wiki](https://tibia.fandom.com/wiki/Misguided_Thief) |
+| Mitmah Scout | 3940 | 45 | 3.22 | 0 | [wiki](https://tibia.fandom.com/wiki/Mitmah_Scout) |
+| Mitmah Seer | 4620 | 45 | 3.22 | 0 | [wiki](https://tibia.fandom.com/wiki/Mitmah_Seer) |
+| Mitmah Vanguard | 50000 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/Mitmah_Vanguard) |
+| Modified Gnarlhound | 1500 | 200 | 6.85 | 0 | [wiki](https://tibia.fandom.com/wiki/Modified_Gnarlhound) |
+| Mole | 200 | 20 | 1.01 | 0 | [wiki](https://tibia.fandom.com/wiki/Mole) |
+| Monk (Creature) | 240 | 25 | 2.18 | 1 | [wiki](https://tibia.fandom.com/wiki/Monk_(Creature)) |
+| Monk of the Order | 240 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Monk_of_the_Order) |
+| Monk's Apparition | 25000 | 100 | 4.87 | 0 | [wiki](https://tibia.fandom.com/wiki/Monk's_Apparition) |
+| Monstor | 960 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Monstor) |
+| Mooh'Tah Warrior | 1200 | 37 | 2.13 | 2 | [wiki](https://tibia.fandom.com/wiki/Mooh'Tah_Warrior) |
+| Moohtant | 3200 | 42 | 1.74 | 1 | [wiki](https://tibia.fandom.com/wiki/Moohtant) |
+| Moohtant Wallbreaker | 250000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Moohtant_Wallbreaker) |
+| Moonspawn Blightspitter | 8500 | 80 | 3.22 | 0 | [wiki](https://tibia.fandom.com/wiki/Moonspawn_Blightspitter) |
+| Moonspawn Juggernaut | 60000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Moonspawn_Juggernaut) |
+| Moonspawn Oozecrown | 9200 | 75 | 3.45 | 0 | [wiki](https://tibia.fandom.com/wiki/Moonspawn_Oozecrown) |
+| Moonstone Excavator | 5100 | 47 | 2.09 | 0 | [wiki](https://tibia.fandom.com/wiki/Moonstone_Excavator) |
+| Moonstone Miner | 16500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Moonstone_Miner) |
+| Moonstone Overseer | 5450 | 45 | 2.44 | 0 | [wiki](https://tibia.fandom.com/wiki/Moonstone_Overseer) |
+| Morgaroth | 55000 | 130 | — | 3 | [wiki](https://tibia.fandom.com/wiki/Morgaroth) |
+| Morguthis | 4800 | 75 | — | 3 | [wiki](https://tibia.fandom.com/wiki/Morguthis) |
+| Morik the Gladiator | 1235 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Morik_the_Gladiator) |
+| Mornenion | 190 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Mornenion) |
+| Morshabaal | 1000000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Morshabaal) |
+| Mould Phantom | 28000 | 100 | 3.92 | 4 | [wiki](https://tibia.fandom.com/wiki/Mould_Phantom) |
+| Mountain Troll | 30 | 0 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Mountain_Troll) |
+| Mozradek | 28000 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/Mozradek) |
+| Mr. Punish | 22000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Mr._Punish) |
+| Muddy Earth Elemental | 650 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Muddy_Earth_Elemental) |
+| Muglex Clan Assassin | 45 | 0 | 0.04 | 2 | [wiki](https://tibia.fandom.com/wiki/Muglex_Clan_Assassin) |
+| Muglex Clan Chief | 100 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Muglex_Clan_Chief) |
+| Muglex Clan Footman | 30 | 0 | 0.04 | 2 | [wiki](https://tibia.fandom.com/wiki/Muglex_Clan_Footman) |
+| Muglex Clan Scavenger | 60 | 7 | — | 0 | [wiki](https://tibia.fandom.com/wiki/Muglex_Clan_Scavenger) |
+| Mummy | 240 | 14 | 0.93 | 2 | [wiki](https://tibia.fandom.com/wiki/Mummy) |
+| Munster | 58 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Munster) |
+| Murderous Ghost | 1500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Murderous_Ghost) |
+| Murmillion | 1100 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Murmillion) |
+| Muse of Penciljack | 1200 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Muse_of_Penciljack) |
+| Museum Stone Golem | 270 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Museum_Stone_Golem) |
+| Museum Stone Rhino | 3000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Museum_Stone_Rhino) |
+| Mushroom | 10000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Mushroom) |
+| Mushroom Sniffer | 250 | 20 | 1.01 | 0 | [wiki](https://tibia.fandom.com/wiki/Mushroom_Sniffer) |
+| Mutated Bat | 900 | 19 | 2.76 | 3 | [wiki](https://tibia.fandom.com/wiki/Mutated_Bat) |
+| Mutated Human | 240 | 14 | 0.93 | 3 | [wiki](https://tibia.fandom.com/wiki/Mutated_Human) |
+| Mutated Rat | 550 | 32 | 1.56 | 4 | [wiki](https://tibia.fandom.com/wiki/Mutated_Rat) |
+| Mutated Tiger | 1100 | 25 | 1.56 | 2 | [wiki](https://tibia.fandom.com/wiki/Mutated_Tiger) |
+| Mutated Zalamon | 155000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Mutated_Zalamon) |
+| Mycobiontic Beetle | 30200 | 116 | 4.68 | 0 | [wiki](https://tibia.fandom.com/wiki/Mycobiontic_Beetle) |
+| Naga Archer | 4640 | 63 | 2.76 | 4 | [wiki](https://tibia.fandom.com/wiki/Naga_Archer) |
+| Naga Warrior | 5530 | 78 | 3.5 | 2 | [wiki](https://tibia.fandom.com/wiki/Naga_Warrior) |
+| Nargol the Impaler | 250000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Nargol_the_Impaler) |
+| Necromancer | 580 | 50 | 1.65 | 3 | [wiki](https://tibia.fandom.com/wiki/Necromancer) |
+| Necromancer Servant | 600 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Necromancer_Servant) |
+| Necropharus | 750 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Necropharus) |
+| Neferi the Spy | 28000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Neferi_the_Spy) |
+| Neutral Deepling Warrior | 1600 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Neutral_Deepling_Warrior) |
+| Nibblemaw | 2900 | 48 | 1.74 | 4 | [wiki](https://tibia.fandom.com/wiki/Nibblemaw) |
+| Night Harpy | 14000 | 90 | 3.92 | 0 | [wiki](https://tibia.fandom.com/wiki/Night_Harpy) |
+| Nightfiend | 2700 | 46 | 2.27 | 1 | [wiki](https://tibia.fandom.com/wiki/Nightfiend) |
+| Nighthunter | 19200 | 81 | 3.64 | 0 | [wiki](https://tibia.fandom.com/wiki/Nighthunter) |
+| Nightmare | 2700 | 25 | 1.09 | 3 | [wiki](https://tibia.fandom.com/wiki/Nightmare) |
+| Nightmare Scion | 1400 | 25 | 1.09 | 3 | [wiki](https://tibia.fandom.com/wiki/Nightmare_Scion) |
+| Nightmare of Gaz'haragoth | 5500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Nightmare_of_Gaz'haragoth) |
+| Nightslayer | 400 | 25 | 1.44 | 2 | [wiki](https://tibia.fandom.com/wiki/Nightslayer) |
+| Nightstalker | 700 | 40 | 1.87 | 1 | [wiki](https://tibia.fandom.com/wiki/Nightstalker) |
+| Noble Lion | 1000 | 27 | 1.61 | 1 | [wiki](https://tibia.fandom.com/wiki/Noble_Lion) |
+| Nomad (Basic) | 160 | 6 | 0.64 | 1 | [wiki](https://tibia.fandom.com/wiki/Nomad_(Basic)) |
+| Nomad (Blue) | 160 | 6 | 0.41 | 1 | [wiki](https://tibia.fandom.com/wiki/Nomad_(Blue)) |
+| Nomad (Female) | 160 | 6 | 0.41 | 1 | [wiki](https://tibia.fandom.com/wiki/Nomad_(Female)) |
+| Norcferatu Heartless | 5700 | 64 | 2.44 | 0 | [wiki](https://tibia.fandom.com/wiki/Norcferatu_Heartless) |
+| Norcferatu Nightweaver | 6100 | 60 | 2.81 | 0 | [wiki](https://tibia.fandom.com/wiki/Norcferatu_Nightweaver) |
+| Norgle Glacierbeard | 4280 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Norgle_Glacierbeard) |
+| Northern Pike (Creature) | 95 | 9 | 0.16 | 0 | [wiki](https://tibia.fandom.com/wiki/Northern_Pike_(Creature)) |
+| Novice of the Cult | 285 | 15 | 0.97 | 1 | [wiki](https://tibia.fandom.com/wiki/Novice_of_the_Cult) |
+| Noxious Ripptor | 22700 | 82 | 3.5 | 0 | [wiki](https://tibia.fandom.com/wiki/Noxious_Ripptor) |
+| Nymph | 900 | 60 | 2 | 2 | [wiki](https://tibia.fandom.com/wiki/Nymph) |
+| Obujos | 35000 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Obujos) |
+| Ocyakao | 700 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Ocyakao) |
+| Ogre Brute | 1000 | 41 | 1.87 | 1 | [wiki](https://tibia.fandom.com/wiki/Ogre_Brute) |
+| Ogre Rowdy | 4500 | 98 | 4.2 | 1 | [wiki](https://tibia.fandom.com/wiki/Ogre_Rowdy) |
+| Ogre Ruffian | 5500 | 102 | 4.34 | 1 | [wiki](https://tibia.fandom.com/wiki/Ogre_Ruffian) |
+| Ogre Sage | 4800 | 93 | 4.01 | 0 | [wiki](https://tibia.fandom.com/wiki/Ogre_Sage) |
+| Ogre Savage | 1400 | 32 | 1.87 | 1 | [wiki](https://tibia.fandom.com/wiki/Ogre_Savage) |
+| Ogre Shaman | 800 | 30 | 1.65 | 3 | [wiki](https://tibia.fandom.com/wiki/Ogre_Shaman) |
+| Omnivora | 1200 | 38 | 1.56 | 4 | [wiki](https://tibia.fandom.com/wiki/Omnivora) |
+| Omrafir | 322000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Omrafir) |
+| Omruc | 4300 | 60 | — | 3 | [wiki](https://tibia.fandom.com/wiki/Omruc) |
+| Oodok Witchmaster | 450 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Oodok_Witchmaster) |
+| Oozing Carcass | 27500 | 102 | 4.97 | 0 | [wiki](https://tibia.fandom.com/wiki/Oozing_Carcass) |
+| Oozing Corpus | 28700 | 107 | 5.21 | 0 | [wiki](https://tibia.fandom.com/wiki/Oozing_Corpus) |
+| Orc | 70 | 4 | 0.32 | 1 | [wiki](https://tibia.fandom.com/wiki/Orc) |
+| Orc Berserker | 210 | 12 | 0.48 | 1 | [wiki](https://tibia.fandom.com/wiki/Orc_Berserker) |
+| Orc Cult Fanatic | 1300 | 22 | 1.56 | 1 | [wiki](https://tibia.fandom.com/wiki/Orc_Cult_Fanatic) |
+| Orc Cult Inquisitor | 1500 | 40 | 2.31 | 1 | [wiki](https://tibia.fandom.com/wiki/Orc_Cult_Inquisitor) |
+| Orc Cult Minion | 1000 | 30 | 1.87 | 2 | [wiki](https://tibia.fandom.com/wiki/Orc_Cult_Minion) |
+| Orc Cult Priest | 1300 | 27 | 1.87 | 2 | [wiki](https://tibia.fandom.com/wiki/Orc_Cult_Priest) |
+| Orc Cultist | 1350 | 30 | 2 | 1 | [wiki](https://tibia.fandom.com/wiki/Orc_Cultist) |
+| Orc Leader | 450 | 20 | 1.87 | 1 | [wiki](https://tibia.fandom.com/wiki/Orc_Leader) |
+| Orc Marauder | 235 | 16 | 1.31 | 2 | [wiki](https://tibia.fandom.com/wiki/Orc_Marauder) |
+| Orc Rider | 180 | 9 | 0.8 | 1 | [wiki](https://tibia.fandom.com/wiki/Orc_Rider) |
+| Orc Shaman | 115 | 8 | 0.4 | 3 | [wiki](https://tibia.fandom.com/wiki/Orc_Shaman) |
+| Orc Spearman | 105 | 6 | 0.48 | 2 | [wiki](https://tibia.fandom.com/wiki/Orc_Spearman) |
+| Orc Warlord | 950 | 28 | 2.31 | 2 | [wiki](https://tibia.fandom.com/wiki/Orc_Warlord) |
+| Orc Warrior | 125 | 8 | 0.56 | 1 | [wiki](https://tibia.fandom.com/wiki/Orc_Warrior) |
+| Orchid Frog | 60 | 8 | 0.44 | 1 | [wiki](https://tibia.fandom.com/wiki/Orchid_Frog) |
+| Orclops Bloodbreaker | 10300 | 68 | 3.26 | 0 | [wiki](https://tibia.fandom.com/wiki/Orclops_Bloodbreaker) |
+| Orclops Doomhauler | 1700 | 35 | 2.09 | 1 | [wiki](https://tibia.fandom.com/wiki/Orclops_Doomhauler) |
+| Orclops Ravager | 1200 | 35 | 1.96 | 1 | [wiki](https://tibia.fandom.com/wiki/Orclops_Ravager) |
+| Orcus the Cruel | 480 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Orcus_the_Cruel) |
+| Orewalker | 7200 | 79 | 3.68 | 3 | [wiki](https://tibia.fandom.com/wiki/Orewalker) |
+| Orger | 700 | 35 | 1.22 | 0 | [wiki](https://tibia.fandom.com/wiki/Orger) |
+| Orger Treasure | 50000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Orger_Treasure) |
+| Orshabaal | 22500 | 90 | — | 3 | [wiki](https://tibia.fandom.com/wiki/Orshabaal) |
+| Outburst | 290000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Outburst) |
+| Overcharge | 8000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Overcharge) |
+| Overcharged Energy Element | 1200 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Overcharged_Energy_Element) |
+| Overseer Osverger | 75000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Overseer_Osverger) |
+| Owin (Creature) | 9600 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Owin_(Creature)) |
+| Paiz the Pauperizer | 8500 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/Paiz_the_Pauperizer) |
+| Paladin Familiar | 15000 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/Paladin_Familiar) |
+| Paladin's Apparition | 25000 | 100 | 4.87 | 0 | [wiki](https://tibia.fandom.com/wiki/Paladin's_Apparition) |
+| Panda | 80 | 8 | 0.32 | 1 | [wiki](https://tibia.fandom.com/wiki/Panda) |
+| Parasite | 550 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Parasite) |
+| Parder | 1200 | 33 | 1.82 | 3 | [wiki](https://tibia.fandom.com/wiki/Parder) |
+| Parrot | 25 | 2 | 0.24 | 1 | [wiki](https://tibia.fandom.com/wiki/Parrot) |
+| Party Skeleton | 40 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Party_Skeleton) |
+| Penciljack (Creature) | 150000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Penciljack_(Creature)) |
+| Penguin | 33 | 2 | 0.12 | 1 | [wiki](https://tibia.fandom.com/wiki/Penguin) |
+| Percht | 620 | 40 | 1.31 | 4 | [wiki](https://tibia.fandom.com/wiki/Percht) |
+| Phantasm | 3950 | 80 | 1.74 | 2 | [wiki](https://tibia.fandom.com/wiki/Phantasm) |
+| Phantasm (Weak) | 65 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Phantasm_(Weak)) |
+| Phrodomo | 150000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Phrodomo) |
+| Pig | 25 | 2 | 0.08 | 0 | [wiki](https://tibia.fandom.com/wiki/Pig) |
+| Pig (Nostalgia) | 25 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Pig_(Nostalgia)) |
+| Pigeon | 30 | 1 | 0.08 | 0 | [wiki](https://tibia.fandom.com/wiki/Pigeon) |
+| Pillar (Zugurosh) | 120 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Pillar_(Zugurosh)) |
+| Pillar of Dark Energy | 37500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Pillar_of_Dark_Energy) |
+| Pillar of Healing | 7300 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Pillar_of_Healing) |
+| Pirat Bombardier | 2300 | 65 | 2.9 | 4 | [wiki](https://tibia.fandom.com/wiki/Pirat_Bombardier) |
+| Pirat Cutthroat | 2600 | 72 | 2.99 | 3 | [wiki](https://tibia.fandom.com/wiki/Pirat_Cutthroat) |
+| Pirat Mate | 3200 | 75 | 3.08 | 3 | [wiki](https://tibia.fandom.com/wiki/Pirat_Mate) |
+| Pirat Scoundrel | 2200 | 60 | 2.76 | 4 | [wiki](https://tibia.fandom.com/wiki/Pirat_Scoundrel) |
+| Pirate Buccaneer | 425 | 16 | 1.65 | 2 | [wiki](https://tibia.fandom.com/wiki/Pirate_Buccaneer) |
+| Pirate Cook | 90 | 0 | 0.2 | 0 | [wiki](https://tibia.fandom.com/wiki/Pirate_Cook) |
+| Pirate Corsair | 675 | 20 | 2.31 | 2 | [wiki](https://tibia.fandom.com/wiki/Pirate_Corsair) |
+| Pirate Cutthroat | 325 | 15 | 1.14 | 2 | [wiki](https://tibia.fandom.com/wiki/Pirate_Cutthroat) |
+| Pirate Ghost | 275 | 30 | 1.22 | 2 | [wiki](https://tibia.fandom.com/wiki/Pirate_Ghost) |
+| Pirate Gunner | 68 | 2 | 0.12 | 0 | [wiki](https://tibia.fandom.com/wiki/Pirate_Gunner) |
+| Pirate Marauder | 210 | 8 | 0.89 | 2 | [wiki](https://tibia.fandom.com/wiki/Pirate_Marauder) |
+| Pirate Navigator | 64 | 2 | 0.08 | 0 | [wiki](https://tibia.fandom.com/wiki/Pirate_Navigator) |
+| Pirate Quartermaster | 80 | 3 | 0.2 | 0 | [wiki](https://tibia.fandom.com/wiki/Pirate_Quartermaster) |
+| Pirate Ship | 300 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Pirate_Ship) |
+| Pirate Skeleton | 190 | 12 | 0.56 | 1 | [wiki](https://tibia.fandom.com/wiki/Pirate_Skeleton) |
+| Pit Battler | 1150 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Pit_Battler) |
+| Pit Berserker | 1800 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Pit_Berserker) |
+| Pit Blackling | 2350 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Pit_Blackling) |
+| Pit Brawler | 1600 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Pit_Brawler) |
+| Pit Condemned | 1500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Pit_Condemned) |
+| Pit Demon | 1100 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Pit_Demon) |
+| Pit Destroyer | 2000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Pit_Destroyer) |
+| Pit Fiend | 1050 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Pit_Fiend) |
+| Pit Groveller | 950 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Pit_Groveller) |
+| Pit Grunt | 1000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Pit_Grunt) |
+| Pit Lord | 2400 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Pit_Lord) |
+| Pit Maimer | 1200 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Pit_Maimer) |
+| Pit Overlord | 3000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Pit_Overlord) |
+| Pit Reaver | 1350 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Pit_Reaver) |
+| Pit Scourge | 1400 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Pit_Scourge) |
+| Pixie | 770 | 52 | 1.65 | 2 | [wiki](https://tibia.fandom.com/wiki/Pixie) |
+| Piñata Dragon | 10000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Pi%C3%B1ata_Dragon) |
+| Plagirath | 290000 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/Plagirath) |
+| Plaguesmith | 8250 | 30 | 2.09 | 2 | [wiki](https://tibia.fandom.com/wiki/Plaguesmith) |
+| Plaguethrower | 100 | 1 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Plaguethrower) |
+| Planedweller | 1000 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/Planedweller) |
+| Planestrider | 30000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Planestrider) |
+| Plant Abomination | 3900 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Plant_Abomination) |
+| Poacher | 90 | 10 | 0.52 | 2 | [wiki](https://tibia.fandom.com/wiki/Poacher) |
+| Poison Spider | 26 | 2 | 0.24 | 1 | [wiki](https://tibia.fandom.com/wiki/Poison_Spider) |
+| Poisonous Carnisylvan | 8000 | 37 | 1.78 | 1 | [wiki](https://tibia.fandom.com/wiki/Poisonous_Carnisylvan) |
+| Polar Bear | 85 | 7 | 0.4 | 1 | [wiki](https://tibia.fandom.com/wiki/Polar_Bear) |
+| Poodle | 20 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Poodle) |
+| Pooka | 500 | 38 | 1.56 | 2 | [wiki](https://tibia.fandom.com/wiki/Pooka) |
+| Poor Soul | 1000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Poor_Soul) |
+| Possessed Tree | 2500 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Possessed_Tree) |
+| Preceptor Lazare | 16000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Preceptor_Lazare) |
+| Priestess | 390 | 30 | 2.09 | 3 | [wiki](https://tibia.fandom.com/wiki/Priestess) |
+| Priestess of the Wild Sun | 8500 | 82 | 3.59 | 6 | [wiki](https://tibia.fandom.com/wiki/Priestess_of_the_Wild_Sun) |
+| Primitive | 200 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Primitive) |
+| Prince Drazzak | 330000 | — | — | 7 | [wiki](https://tibia.fandom.com/wiki/Prince_Drazzak) |
+| Professor Maxxen | 90000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Professor_Maxxen) |
+| Psychic Spirit Elemental | 1400 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Psychic_Spirit_Elemental) |
+| Pupated Rootthing | 15000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Pupated_Rootthing) |
+| Putrid Mummy | 1500 | 40 | 1.44 | 2 | [wiki](https://tibia.fandom.com/wiki/Putrid_Mummy) |
+| Pythius the Rotten (Creature) | 9000 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Pythius_the_Rotten_(Creature)) |
+| Quara Constrictor | 450 | 14 | 1.48 | 4 | [wiki](https://tibia.fandom.com/wiki/Quara_Constrictor) |
+| Quara Constrictor Scout | 450 | 14 | 1.35 | 1 | [wiki](https://tibia.fandom.com/wiki/Quara_Constrictor_Scout) |
+| Quara Hydromancer | 1100 | 30 | 1.65 | 3 | [wiki](https://tibia.fandom.com/wiki/Quara_Hydromancer) |
+| Quara Hydromancer Scout | 1100 | 30 | 1.65 | 3 | [wiki](https://tibia.fandom.com/wiki/Quara_Hydromancer_Scout) |
+| Quara Looter | 11500 | 92 | 4.39 | 0 | [wiki](https://tibia.fandom.com/wiki/Quara_Looter) |
+| Quara Mantassin | 800 | 16 | 1.09 | 1 | [wiki](https://tibia.fandom.com/wiki/Quara_Mantassin) |
+| Quara Mantassin Scout | 220 | 7 | 0.89 | 1 | [wiki](https://tibia.fandom.com/wiki/Quara_Mantassin_Scout) |
+| Quara Pincher | 1800 | 85 | 1.56 | 1 | [wiki](https://tibia.fandom.com/wiki/Quara_Pincher) |
+| Quara Pincher Scout | 775 | 70 | 1.44 | 1 | [wiki](https://tibia.fandom.com/wiki/Quara_Pincher_Scout) |
+| Quara Plunderer | 13500 | 90 | 3.92 | 0 | [wiki](https://tibia.fandom.com/wiki/Quara_Plunderer) |
+| Quara Predator | 2200 | 40 | 2.31 | 1 | [wiki](https://tibia.fandom.com/wiki/Quara_Predator) |
+| Quara Predator Scout | 890 | 30 | 1.65 | 1 | [wiki](https://tibia.fandom.com/wiki/Quara_Predator_Scout) |
+| Quara Raider | 12500 | 95 | 4.39 | 0 | [wiki](https://tibia.fandom.com/wiki/Quara_Raider) |
+| Quara Saboteur | 7000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Quara_Saboteur) |
+| Queen Nostalgia (2) | 1700 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Queen_Nostalgia_(2)) |
+| Rabbit | 15 | 1 | 0.08 | 0 | [wiki](https://tibia.fandom.com/wiki/Rabbit) |
+| Rabid Wolf | 75 | 1 | 0.08 | 1 | [wiki](https://tibia.fandom.com/wiki/Rabid_Wolf) |
+| Radiant Acolyte | 34600 | 95 | 4.87 | 0 | [wiki](https://tibia.fandom.com/wiki/Radiant_Acolyte) |
+| Radiant Inquisitor | 34800 | 110 | 4.63 | 0 | [wiki](https://tibia.fandom.com/wiki/Radiant_Inquisitor) |
+| Radiant Paragon | 36000 | 108 | 4.63 | 0 | [wiki](https://tibia.fandom.com/wiki/Radiant_Paragon) |
+| Radiant Templar | 37000 | 125 | 4.87 | 0 | [wiki](https://tibia.fandom.com/wiki/Radiant_Templar) |
+| Radiant Warden | 38500 | 130 | 4.63 | 0 | [wiki](https://tibia.fandom.com/wiki/Radiant_Warden) |
+| Radiant Zealot | 36500 | 106 | 4.15 | 0 | [wiki](https://tibia.fandom.com/wiki/Radiant_Zealot) |
+| Radicular Totem | 50000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Radicular_Totem) |
+| Rage Squid | 17000 | 78 | 3.45 | 5 | [wiki](https://tibia.fandom.com/wiki/Rage_Squid) |
+| Rage of Mazoran | 4500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Rage_of_Mazoran) |
+| Ragged Rabid Wolf | 120 | 3 | 0.12 | 1 | [wiki](https://tibia.fandom.com/wiki/Ragged_Rabid_Wolf) |
+| Ragiaz | 290000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Ragiaz) |
+| Raging Fire | 1800 | 50 | 2.09 | 0 | [wiki](https://tibia.fandom.com/wiki/Raging_Fire) |
+| Raging Mage | 3500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Raging_Mage) |
+| Rahemos | 3700 | 40 | — | 3 | [wiki](https://tibia.fandom.com/wiki/Rahemos) |
+| Rakesh Moonfang | 25500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Rakesh_Moonfang) |
+| Rat | 20 | 1 | 0.12 | 1 | [wiki](https://tibia.fandom.com/wiki/Rat) |
+| Raubritter Chastener | 10000 | 80 | 3.68 | 0 | [wiki](https://tibia.fandom.com/wiki/Raubritter_Chastener) |
+| Raubritter Marksman | 10500 | 90 | 3.45 | 0 | [wiki](https://tibia.fandom.com/wiki/Raubritter_Marksman) |
+| Raubritter Skirmisher | 11000 | 100 | 3.92 | 0 | [wiki](https://tibia.fandom.com/wiki/Raubritter_Skirmisher) |
+| Ravenous Lava Lurker | 5000 | 45 | 1.44 | 0 | [wiki](https://tibia.fandom.com/wiki/Ravenous_Lava_Lurker) |
+| Raxias | 1100 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Raxias) |
+| Razzagorn | 290000 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/Razzagorn) |
+| Reality Reaver | 3900 | 51 | 2.81 | 3 | [wiki](https://tibia.fandom.com/wiki/Reality_Reaver) |
+| Realityquake | 110000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Realityquake) |
+| Redeemed Soul | 250 | 12 | 1.01 | 0 | [wiki](https://tibia.fandom.com/wiki/Redeemed_Soul) |
+| Reflection of Mawhawk | 45000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Reflection_of_Mawhawk) |
+| Reflection of Obujos | 35000 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Reflection_of_Obujos) |
+| Reflection of a Mage | 3500 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Reflection_of_a_Mage) |
+| Regenerating Mass | 110000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Regenerating_Mass) |
+| Rejana (Creature) | 100000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Rejana_(Creature)) |
+| Renegade Knight | 1450 | 38 | 2.31 | 2 | [wiki](https://tibia.fandom.com/wiki/Renegade_Knight) |
+| Renegade Orc | 450 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Renegade_Orc) |
+| Renegade Quara Constrictor | 1500 | 35 | 1.65 | 0 | [wiki](https://tibia.fandom.com/wiki/Renegade_Quara_Constrictor) |
+| Renegade Quara Hydromancer | 2000 | 30 | 1.65 | 0 | [wiki](https://tibia.fandom.com/wiki/Renegade_Quara_Hydromancer) |
+| Renegade Quara Mantassin | 1200 | 16 | 1.09 | 0 | [wiki](https://tibia.fandom.com/wiki/Renegade_Quara_Mantassin) |
+| Renegade Quara Pincher | 2800 | 85 | 2 | 1 | [wiki](https://tibia.fandom.com/wiki/Renegade_Quara_Pincher) |
+| Renegade Quara Predator | 3250 | 40 | 2.31 | 1 | [wiki](https://tibia.fandom.com/wiki/Renegade_Quara_Predator) |
+| Retching Horror | 5300 | 74 | 3.5 | 2 | [wiki](https://tibia.fandom.com/wiki/Retching_Horror) |
+| Retros Treasure | 37500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Retros_Treasure) |
+| Rewar the Bloody | 250000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Rewar_the_Bloody) |
+| Rhindeer | 8650 | 68 | 3.31 | 5 | [wiki](https://tibia.fandom.com/wiki/Rhindeer) |
+| Ribstride | 1000 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Ribstride) |
+| Rift Brood | 2950 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Rift_Brood) |
+| Rift Invader | 6250 | 35 | — | 0 | [wiki](https://tibia.fandom.com/wiki/Rift_Invader) |
+| Rift Scythe | 3600 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Rift_Scythe) |
+| Rift Worm | 2800 | 28 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Rift_Worm) |
+| Ripper Spectre | 3800 | 69 | 3.03 | 2 | [wiki](https://tibia.fandom.com/wiki/Ripper_Spectre) |
+| Risen Soldier | 6000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Risen_Soldier) |
+| Roaming Dread | 14500 | 120 | 4.39 | 0 | [wiki](https://tibia.fandom.com/wiki/Roaming_Dread) |
+| Roaring Lion | 1000 | 28 | 1.65 | 1 | [wiki](https://tibia.fandom.com/wiki/Roaring_Lion) |
+| Roaring Water Elemental | 1750 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Roaring_Water_Elemental) |
+| Roast Pork | 420 | 28 | 1.22 | 3 | [wiki](https://tibia.fandom.com/wiki/Roast_Pork) |
+| Robby the Reckless | 155 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Robby_the_Reckless) |
+| Rocko | 10000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Rocko) |
+| Rocky | 390 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Rocky) |
+| Rogue Naga | 6200 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Rogue_Naga) |
+| Ron the Ripper | 1500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Ron_the_Ripper) |
+| Rootthing Amber Shaper | 15000 | 100 | 4.39 | 5 | [wiki](https://tibia.fandom.com/wiki/Rootthing_Amber_Shaper) |
+| Rootthing Bug Tracker | 12500 | 92 | 4.01 | 6 | [wiki](https://tibia.fandom.com/wiki/Rootthing_Bug_Tracker) |
+| Rootthing Nutshell | 13500 | 85 | 3.68 | 6 | [wiki](https://tibia.fandom.com/wiki/Rootthing_Nutshell) |
+| Rorc | 260 | 13 | 0.8 | 1 | [wiki](https://tibia.fandom.com/wiki/Rorc) |
+| Rot Elemental | 850 | 41 | 1.69 | 4 | [wiki](https://tibia.fandom.com/wiki/Rot_Elemental) |
+| Rotspit | 6800 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Rotspit) |
+| Rotten Golem | 28000 | 108 | 4.87 | 4 | [wiki](https://tibia.fandom.com/wiki/Rotten_Golem) |
+| Rotten Man-Maggot | 31100 | 110 | 4.39 | 0 | [wiki](https://tibia.fandom.com/wiki/Rotten_Man-Maggot) |
+| Rotten Plant Thing | 100000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Rotten_Plant_Thing) |
+| Rottie the Rotworm | 65 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Rottie_the_Rotworm) |
+| Rotworm | 65 | 8 | 0.44 | 1 | [wiki](https://tibia.fandom.com/wiki/Rotworm) |
+| Rotworm Queen | 105 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Rotworm_Queen) |
+| Rukor Zad | 380 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Rukor_Zad) |
+| Rupture | 290000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Rupture) |
+| Rustheap Golem | 2800 | 46 | 2 | 1 | [wiki](https://tibia.fandom.com/wiki/Rustheap_Golem) |
+| Sabretooth (Creature) | 17300 | 63 | 2.58 | 0 | [wiki](https://tibia.fandom.com/wiki/Sabretooth_(Creature)) |
+| Sacred Snake | 10 | 0 | — | 0 | [wiki](https://tibia.fandom.com/wiki/Sacred_Snake) |
+| Sacred Spider | 550 | 27 | 2.27 | 2 | [wiki](https://tibia.fandom.com/wiki/Sacred_Spider) |
+| Salamander | 70 | 3 | 0.2 | 1 | [wiki](https://tibia.fandom.com/wiki/Salamander) |
+| Salamander Trainer | 220 | 7 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Salamander_Trainer) |
+| Sand Brood | 2100 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Sand_Brood) |
+| Sandcrawler | 30 | 2 | 0.12 | 1 | [wiki](https://tibia.fandom.com/wiki/Sandcrawler) |
+| Sandstone Scorpion | 900 | 42 | 1.78 | 2 | [wiki](https://tibia.fandom.com/wiki/Sandstone_Scorpion) |
+| Scar Tribe Shaman | 115 | 6 | — | 0 | [wiki](https://tibia.fandom.com/wiki/Scar_Tribe_Shaman) |
+| Scar Tribe Warrior | 125 | 7 | — | 0 | [wiki](https://tibia.fandom.com/wiki/Scar_Tribe_Warrior) |
+| Scarab | 320 | 21 | 1.05 | 2 | [wiki](https://tibia.fandom.com/wiki/Scarab) |
+| Scarlett Etzel | 30000 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/Scarlett_Etzel) |
+| Schiach | 600 | 43 | 1.22 | 5 | [wiki](https://tibia.fandom.com/wiki/Schiach) |
+| Scissorion | 950 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Scissorion) |
+| Scorn of the Emperor | 45000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Scorn_of_the_Emperor) |
+| Scorpion | 45 | 14 | 0.2 | 1 | [wiki](https://tibia.fandom.com/wiki/Scorpion) |
+| Sea Captain | 190 | 4 | 0.24 | 0 | [wiki](https://tibia.fandom.com/wiki/Sea_Captain) |
+| Sea Serpent | 1950 | 25 | 1.65 | 3 | [wiki](https://tibia.fandom.com/wiki/Sea_Serpent) |
+| Seacrest Serpent | 3000 | 51 | 1.91 | 2 | [wiki](https://tibia.fandom.com/wiki/Seacrest_Serpent) |
+| Seagull | 25 | 2 | 0.24 | 1 | [wiki](https://tibia.fandom.com/wiki/Seagull) |
+| Security Golem | 6500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Security_Golem) |
+| Serpent Spawn | 3000 | 35 | 1.65 | 3 | [wiki](https://tibia.fandom.com/wiki/Serpent_Spawn) |
+| Servant Golem | 1400 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Servant_Golem) |
+| Shaburak Demon | 1500 | 35 | 1.65 | 4 | [wiki](https://tibia.fandom.com/wiki/Shaburak_Demon) |
+| Shaburak Lord | 2100 | 40 | 1.87 | 4 | [wiki](https://tibia.fandom.com/wiki/Shaburak_Lord) |
+| Shaburak Prince | 2600 | 45 | 2.09 | 4 | [wiki](https://tibia.fandom.com/wiki/Shaburak_Prince) |
+| Shadow Hound | 555 | 38 | 1.65 | 2 | [wiki](https://tibia.fandom.com/wiki/Shadow_Hound) |
+| Shadow Pupil | 450 | 32 | 1.65 | 3 | [wiki](https://tibia.fandom.com/wiki/Shadow_Pupil) |
+| Shadow of Boreth | 600 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Shadow_of_Boreth) |
+| Shadow of Lersatio | 600 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Shadow_of_Lersatio) |
+| Shadow of Marziel | 600 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Shadow_of_Marziel) |
+| Shadowpelt | 6000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Shadowpelt) |
+| Shadowstalker | 6100 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Shadowstalker) |
+| Shaper Matriarch | 2000 | 40 | 1.87 | 3 | [wiki](https://tibia.fandom.com/wiki/Shaper_Matriarch) |
+| Shard of Corruption | 600 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Shard_of_Corruption) |
+| Shard of Magnor | 205000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Shard_of_Magnor) |
+| Shardhead | 800 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Shardhead) |
+| Shark | 1200 | 32 | 0.68 | 1 | [wiki](https://tibia.fandom.com/wiki/Shark) |
+| Sharpclaw | 3300 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Sharpclaw) |
+| Sharptooth | 3100 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Sharptooth) |
+| Sheep | 20 | 1 | 0.08 | 1 | [wiki](https://tibia.fandom.com/wiki/Sheep) |
+| Shell Drake | 2800 | 43 | 1.65 | 0 | [wiki](https://tibia.fandom.com/wiki/Shell_Drake) |
+| Shimmying Butterfly | 20 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Shimmying_Butterfly) |
+| Shiversleep | 4600 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Shiversleep) |
+| Shock Head | 4200 | 78 | 2.76 | 1 | [wiki](https://tibia.fandom.com/wiki/Shock_Head) |
+| Shredderthrower | 100 | 1 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Shredderthrower) |
+| Shrieking Cry-Stal | 20650 | 95 | 3.92 | 2 | [wiki](https://tibia.fandom.com/wiki/Shrieking_Cry-Stal) |
+| Shulgrax | 290000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Shulgrax) |
+| Sibang | 225 | 15 | 1.31 | 2 | [wiki](https://tibia.fandom.com/wiki/Sibang) |
+| Sight of Surrender | 28000 | 92 | 3.68 | 2 | [wiki](https://tibia.fandom.com/wiki/Sight_of_Surrender) |
+| Silencer | 5400 | 71 | 2.9 | 1 | [wiki](https://tibia.fandom.com/wiki/Silencer) |
+| Silver Rabbit | 15 | 1 | 0.08 | 0 | [wiki](https://tibia.fandom.com/wiki/Silver_Rabbit) |
+| Silverfrost Sentinel | 9500 | 110 | 2.99 | 0 | [wiki](https://tibia.fandom.com/wiki/Silverfrost_Sentinel) |
+| Sineater Inferniarch | 9150 | 68 | 3.08 | 2 | [wiki](https://tibia.fandom.com/wiki/Sineater_Inferniarch) |
+| Sir Baeloc | 150000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Sir_Baeloc) |
+| Sir Leonard | 22000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Sir_Leonard) |
+| Sir Leopold | 81000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Sir_Leopold) |
+| Sir Valorcrest | 1600 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Sir_Valorcrest) |
+| Siramal (Creature) | 100000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Siramal_(Creature)) |
+| Sister Hetai | 25000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Sister_Hetai) |
+| Skeleton | 50 | 2 | 0.35 | 1 | [wiki](https://tibia.fandom.com/wiki/Skeleton) |
+| Skeleton Elite Warrior | 7800 | 75 | 3.45 | 2 | [wiki](https://tibia.fandom.com/wiki/Skeleton_Elite_Warrior) |
+| Skeleton Warrior | 65 | 5 | 0.4 | 1 | [wiki](https://tibia.fandom.com/wiki/Skeleton_Warrior) |
+| Skunk | 20 | 1 | 0.2 | 2 | [wiki](https://tibia.fandom.com/wiki/Skunk) |
+| Slick Water Elemental | 550 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Slick_Water_Elemental) |
+| Slim | 1025 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Slim) |
+| Slime | 150 | 3 | 0.4 | 1 | [wiki](https://tibia.fandom.com/wiki/Slime) |
+| Slippery Northern Pike | 100 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Slippery_Northern_Pike) |
+| Slug | 255 | 8 | 1.01 | 2 | [wiki](https://tibia.fandom.com/wiki/Slug) |
+| Smuggler | 130 | 8 | 0.52 | 1 | [wiki](https://tibia.fandom.com/wiki/Smuggler) |
+| Smuggler Baron Silvertoe | 280 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Smuggler_Baron_Silvertoe) |
+| Snail Slime | 5000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Snail_Slime) |
+| Snake | 15 | 0 | 0.04 | 1 | [wiki](https://tibia.fandom.com/wiki/Snake) |
+| Snake God Essence | 65000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Snake_God_Essence) |
+| Snake Thing | 70000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Snake_Thing) |
+| Solitary Frost Dragon | 1800 | 38 | — | 3 | [wiki](https://tibia.fandom.com/wiki/Solitary_Frost_Dragon) |
+| Son of Verminor | 8500 | 48 | 2.09 | 4 | [wiki](https://tibia.fandom.com/wiki/Son_of_Verminor) |
+| Sopping Carcass | 32700 | 109 | 5.26 | 0 | [wiki](https://tibia.fandom.com/wiki/Sopping_Carcass) |
+| Sopping Corpus | 33400 | 112 | 5.21 | 0 | [wiki](https://tibia.fandom.com/wiki/Sopping_Corpus) |
+| Sorcerer Familiar | 20000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Sorcerer_Familiar) |
+| Sorcerer's Apparition | 25000 | 100 | 4.39 | 0 | [wiki](https://tibia.fandom.com/wiki/Sorcerer's_Apparition) |
+| Soul Scourge | 6900 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Soul_Scourge) |
+| Soul Spark | 115 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Soul_Spark) |
+| Soul Sphere | 15 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Soul_Sphere) |
+| Soul-Broken Harbinger | 6300 | 76 | 3.31 | 6 | [wiki](https://tibia.fandom.com/wiki/Soul-Broken_Harbinger) |
+| Souleater | 1100 | 30 | 0.8 | 2 | [wiki](https://tibia.fandom.com/wiki/Souleater) |
+| Spark of Destruction | 3900 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Spark_of_Destruction) |
+| Sparkion | 2700 | 40 | 2.09 | 2 | [wiki](https://tibia.fandom.com/wiki/Sparkion) |
+| Spawn of Despair | 35000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Spawn_of_Despair) |
+| Spawn of Devovorga | 8900 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Spawn_of_Devovorga) |
+| Spawn of the Schnitzel | 1000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Spawn_of_the_Schnitzel) |
+| Spawn of the Welter | 1850 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Spawn_of_the_Welter) |
+| Spectre | 1350 | 40 | 1.65 | 1 | [wiki](https://tibia.fandom.com/wiki/Spectre) |
+| Spellreaper Inferniarch | 11800 | 74 | 3.4 | 0 | [wiki](https://tibia.fandom.com/wiki/Spellreaper_Inferniarch) |
+| Sphinx | 8500 | 82 | 3.92 | 4 | [wiki](https://tibia.fandom.com/wiki/Sphinx) |
+| Spider | 20 | 2 | 0.08 | 1 | [wiki](https://tibia.fandom.com/wiki/Spider) |
+| Spider (Nostalgia) | 20 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Spider_(Nostalgia)) |
+| Spider Queen | 10000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Spider_Queen) |
+| Spidris | 3700 | 53 | 2.58 | 2 | [wiki](https://tibia.fandom.com/wiki/Spidris) |
+| Spidris Elite | 5000 | 55 | 2.76 | 2 | [wiki](https://tibia.fandom.com/wiki/Spidris_Elite) |
+| Spiky Carnivor | 2800 | 71 | 3.08 | 1 | [wiki](https://tibia.fandom.com/wiki/Spiky_Carnivor) |
+| Spirit Overlord | 4000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Spirit_Overlord) |
+| Spirit of Earth | 1200 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Spirit_of_Earth) |
+| Spirit of Fire | 2210 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Spirit_of_Fire) |
+| Spirit of Water | 1400 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Spirit_of_Water) |
+| Spit Nettle | 150 | 12 | 1.35 | 2 | [wiki](https://tibia.fandom.com/wiki/Spit_Nettle) |
+| Spite of the Emperor | 48000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Spite_of_the_Emperor) |
+| Spitter | 1500 | 48 | 2.54 | 1 | [wiki](https://tibia.fandom.com/wiki/Spitter) |
+| Splasher | 1700 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Splasher) |
+| Spyrat (Facing East) | 3000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Spyrat_(Facing_East)) |
+| Spyrat (Facing North) | 3000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Spyrat_(Facing_North)) |
+| Spyrat (Facing South) | 3000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Spyrat_(Facing_South)) |
+| Spyrat (Facing West) | 3000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Spyrat_(Facing_West)) |
+| Squid Warden | 16500 | 78 | 3.45 | 5 | [wiki](https://tibia.fandom.com/wiki/Squid_Warden) |
+| Squidgy Slime | 150 | 3 | 0.4 | 1 | [wiki](https://tibia.fandom.com/wiki/Squidgy_Slime) |
+| Squirrel | 20 | 1 | 0.08 | 0 | [wiki](https://tibia.fandom.com/wiki/Squirrel) |
+| Srezz Yellow Eyes | 6200 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Srezz_Yellow_Eyes) |
+| Stabilizing Dread Intruder | 2800 | 46 | 2.18 | 3 | [wiki](https://tibia.fandom.com/wiki/Stabilizing_Dread_Intruder) |
+| Stabilizing Reality Reaver | 2500 | 46 | 2.49 | 2 | [wiki](https://tibia.fandom.com/wiki/Stabilizing_Reality_Reaver) |
+| Stag | 50 | 2 | 0.08 | 0 | [wiki](https://tibia.fandom.com/wiki/Stag) |
+| Stalker | 120 | 14 | 0.8 | 1 | [wiki](https://tibia.fandom.com/wiki/Stalker) |
+| Stalking Stalk | 17100 | 76 | 3.36 | 3 | [wiki](https://tibia.fandom.com/wiki/Stalking_Stalk) |
+| Stampor | 1200 | 60 | 1.44 | 1 | [wiki](https://tibia.fandom.com/wiki/Stampor) |
+| Starving Wolf | 85 | 2 | 0.52 | 1 | [wiki](https://tibia.fandom.com/wiki/Starving_Wolf) |
+| Stone Devourer | 4200 | 75 | 3.68 | 2 | [wiki](https://tibia.fandom.com/wiki/Stone_Devourer) |
+| Stone Golem | 270 | 30 | 1.01 | 1 | [wiki](https://tibia.fandom.com/wiki/Stone_Golem) |
+| Stone Rhino | 3000 | 72 | 2.99 | 1 | [wiki](https://tibia.fandom.com/wiki/Stone_Rhino) |
+| Stonecracker | 6500 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Stonecracker) |
+| Stonerefiner | 800 | 20 | 1.14 | 3 | [wiki](https://tibia.fandom.com/wiki/Stonerefiner) |
+| Strange Slime | 15 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Strange_Slime) |
+| Streaked Devourer | 7000 | 62 | 2.54 | 4 | [wiki](https://tibia.fandom.com/wiki/Streaked_Devourer) |
+| Strong Glooth Horror | 20000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Strong_Glooth_Horror) |
+| Sugar Cube | 28 | 8 | 0.56 | 0 | [wiki](https://tibia.fandom.com/wiki/Sugar_Cube) |
+| Sugar Cube Worker | 65 | 8 | 0.48 | 0 | [wiki](https://tibia.fandom.com/wiki/Sugar_Cube_Worker) |
+| Sugar Daddy | 9500 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Sugar_Daddy) |
+| Sugar Mommy | 6000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Sugar_Mommy) |
+| Sulphider | 21000 | 83 | 3.36 | 3 | [wiki](https://tibia.fandom.com/wiki/Sulphider) |
+| Sulphur Scuttler | 1300 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Sulphur_Scuttler) |
+| Sulphur Spouter | 19000 | 84 | 3.26 | 0 | [wiki](https://tibia.fandom.com/wiki/Sulphur_Spouter) |
+| Sun-Marked Goanna | 7800 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Sun-Marked_Goanna) |
+| Superior Death Minion | 2500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Superior_Death_Minion) |
+| Svoren the Mad | 6310 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Svoren_the_Mad) |
+| Swamp Troll | 55 | 6 | 0.4 | 1 | [wiki](https://tibia.fandom.com/wiki/Swamp_Troll) |
+| Swampling | 80 | 4 | 0.4 | 2 | [wiki](https://tibia.fandom.com/wiki/Swampling) |
+| Swan Maiden | 800 | 54 | 1.87 | 2 | [wiki](https://tibia.fandom.com/wiki/Swan_Maiden) |
+| Swarmer | 460 | 29 | 1.44 | 1 | [wiki](https://tibia.fandom.com/wiki/Swarmer) |
+| Swarmer Hatchling | 5 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Swarmer_Hatchling) |
+| Tainted Soul | 250 | 10 | 0.72 | 1 | [wiki](https://tibia.fandom.com/wiki/Tainted_Soul) |
+| Tame Terror Bird | 300 | 13 | 0.54 | 0 | [wiki](https://tibia.fandom.com/wiki/Tame_Terror_Bird) |
+| Tamed Frazzlemaw | 1000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Tamed_Frazzlemaw) |
+| Tamru the Black | 15500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Tamru_the_Black) |
+| Tanjis | 30000 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Tanjis) |
+| Tarantula | 225 | 20 | 0.8 | 2 | [wiki](https://tibia.fandom.com/wiki/Tarantula) |
+| Tarbaz | 290000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Tarbaz) |
+| Tarnished Spirit | 150 | 10 | 0.8 | 1 | [wiki](https://tibia.fandom.com/wiki/Tarnished_Spirit) |
+| Tazhadur | 10000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Tazhadur) |
+| Teleskor | 80 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Teleskor) |
+| Teneshpar | 15000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Teneshpar) |
+| Tentacle | 2500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Tentacle) |
+| Tentacle of the Deep Terror | 25500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Tentacle_of_the_Deep_Terror) |
+| Tentugly's Head | 75000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Tentugly's_Head) |
+| Terofar | 40000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Terofar) |
+| Terramite | 365 | 15 | 0.89 | 2 | [wiki](https://tibia.fandom.com/wiki/Terramite) |
+| Terrified Elephant | 320 | 20 | 0.64 | 1 | [wiki](https://tibia.fandom.com/wiki/Terrified_Elephant) |
+| Terror Bird | 300 | 13 | 0.84 | 1 | [wiki](https://tibia.fandom.com/wiki/Terror_Bird) |
+| Terrorsleep | 7200 | 80 | 1.74 | 2 | [wiki](https://tibia.fandom.com/wiki/Terrorsleep) |
+| Thaian | 50000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Thaian) |
+| Thaian's Ghost | 5000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Thaian's_Ghost) |
+| Thalas | 4100 | 40 | — | 4 | [wiki](https://tibia.fandom.com/wiki/Thalas) |
+| Thanatursus | 7200 | 78 | 3.22 | 5 | [wiki](https://tibia.fandom.com/wiki/Thanatursus) |
+| Thawing Dragon Lord | 25000 | — | — | 6 | [wiki](https://tibia.fandom.com/wiki/Thawing_Dragon_Lord) |
+| The Abomination | 750000 | — | — | 8 | [wiki](https://tibia.fandom.com/wiki/The_Abomination) |
+| The Armored Voidborn | 60000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/The_Armored_Voidborn) |
+| The Axeorcist | 5100 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/The_Axeorcist) |
+| The Big Bad One | 300 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/The_Big_Bad_One) |
+| The Blazing Time Guardian | 290000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_Blazing_Time_Guardian) |
+| The Blightfather | 400 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_Blightfather) |
+| The Bloodtusk | 600 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/The_Bloodtusk) |
+| The Bloodweb | 1750 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/The_Bloodweb) |
+| The Book of Death | 7800 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_Book_of_Death) |
+| The Book of Secrets | 8000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_Book_of_Secrets) |
+| The Collector | 340 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/The_Collector) |
+| The Corruptor | 100 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_Corruptor) |
+| The Count | 1250 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/The_Count) |
+| The Count of the Core | 500000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/The_Count_of_the_Core) |
+| The Dark Dancer | 805 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/The_Dark_Dancer) |
+| The Diamond Blossom | 20000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_Diamond_Blossom) |
+| The Dread Maiden | 300000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_Dread_Maiden) |
+| The Dreadorian | 9000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/The_Dreadorian) |
+| The End of Days | 90000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_End_of_Days) |
+| The Evil Eye | 1200 | — | — | 6 | [wiki](https://tibia.fandom.com/wiki/The_Evil_Eye) |
+| The False God | 300000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/The_False_God) |
+| The Fear Feaster | 290000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_Fear_Feaster) |
+| The First Dragon | 50000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_First_Dragon) |
+| The Flaming Orchid | 4000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/The_Flaming_Orchid) |
+| The Forgemaster (Creature) | 10500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_Forgemaster_(Creature)) |
+| The Freezing Time Guardian | 290000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_Freezing_Time_Guardian) |
+| The Frog Prince | 55 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/The_Frog_Prince) |
+| The Great Schnitzel | 110000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_Great_Schnitzel) |
+| The Hag | 935 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/The_Hag) |
+| The Hairy One | 325 | 16 | — | 1 | [wiki](https://tibia.fandom.com/wiki/The_Hairy_One) |
+| The Halloween Hare | 2000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_Halloween_Hare) |
+| The Handmaiden | 19500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/The_Handmaiden) |
+| The Horned Fox | 265 | 16 | — | 3 | [wiki](https://tibia.fandom.com/wiki/The_Horned_Fox) |
+| The Hungerer | 2000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_Hungerer) |
+| The Imperor | 15000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/The_Imperor) |
+| The Keeper | 40000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/The_Keeper) |
+| The Lily of Night | 19000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_Lily_of_Night) |
+| The Lord of the Lice | 80000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/The_Lord_of_the_Lice) |
+| The Manhunter | 4500 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/The_Manhunter) |
+| The Many | 5000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/The_Many) |
+| The Masked Marauder | 7320 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/The_Masked_Marauder) |
+| The Mean Masher | 8000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_Mean_Masher) |
+| The Mega Magmaoid | 104000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_Mega_Magmaoid) |
+| The Monster | 45000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_Monster) |
+| The Moonlight Aster | 4500 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/The_Moonlight_Aster) |
+| The Moonsnow Magnolia | 60000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_Moonsnow_Magnolia) |
+| The Mutated Pumpkin | 500000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/The_Mutated_Pumpkin) |
+| The Nightmare Beast | 750000 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/The_Nightmare_Beast) |
+| The Noxious Spawn | 9500 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/The_Noxious_Spawn) |
+| The Obliverator | 9020 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/The_Obliverator) |
+| The Old Whopper | 785 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/The_Old_Whopper) |
+| The Old Widow | 3200 | 45 | — | 2 | [wiki](https://tibia.fandom.com/wiki/The_Old_Widow) |
+| The Pale Count | 50000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/The_Pale_Count) |
+| The Pale Worm | 435000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/The_Pale_Worm) |
+| The Percht Queen | 2300 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_Percht_Queen) |
+| The Pit Lord | 5270 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/The_Pit_Lord) |
+| The Plasmother | 7500 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/The_Plasmother) |
+| The Ravager | 53500 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/The_Ravager) |
+| The Red Knight | 200000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/The_Red_Knight) |
+| The Shatterer | 80000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/The_Shatterer) |
+| The Snapper | 300 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/The_Snapper) |
+| The Souldespoiler | 290000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/The_Souldespoiler) |
+| The Time Guardian | 290000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/The_Time_Guardian) |
+| The Unarmored Voidborn | 250000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/The_Unarmored_Voidborn) |
+| The Voice of Ruin | 5500 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/The_Voice_of_Ruin) |
+| The Weakened Count | 740 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/The_Weakened_Count) |
+| The Welter | 25000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/The_Welter) |
+| The Winter Bloom | 4750 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/The_Winter_Bloom) |
+| Thief (Creature) | 60 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Thief_(Creature)) |
+| Thieving Squirrel | 55 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Thieving_Squirrel) |
+| Thorn Lily | 15000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Thorn_Lily) |
+| Thornback Tortoise | 300 | 24 | 1.09 | 2 | [wiki](https://tibia.fandom.com/wiki/Thornback_Tortoise) |
+| Thornfire Wolf | 600 | 18 | 1.01 | 1 | [wiki](https://tibia.fandom.com/wiki/Thornfire_Wolf) |
+| Thul | 2950 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Thul) |
+| Tibia Bug | 270 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Tibia_Bug) |
+| Tiger | 75 | 5 | 0.6 | 1 | [wiki](https://tibia.fandom.com/wiki/Tiger) |
+| Time Keeper | 2500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Time_Keeper) |
+| Timedisplaced Anomaly (Banuta) | 52500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Timedisplaced_Anomaly_(Banuta)) |
+| Timedisplaced Anomaly (Chazorai) | 56000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Timedisplaced_Anomaly_(Chazorai)) |
+| Timedisplaced Anomaly (Warzone) | 60000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Timedisplaced_Anomaly_(Warzone)) |
+| Timira the Many-Headed | 75000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Timira_the_Many-Headed) |
+| Tiquandas Revenge | 1800 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Tiquandas_Revenge) |
+| Tirecz | 25000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Tirecz) |
+| Toad | 135 | 6 | 0.56 | 2 | [wiki](https://tibia.fandom.com/wiki/Toad) |
+| Tomb Servant | 475 | 22 | 0.72 | 1 | [wiki](https://tibia.fandom.com/wiki/Tomb_Servant) |
+| Tormented Ghost | 210 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Tormented_Ghost) |
+| Tormentor | 4100 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Tormentor) |
+| Tortoise | 185 | 22 | 0.8 | 1 | [wiki](https://tibia.fandom.com/wiki/Tortoise) |
+| Toxic Swarm | 9000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Toxic_Swarm) |
+| Trapped Soul | 1450 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Trapped_Soul) |
+| Travelling Merchant | 100 | 11 | — | 0 | [wiki](https://tibia.fandom.com/wiki/Travelling_Merchant) |
+| Tremendous Tyrant | 11500 | 71 | 2.99 | 0 | [wiki](https://tibia.fandom.com/wiki/Tremendous_Tyrant) |
+| Tremor Worm | 125000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Tremor_Worm) |
+| Tremorak | 10000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Tremorak) |
+| Troll | 50 | 6 | 0.32 | 1 | [wiki](https://tibia.fandom.com/wiki/Troll) |
+| Troll Champion | 75 | 10 | 0.44 | 1 | [wiki](https://tibia.fandom.com/wiki/Troll_Champion) |
+| Troll Guard | 60 | 4 | 0.24 | 1 | [wiki](https://tibia.fandom.com/wiki/Troll_Guard) |
+| Troll Legionnaire | 210 | 12 | 1.01 | 2 | [wiki](https://tibia.fandom.com/wiki/Troll_Legionnaire) |
+| Troll Marauder | 70 | 8 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Troll_Marauder) |
+| Troll-Trained Salamander | 70 | 1 | — | 3 | [wiki](https://tibia.fandom.com/wiki/Troll-Trained_Salamander) |
+| Trollwut | 280 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Trollwut) |
+| Tromphonyte | 3000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Tromphonyte) |
+| Tropical Desolator | 20500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Tropical_Desolator) |
+| True Dawnfire Asura | 8500 | 77 | 3.45 | 3 | [wiki](https://tibia.fandom.com/wiki/True_Dawnfire_Asura) |
+| True Feverbloom Asura | 8600 | 90 | 3.45 | 0 | [wiki](https://tibia.fandom.com/wiki/True_Feverbloom_Asura) |
+| True Frost Flower Asura | 4000 | 72 | 3.36 | 2 | [wiki](https://tibia.fandom.com/wiki/True_Frost_Flower_Asura) |
+| True Midnight Asura | 9000 | 75 | 3.45 | 2 | [wiki](https://tibia.fandom.com/wiki/True_Midnight_Asura) |
+| Truffle | 70 | 13 | 0.6 | 0 | [wiki](https://tibia.fandom.com/wiki/Truffle) |
+| Truffle Cook | 54 | 13 | 0.48 | 0 | [wiki](https://tibia.fandom.com/wiki/Truffle_Cook) |
+| Truffle Worker | 26 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Truffle_Worker) |
+| Tunnel Devourer | 10000 | 63 | — | 4 | [wiki](https://tibia.fandom.com/wiki/Tunnel_Devourer) |
+| Tunnel Tyrant | 5200 | 76 | 2.9 | 4 | [wiki](https://tibia.fandom.com/wiki/Tunnel_Tyrant) |
+| Turbulent Elemental | 28000 | 105 | 4.34 | 4 | [wiki](https://tibia.fandom.com/wiki/Turbulent_Elemental) |
+| Twisted Pooka | 700 | 41 | 1.65 | 2 | [wiki](https://tibia.fandom.com/wiki/Twisted_Pooka) |
+| Twisted Shaper | 2500 | 35 | 1.87 | 2 | [wiki](https://tibia.fandom.com/wiki/Twisted_Shaper) |
+| Twisterror | 35000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Twisterror) |
+| Two-Headed Turtle | 5010 | 72 | 3.22 | 3 | [wiki](https://tibia.fandom.com/wiki/Two-Headed_Turtle) |
+| Tyrn | 12000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Tyrn) |
+| Tzumrah the Dazzler | 1700 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Tzumrah_the_Dazzler) |
+| Ugly Monster | 10000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Ugly_Monster) |
+| Unaz the Mean | 28000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Unaz_the_Mean) |
+| Undead Cavebear | 450 | 28 | 1.14 | 3 | [wiki](https://tibia.fandom.com/wiki/Undead_Cavebear) |
+| Undead Dragon | 8350 | 66 | 2.76 | 5 | [wiki](https://tibia.fandom.com/wiki/Undead_Dragon) |
+| Undead Elite Gladiator | 8000 | 85 | 3.82 | 2 | [wiki](https://tibia.fandom.com/wiki/Undead_Elite_Gladiator) |
+| Undead Gladiator | 1000 | 35 | 2.44 | 2 | [wiki](https://tibia.fandom.com/wiki/Undead_Gladiator) |
+| Undead Jester | 355 | 3 | 0.2 | 0 | [wiki](https://tibia.fandom.com/wiki/Undead_Jester) |
+| Undead Mine Worker | 65 | 5 | 0.4 | 1 | [wiki](https://tibia.fandom.com/wiki/Undead_Mine_Worker) |
+| Undead Minion | 850 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Undead_Minion) |
+| Undead Pet of Chayenne | 8350 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Undead_Pet_of_Chayenne) |
+| Undead Prospector | 100 | 8 | 0.68 | 1 | [wiki](https://tibia.fandom.com/wiki/Undead_Prospector) |
+| Undertaker | 20100 | 77 | 3.54 | 2 | [wiki](https://tibia.fandom.com/wiki/Undertaker) |
+| Unexpected | 3500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Unexpected) |
+| Ungreez | 8200 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Ungreez) |
+| Uninvited | 4700 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Uninvited) |
+| Unsolicited | 3700 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Unsolicited) |
+| Unstable Spark | 10500 | 70 | — | 0 | [wiki](https://tibia.fandom.com/wiki/Unstable_Spark) |
+| Unwanted | 3750 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Unwanted) |
+| Urmahlullu the Immaculate | 120000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Urmahlullu_the_Immaculate) |
+| Ushuriel | 31500 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Ushuriel) |
+| Usurper Archer | 7300 | 82 | 3.68 | 4 | [wiki](https://tibia.fandom.com/wiki/Usurper_Archer) |
+| Usurper Commander | 8500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Usurper_Commander) |
+| Usurper Knight | 8200 | 83 | 3.82 | 4 | [wiki](https://tibia.fandom.com/wiki/Usurper_Knight) |
+| Usurper Warlock | 7500 | 80 | 3.59 | 3 | [wiki](https://tibia.fandom.com/wiki/Usurper_Warlock) |
+| Utua Stone Sting | 6400 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Utua_Stone_Sting) |
+| Valkyrie | 190 | 12 | 0.56 | 2 | [wiki](https://tibia.fandom.com/wiki/Valkyrie) |
+| Vampire | 475 | 28 | 1.65 | 1 | [wiki](https://tibia.fandom.com/wiki/Vampire) |
+| Vampire Bride | 1200 | 55 | 1.87 | 3 | [wiki](https://tibia.fandom.com/wiki/Vampire_Bride) |
+| Vampire Pig | 305 | 20 | 0.97 | 1 | [wiki](https://tibia.fandom.com/wiki/Vampire_Pig) |
+| Vampire Viscount | 1200 | 42 | 1.87 | 1 | [wiki](https://tibia.fandom.com/wiki/Vampire_Viscount) |
+| Vampiric Blood | 3500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Vampiric_Blood) |
+| Vampiric Essence | 20000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Vampiric_Essence) |
+| Varg | 5400 | 63 | 2.67 | 0 | [wiki](https://tibia.fandom.com/wiki/Varg) |
+| Varnished Diremaw | 9000 | 50 | 2.54 | 3 | [wiki](https://tibia.fandom.com/wiki/Varnished_Diremaw) |
+| Vashresamun | 4000 | 40 | — | 2 | [wiki](https://tibia.fandom.com/wiki/Vashresamun) |
+| Venerable Foam Stalker | 5650 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/Venerable_Foam_Stalker) |
+| Venerable Girtablilu | 8500 | 80 | 3.45 | 2 | [wiki](https://tibia.fandom.com/wiki/Venerable_Girtablilu) |
+| Vengar | 50000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Vengar) |
+| Vermin Swarm | 2800 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Vermin_Swarm) |
+| Verminor | 110000 | — | — | 7 | [wiki](https://tibia.fandom.com/wiki/Verminor) |
+| Versperoth | 100000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Versperoth) |
+| Vexclaw | 8500 | 55 | 3.03 | 3 | [wiki](https://tibia.fandom.com/wiki/Vexclaw) |
+| Vibrant Phantom | 27000 | 100 | 3.92 | 3 | [wiki](https://tibia.fandom.com/wiki/Vibrant_Phantom) |
+| Vicious Ink Splash | 1950 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Vicious_Ink_Splash) |
+| Vicious Lich | 880 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Vicious_Lich) |
+| Vicious Manbat | 1700 | 44 | 1.91 | 1 | [wiki](https://tibia.fandom.com/wiki/Vicious_Manbat) |
+| Vicious Squire | 1000 | 30 | 1.96 | 2 | [wiki](https://tibia.fandom.com/wiki/Vicious_Squire) |
+| Vile Destroyer | 3700 | 35 | — | 2 | [wiki](https://tibia.fandom.com/wiki/Vile_Destroyer) |
+| Vile Grandmaster | 1700 | 40 | 2.35 | 3 | [wiki](https://tibia.fandom.com/wiki/Vile_Grandmaster) |
+| Vilear | 50000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Vilear) |
+| Vok the Freakish | 32000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Vok_the_Freakish) |
+| Vortex Spawn | 500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Vortex_Spawn) |
+| Vulcongra | 1600 | 50 | 2.31 | 3 | [wiki](https://tibia.fandom.com/wiki/Vulcongra) |
+| Vulnerable Cocoon | 200000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Vulnerable_Cocoon) |
+| Wafer Paper Butterfly | 2 | 0 | 0.56 | 0 | [wiki](https://tibia.fandom.com/wiki/Wafer_Paper_Butterfly) |
+| Wailing Widow | 850 | 31 | 1.35 | 2 | [wiki](https://tibia.fandom.com/wiki/Wailing_Widow) |
+| Walker | 3000 | 47 | 2.58 | 2 | [wiki](https://tibia.fandom.com/wiki/Walker) |
+| Walking Dread | 25000 | 120 | 4.39 | 1 | [wiki](https://tibia.fandom.com/wiki/Walking_Dread) |
+| Walking Pillar | 38000 | 120 | 4.39 | 0 | [wiki](https://tibia.fandom.com/wiki/Walking_Pillar) |
+| Wandering Pillar | 37000 | 120 | 4.15 | 0 | [wiki](https://tibia.fandom.com/wiki/Wandering_Pillar) |
+| War Golem | 4300 | 35 | 1.87 | 3 | [wiki](https://tibia.fandom.com/wiki/War_Golem) |
+| War Wolf | 140 | 8 | 0.64 | 1 | [wiki](https://tibia.fandom.com/wiki/War_Wolf) |
+| Wardragon | 6960 | 80 | 3.5 | 0 | [wiki](https://tibia.fandom.com/wiki/Wardragon) |
+| Warlock | 3500 | 33 | 2.09 | 4 | [wiki](https://tibia.fandom.com/wiki/Warlock) |
+| Warlord Ruzad | 1500 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Warlord_Ruzad) |
+| Warm Fire | 200 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Warm_Fire) |
+| Wasp | 35 | 4 | 0.32 | 1 | [wiki](https://tibia.fandom.com/wiki/Wasp) |
+| Wasp (Nostalgia) | 35 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Wasp_(Nostalgia)) |
+| Waspoid | 1100 | 36 | 2.44 | 2 | [wiki](https://tibia.fandom.com/wiki/Waspoid) |
+| Water Buffalo | 390 | 35 | 1.65 | 1 | [wiki](https://tibia.fandom.com/wiki/Water_Buffalo) |
+| Water Elemental | 550 | 37 | 1.39 | 3 | [wiki](https://tibia.fandom.com/wiki/Water_Elemental) |
+| Weak Eclipse Knight | 5550 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Weak_Eclipse_Knight) |
+| Weak Gloombringer | 6000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Weak_Gloombringer) |
+| Weak Harbinger of Darkness | 15000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Weak_Harbinger_of_Darkness) |
+| Weak Spawn of Despair | 2500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Weak_Spawn_of_Despair) |
+| Weakened Demon | 5 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Weakened_Demon) |
+| Weakened Frazzlemaw | 1200 | 45 | 2.18 | 2 | [wiki](https://tibia.fandom.com/wiki/Weakened_Frazzlemaw) |
+| Weakened Glooth Horror | 10000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Weakened_Glooth_Horror) |
+| Weakened Shlorg | 10000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Weakened_Shlorg) |
+| Webster | 2950 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Webster) |
+| Weeper | 6800 | 76 | 3.5 | 3 | [wiki](https://tibia.fandom.com/wiki/Weeper) |
+| Werebadger | 1700 | 31 | 1.18 | 3 | [wiki](https://tibia.fandom.com/wiki/Werebadger) |
+| Werebear | 2400 | 38 | 1.44 | 1 | [wiki](https://tibia.fandom.com/wiki/Werebear) |
+| Wereboar | 2200 | 32 | 1.22 | 1 | [wiki](https://tibia.fandom.com/wiki/Wereboar) |
+| Werecrocodile | 5280 | 82 | 3.64 | 3 | [wiki](https://tibia.fandom.com/wiki/Werecrocodile) |
+| Werefox | 1500 | 35 | 1.35 | 0 | [wiki](https://tibia.fandom.com/wiki/Werefox) |
+| Werehyaena | 2700 | 36 | 1.39 | 3 | [wiki](https://tibia.fandom.com/wiki/Werehyaena) |
+| Werehyaena Shaman | 2500 | 38 | 1.44 | 5 | [wiki](https://tibia.fandom.com/wiki/Werehyaena_Shaman) |
+| Werelion | 2800 | 38 | 1.44 | 4 | [wiki](https://tibia.fandom.com/wiki/Werelion) |
+| Werelioness | 3000 | 38 | 1.44 | 3 | [wiki](https://tibia.fandom.com/wiki/Werelioness) |
+| Werepanther | 4200 | 72 | 3.26 | 0 | [wiki](https://tibia.fandom.com/wiki/Werepanther) |
+| Weretiger | 5000 | 76 | 3.45 | 0 | [wiki](https://tibia.fandom.com/wiki/Weretiger) |
+| Werewolf | 1955 | 36 | 1.31 | 1 | [wiki](https://tibia.fandom.com/wiki/Werewolf) |
+| White Deer | 195 | 2 | 0.89 | 0 | [wiki](https://tibia.fandom.com/wiki/White_Deer) |
+| White Lion | 2700 | 38 | 1.44 | 3 | [wiki](https://tibia.fandom.com/wiki/White_Lion) |
+| White Pale | 500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/White_Pale) |
+| White Shade | 260 | 10 | 0.8 | 1 | [wiki](https://tibia.fandom.com/wiki/White_Shade) |
+| White Tiger | 75 | 12 | 0.89 | 1 | [wiki](https://tibia.fandom.com/wiki/White_Tiger) |
+| White Weretiger | 6100 | 83 | 3.59 | 0 | [wiki](https://tibia.fandom.com/wiki/White_Weretiger) |
+| Wiggler | 1200 | 52 | 2.31 | 3 | [wiki](https://tibia.fandom.com/wiki/Wiggler) |
+| Wild Dog | 20 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Wild_Dog) |
+| Wild Horse | 75 | 2 | 0.08 | 0 | [wiki](https://tibia.fandom.com/wiki/Wild_Horse) |
+| Wild Warrior | 135 | 8 | 0.72 | 1 | [wiki](https://tibia.fandom.com/wiki/Wild_Warrior) |
+| Willi Wasp | 250 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Willi_Wasp) |
+| Wilting Leaf Golem | 380 | 21 | 1.05 | 2 | [wiki](https://tibia.fandom.com/wiki/Wilting_Leaf_Golem) |
+| Winged Jaracal | 8200 | 75 | 3.92 | 0 | [wiki](https://tibia.fandom.com/wiki/Winged_Jaracal) |
+| Winter Wolf | 30 | 2 | 0.24 | 1 | [wiki](https://tibia.fandom.com/wiki/Winter_Wolf) |
+| Wisp | 115 | 7 | 0.68 | 0 | [wiki](https://tibia.fandom.com/wiki/Wisp) |
+| Witch | 300 | 8 | 0.48 | 2 | [wiki](https://tibia.fandom.com/wiki/Witch) |
+| Wolf | 25 | 1 | 0.08 | 1 | [wiki](https://tibia.fandom.com/wiki/Wolf) |
+| Wolf (Nostalgia) | 25 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Wolf_(Nostalgia)) |
+| Woodling | 80 | 2 | — | 2 | [wiki](https://tibia.fandom.com/wiki/Woodling) |
+| Worker Golem | 1470 | 35 | 2.09 | 2 | [wiki](https://tibia.fandom.com/wiki/Worker_Golem) |
+| Worker Imp | 13500 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Worker_Imp) |
+| World Devourer | 25000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/World_Devourer) |
+| Worm Priestess | 1100 | 36 | 2.18 | 3 | [wiki](https://tibia.fandom.com/wiki/Worm_Priestess) |
+| Wounded Cave Draptor | 5 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Wounded_Cave_Draptor) |
+| Wrath of the Emperor | 55000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Wrath_of_the_Emperor) |
+| Wrathful Archivist | 15000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Wrathful_Archivist) |
+| Wyrm | 1825 | 34 | 1.31 | 4 | [wiki](https://tibia.fandom.com/wiki/Wyrm) |
+| Wyvern | 795 | 19 | 1.91 | 2 | [wiki](https://tibia.fandom.com/wiki/Wyvern) |
+| Xenia | 200 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Xenia) |
+| Xogixath | 35000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Xogixath) |
+| Yaga the Crone | 620 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Yaga_the_Crone) |
+| Yakchal | 5750 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Yakchal) |
+| Yalahari (Creature) | 150 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Yalahari_(Creature)) |
+| Yeti | 950 | 28 | 1.78 | 3 | [wiki](https://tibia.fandom.com/wiki/Yeti) |
+| Yielothax | 1500 | 32 | 1.56 | 2 | [wiki](https://tibia.fandom.com/wiki/Yielothax) |
+| Yirkas Blue Scales | 6300 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/Yirkas_Blue_Scales) |
+| Young Goanna | 6950 | 78 | 3.45 | 2 | [wiki](https://tibia.fandom.com/wiki/Young_Goanna) |
+| Young Sea Serpent | 1050 | 20 | 1.22 | 3 | [wiki](https://tibia.fandom.com/wiki/Young_Sea_Serpent) |
+| Young Troll | 30 | 2 | — | 1 | [wiki](https://tibia.fandom.com/wiki/Young_Troll) |
+| Zanakeph | 13000 | — | — | 0 | [wiki](https://tibia.fandom.com/wiki/Zanakeph) |
+| Zarabustor | 5100 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Zarabustor) |
+| Zavarash | 35000 | — | — | 3 | [wiki](https://tibia.fandom.com/wiki/Zavarash) |
+| Zevelon Duskbringer | 1400 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Zevelon_Duskbringer) |
+| Zomba | 300 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Zomba) |
+| Zombie | 500 | 20 | 1.31 | 2 | [wiki](https://tibia.fandom.com/wiki/Zombie) |
+| Zorvorax | 10000 | — | — | 2 | [wiki](https://tibia.fandom.com/wiki/Zorvorax) |
+| Zugurosh | 90500 | — | — | 4 | [wiki](https://tibia.fandom.com/wiki/Zugurosh) |
+| Zulazza the Corruptor | 46500 | — | — | 5 | [wiki](https://tibia.fandom.com/wiki/Zulazza_the_Corruptor) |
+| Zushuka | 15000 | — | — | 1 | [wiki](https://tibia.fandom.com/wiki/Zushuka) |
 
 ## Itens
 

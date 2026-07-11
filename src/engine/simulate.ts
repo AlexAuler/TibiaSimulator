@@ -6,7 +6,7 @@
 import { ATTACK_INTERVAL_SEC } from './constants';
 import { resolveSheet } from './character';
 import { computeAutoAttack, computeSpell } from './offense';
-import { computeDefense, expectedArmorReduction } from './defense';
+import { computeDefense, expectedArmorReduction, expectedIncomingDamage } from './defense';
 import { ASSUMPTION } from './assumptions';
 import type { Build } from './schemas/build';
 import type { Datasets } from './schemas/dataset';
@@ -29,6 +29,8 @@ function mitigationFactor(creature: Creature): number {
  * Aplica modificadores do alvo a um dano com composição elemental:
  * componente × modificador elemental; físico ainda sofre redução esperada
  * do armor da criatura (se conhecido); tudo × (1 - mitigation).
+ * Modificador NEGATIVO (criatura curada pelo elemento) subtrai do total;
+ * o total nunca fica abaixo de 0.
  */
 function applyTargetToBreakdown(
   breakdown: Partial<Record<Element, number>>,
@@ -38,12 +40,12 @@ function applyTargetToBreakdown(
   let total = 0;
   for (const [el, dmg] of Object.entries(breakdown) as Array<[Element, number]>) {
     let d = dmg * elementModifier(creature, el);
-    if (el === 'physical' && creature.armor != null) {
+    if (d > 0 && el === 'physical' && creature.armor != null) {
       d = Math.max(0, d - expectedArmorReduction(creature.armor));
     }
     total += d;
   }
-  return total * mit;
+  return Math.max(0, total * mit);
 }
 
 function spellVsTarget(spell: SpellResult, creature: Creature): number {
@@ -112,17 +114,15 @@ export function simulate(build: Build, data: Datasets): SimulationResult {
   });
   if (perSpell.length > 0) assumptions.add(ASSUMPTION.spellFormulasOutdated);
 
-  // ---------- defesa ----------
+  // ---------- defesa (parte estática) ----------
   const defense = computeDefense(sheet);
-  if (sheet.target && sheet.target.attacks.length > 0) assumptions.add(ASSUMPTION.creatureTurn);
 
-  // ---------- contra o alvo ----------
-  let vsTarget: VsTargetResult | null = null;
-  let charmExpectedDps: number | undefined;
-  let charmExpectedDamagePerProc: number | undefined;
+  // ---------- contra os alvos (um por criatura; local de caça = vários) ----------
+  // auto-attack com bônus de crit do charm (mesmo para todos os alvos)
+  const targetAuto = sheet.targets.length > 0 ? computeAutoAttack(sheet, true) : null;
 
-  if (sheet.target) {
-    const creature = sheet.target;
+  const vsTargets: VsTargetResult[] = sheet.targets.map((creature) => {
+    if (creature.attacks.length > 0) assumptions.add(ASSUMPTION.creatureTurn);
     if (creature.armor == null) assumptions.add(ASSUMPTION.creatureArmorMissing);
     assumptions.add(
       creature.mitigationPct != null
@@ -130,28 +130,24 @@ export function simulate(build: Build, data: Datasets): SimulationResult {
         : ASSUMPTION.creatureMitigationMissing,
     );
 
-    // auto-attack com bônus de crit do charm (charm ativo contra o alvo)
-    const targetAuto = computeAutoAttack(sheet, true);
-    const autoAvgVsTarget = targetAuto.result
+    const autoAvgVsTarget = targetAuto?.result
       ? applyTargetToBreakdown(targetAuto.result.breakdownByElement, creature)
       : null;
 
-    for (const s of perSpell) {
-      s.avgVsTarget = spellVsTarget(s, creature);
-    }
-
     const charm = charmProc(sheet, creature, defense.charHp, defense.charMana);
-    if (charm) {
-      assumptions.add(ASSUMPTION.charmOncePerAttack);
-      charmExpectedDps = charm.expectedDps;
-      charmExpectedDamagePerProc = charm.perProc;
-    }
+    if (charm) assumptions.add(ASSUMPTION.charmOncePerAttack);
 
     const autoDps = autoAvgVsTarget != null ? autoAvgVsTarget / ATTACK_INTERVAL_SEC : null;
     const effectiveDps =
-      autoDps != null ? autoDps + (charmExpectedDps ?? 0) : (charmExpectedDps ?? null);
+      autoDps != null ? autoDps + (charm?.expectedDps ?? 0) : (charm?.expectedDps ?? null);
 
-    vsTarget = {
+    const incomingPerAttack = expectedIncomingDamage(sheet, creature);
+    const avgIncomingPerTurn = incomingPerAttack.reduce((s, a) => s + a.expectedDamage, 0);
+
+    return {
+      creatureId: creature.id,
+      creatureName: creature.name,
+      creatureHp: creature.hitpoints,
       effectiveDps,
       autoAttackAvgVsTarget: autoAvgVsTarget,
       hitsToKill:
@@ -160,7 +156,20 @@ export function simulate(build: Build, data: Datasets): SimulationResult {
           : null,
       timeToKillSec:
         effectiveDps != null && effectiveDps > 0 ? creature.hitpoints / effectiveDps : null,
+      ...(charm ? { charmExpectedDps: charm.expectedDps } : {}),
+      ...(charm ? { charmExpectedDamagePerProc: charm.perProc } : {}),
+      incomingPerAttack,
+      avgIncomingPerTurn,
+      hitsToDie: avgIncomingPerTurn > 0 ? defense.charHp / avgIncomingPerTurn : null,
     };
+  });
+
+  // coluna "vs alvo" da tabela de spells: primeiro alvo selecionado
+  const firstTarget = sheet.targets[0];
+  if (firstTarget) {
+    for (const s of perSpell) {
+      s.avgVsTarget = spellVsTarget(s, firstTarget);
+    }
   }
 
   return {
@@ -168,11 +177,9 @@ export function simulate(build: Build, data: Datasets): SimulationResult {
       autoAttack: neutralAuto.result,
       autoAttackUnavailableReason: neutralAuto.unavailableReason,
       perSpell,
-      charmExpectedDps,
-      charmExpectedDamagePerProc,
     },
     defense,
-    vsTarget,
+    vsTargets,
     assumptions: [...assumptions],
   };
 }

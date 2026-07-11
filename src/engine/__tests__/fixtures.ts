@@ -316,6 +316,19 @@ export const fixtureData: Datasets = {
       },
     ],
   },
+  huntingPlaces: {
+    dataVersion: 'test',
+    generatedAt: '2026-07-10',
+    huntingPlaces: [
+      {
+        id: 'test-lair',
+        name: 'Test Lair',
+        levelHint: { knight: 100 },
+        creatureIds: ['test-drake', 'test-dummy'],
+        source: SRC,
+      },
+    ],
+  },
 };
 
 export function makeBuild(partial: Partial<Build>): Build {
@@ -327,6 +340,7 @@ export function makeBuild(partial: Partial<Build>): Build {
     attackMode: 'offensive',
     equipment: {},
     charmStage: 3,
+    targetCreatureIds: [],
     selectedSpellIds: [],
     ...partial,
   };

@@ -21,7 +21,12 @@ export const BuildSchema = z.object({
   charmId: z.string().optional(),
   /** estágio de upgrade do charm (rework 2024): 1..3 */
   charmStage: z.union([z.literal(1), z.literal(2), z.literal(3)]).default(3),
+  /** legado (permalinks v1 antigos) — migrado para targetCreatureIds no load */
   targetCreatureId: z.string().optional(),
+  /** alvos da simulação; um local de caça seleciona vários de uma vez */
+  targetCreatureIds: z.array(z.string()).default([]),
+  /** local de caça que originou a seleção (para exibir na UI) */
+  huntingPlaceId: z.string().optional(),
   selectedSpellIds: z.array(z.string()).default([]),
 });
 
@@ -37,6 +42,15 @@ export function emptyBuild(): Build {
     attackMode: 'offensive',
     equipment: {},
     charmStage: 3,
+    targetCreatureIds: [],
     selectedSpellIds: [],
   };
+}
+
+/** Migra permalinks antigos (targetCreatureId único) para a lista. */
+export function migrateBuild(build: Build): Build {
+  if (build.targetCreatureId && build.targetCreatureIds.length === 0) {
+    return { ...build, targetCreatureIds: [build.targetCreatureId], targetCreatureId: undefined };
+  }
+  return build;
 }

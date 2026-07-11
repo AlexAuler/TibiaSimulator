@@ -8,6 +8,7 @@ import creaturesRaw from '../../data/seed/creatures.json';
 import spellsRaw from '../../data/seed/spells.json';
 import imbuementsRaw from '../../data/seed/imbuements.json';
 import charmsRaw from '../../data/seed/charms.json';
+import huntingPlacesRaw from '../../data/seed/hunting-places.json';
 
 import {
   ItemsFileSchema,
@@ -15,6 +16,7 @@ import {
   SpellsFileSchema,
   ImbuementsFileSchema,
   CharmsFileSchema,
+  HuntingPlacesFileSchema,
   type Datasets,
 } from '@/engine/schemas/dataset';
 import type { Item } from '@/engine/schemas/item';
@@ -22,6 +24,7 @@ import type { Creature } from '@/engine/schemas/creature';
 import type { Spell } from '@/engine/schemas/spell';
 import type { Imbuement } from '@/engine/schemas/imbuement';
 import type { OffensiveCharm } from '@/engine/schemas/charm';
+import type { HuntingPlace } from '@/engine/schemas/hunting-place';
 import type { Slot, Vocation } from '@/engine/schemas/enums';
 
 export const datasets: Datasets = {
@@ -30,6 +33,7 @@ export const datasets: Datasets = {
   spells: SpellsFileSchema.parse(spellsRaw),
   imbuements: ImbuementsFileSchema.parse(imbuementsRaw),
   charms: CharmsFileSchema.parse(charmsRaw),
+  huntingPlaces: HuntingPlacesFileSchema.parse(huntingPlacesRaw),
 };
 
 export const allItems: Item[] = datasets.items.items;
@@ -39,12 +43,16 @@ export const allCreatures: Creature[] = [...datasets.creatures.creatures].sort((
 export const allSpells: Spell[] = datasets.spells.spells;
 export const allImbuements: Imbuement[] = datasets.imbuements.imbuements;
 export const allCharms: OffensiveCharm[] = datasets.charms.charms;
+export const allHuntingPlaces: HuntingPlace[] = [...datasets.huntingPlaces.huntingPlaces].sort(
+  (a, b) => a.name.localeCompare(b.name),
+);
 
 export const itemById = new Map(allItems.map((i) => [i.id, i]));
 export const creatureById = new Map(allCreatures.map((c) => [c.id, c]));
 export const spellById = new Map(allSpells.map((s) => [s.id, s]));
 export const imbuementById = new Map(allImbuements.map((i) => [i.id, i]));
 export const charmById = new Map(allCharms.map((c) => [c.id, c]));
+export const huntingPlaceById = new Map(allHuntingPlaces.map((h) => [h.id, h]));
 
 export function itemFitsVocation(item: Item, vocation: Vocation): boolean {
   return item.vocations.length === 0 || item.vocations.includes(vocation);

@@ -3,7 +3,7 @@
  * materializados e skills efetivas. Puro: entrada Build + Datasets.
  */
 
-import type { Build } from './schemas/build';
+import { migrateBuild, type Build } from './schemas/build';
 import type { Datasets } from './schemas/dataset';
 import type { Item } from './schemas/item';
 import type { Imbuement } from './schemas/imbuement';
@@ -26,13 +26,15 @@ export interface CharacterSheet {
   ammo: EquippedEntry | null;
   charm: OffensiveCharm | null;
   charmStage: CharmStage;
-  target: Creature | null;
+  /** alvos da simulação (um local de caça seleciona vários) */
+  targets: Creature[];
   spells: Spell[];
   /** skill base + bônus de equipamento + imbuements skillBoost */
   effectiveSkill: (key: SkillKey) => number;
 }
 
-export function resolveSheet(build: Build, data: Datasets): CharacterSheet {
+export function resolveSheet(rawBuild: Build, data: Datasets): CharacterSheet {
+  const build = migrateBuild(rawBuild); // permalinks antigos: targetCreatureId único
   const itemById = new Map(data.items.items.map((i) => [i.id, i]));
   const imbById = new Map(data.imbuements.imbuements.map((i) => [i.id, i]));
   const spellById = new Map(data.spells.spells.map((s) => [s.id, s]));
@@ -67,9 +69,10 @@ export function resolveSheet(build: Build, data: Datasets): CharacterSheet {
     ? (data.charms.charms.find((c) => c.id === build.charmId) ?? null)
     : null;
 
-  const target = build.targetCreatureId
-    ? (data.creatures.creatures.find((c) => c.id === build.targetCreatureId) ?? null)
-    : null;
+  const creatureById = new Map(data.creatures.creatures.map((c) => [c.id, c]));
+  const targets = build.targetCreatureIds
+    .map((id) => creatureById.get(id))
+    .filter((c): c is Creature => Boolean(c));
 
   const spells = build.selectedSpellIds
     .map((id) => spellById.get(id))
@@ -83,7 +86,7 @@ export function resolveSheet(build: Build, data: Datasets): CharacterSheet {
     ammo: bySlot('ammo'),
     charm,
     charmStage: build.charmStage,
-    target,
+    targets,
     spells,
     effectiveSkill: (key) => (build.skills[key] ?? 0) + skillBonus(key),
   };

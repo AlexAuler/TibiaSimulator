@@ -6,8 +6,8 @@
  * bloco de premissas sempre visível.
  */
 
-import type { SimulationResult } from '@/engine/schemas/result';
-import type { Creature } from '@/engine/schemas/creature';
+import { useState } from 'react';
+import type { SimulationResult, VsTargetResult } from '@/engine/schemas/result';
 import { ELEMENT_COLOR, fmt0, fmt1, fmtSeconds } from '@/lib/format';
 import { S } from '@/lib/strings';
 import { EstimateBadge, InfoTip, Panel, StatRow, ElementBadge, Sprite } from './ui';
@@ -186,96 +186,157 @@ function DefenseCard({ result }: { result: SimulationResult }) {
           ))}
         </div>
       )}
+    </Panel>
+  );
+}
 
-      {d.perCreatureAttack.length > 0 && (
+/** Detalhe expandido de uma linha da tabela de alvos. */
+function VsTargetDetail({ vs }: { vs: VsTargetResult }) {
+  return (
+    <div className="space-y-1 border-t border-ink-600/40 bg-ink-900/40 px-3 py-2">
+      <StatRow
+        label={S.results.effectiveDps}
+        value={vs.effectiveDps != null ? fmt1(vs.effectiveDps) : '—'}
+        tip={S.results.tooltips.effDps}
+      />
+      {vs.charmExpectedDps != null && (
         <>
-          <h3 className="mt-3 mb-1 text-sm font-semibold text-parchment-300">
+          <StatRow
+            label={S.results.charmDps}
+            value={fmt1(vs.charmExpectedDps)}
+            tip={S.results.tooltips.charm}
+          />
+          <StatRow
+            label={S.results.charmPerProc}
+            value={fmt0(vs.charmExpectedDamagePerProc ?? 0)}
+            tip={S.results.tooltips.charm}
+          />
+        </>
+      )}
+      <StatRow
+        label={S.results.timeToKill}
+        value={vs.timeToKillSec != null ? fmtSeconds(vs.timeToKillSec) : '—'}
+        tip={S.results.tooltips.ttk}
+      />
+      {vs.incomingPerAttack.length > 0 && (
+        <>
+          <h4 className="mt-1 text-xs font-semibold text-parchment-300">
             {S.results.incoming}
             <InfoTip tip={S.results.tooltips.incoming} />
-          </h3>
+          </h4>
           <ul className="space-y-0.5 text-xs">
-            {d.perCreatureAttack.map((a, i) => (
+            {vs.incomingPerAttack.map((a, i) => (
               <li key={i} className="flex items-center justify-between">
                 <ElementBadge element={a.element} label={a.attackName} />
                 <span className="text-parchment-200 tabular-nums">{fmt0(a.expectedDamage)}</span>
               </li>
             ))}
           </ul>
-          <div className="mt-2 border-t border-ink-600/50 pt-1">
-            <StatRow label={S.results.perTurn} value={fmt0(d.avgIncomingPerTurn)} />
-            <StatRow
-              label={S.results.hitsToDie}
-              value={d.hitsToDie != null ? fmt1(d.hitsToDie) : '—'}
-              tip={S.results.tooltips.hitsToDie}
-            />
-          </div>
+          <StatRow label={S.results.perTurn} value={fmt0(vs.avgIncomingPerTurn)} />
+          <StatRow
+            label={S.results.hitsToDie}
+            value={vs.hitsToDie != null ? fmt1(vs.hitsToDie) : '—'}
+            tip={S.results.tooltips.hitsToDie}
+          />
         </>
       )}
-    </Panel>
+    </div>
   );
 }
 
-function VsTargetCard({ result, target }: { result: SimulationResult; target: Creature | null }) {
-  const vs = result.vsTarget;
+function VsTargetsCard({ result }: { result: SimulationResult }) {
+  const [openId, setOpenId] = useState<string | null>(null);
+  const vsTargets = result.vsTargets;
   return (
     <Panel title={S.results.vsTarget} badge={<EstimateBadge />}>
-      {!vs || !target ? (
+      {vsTargets.length === 0 ? (
         <p className="rounded border border-dashed border-ink-500 bg-ink-800/40 px-3 py-6 text-center text-sm text-parchment-500">
           {S.results.pickCreature}
         </p>
       ) : (
         <>
-          <div className="mb-3 flex items-center gap-2 text-sm text-parchment-300">
-            <Sprite src={`/sprites/creatures/${target.id}.gif`} alt={target.name} size={32} />
-            <span className="font-display">{target.name}</span>
-            <span className="ml-auto text-xs text-parchment-600">{fmt0(target.hitpoints)} HP</span>
+          <p className="mb-1.5 text-[11px] text-parchment-600">{S.results.vsHint}</p>
+          <div className="overflow-x-auto">
+            <table className="w-full text-xs">
+              <thead>
+                <tr className="border-b border-ink-600/60 text-left text-[10px] uppercase tracking-wider text-parchment-600">
+                  <th className="py-1 pr-2">{S.results.vsCols.creature}</th>
+                  <th className="py-1 pr-2 text-right">
+                    {S.results.vsCols.effDps}
+                    <InfoTip tip={S.results.tooltips.effDps} />
+                  </th>
+                  <th className="py-1 pr-2 text-right">
+                    {S.results.vsCols.hits}
+                    <InfoTip tip={S.results.tooltips.hitsToKill} />
+                  </th>
+                  <th className="py-1 pr-2 text-right">
+                    {S.results.vsCols.incoming}
+                    <InfoTip tip={S.results.tooltips.incoming} />
+                  </th>
+                  <th className="py-1 text-right">
+                    {S.results.vsCols.hitsToDie}
+                    <InfoTip tip={S.results.tooltips.hitsToDie} />
+                  </th>
+                </tr>
+              </thead>
+              {vsTargets.map((vs) => (
+                <tbody key={vs.creatureId}>
+                  <tr
+                    onClick={() => setOpenId(openId === vs.creatureId ? null : vs.creatureId)}
+                    className={`cursor-pointer border-b border-ink-700/40 transition hover:bg-ink-800/60 ${
+                      openId === vs.creatureId ? 'bg-ink-800/80' : ''
+                    }`}
+                  >
+                    <td className="py-1.5 pr-2">
+                      <span className="flex items-center gap-1.5 text-parchment-100">
+                        <Sprite
+                          src={`/sprites/creatures/${vs.creatureId}.gif`}
+                          alt={vs.creatureName}
+                          size={22}
+                        />
+                        <span className="min-w-0">
+                          <span className="block truncate">{vs.creatureName}</span>
+                          <span className="block text-[10px] text-parchment-600">
+                            {fmt0(vs.creatureHp)} HP
+                          </span>
+                        </span>
+                      </span>
+                    </td>
+                    <td className="py-1.5 pr-2 text-right text-parchment-100 tabular-nums">
+                      {vs.effectiveDps != null ? fmt1(vs.effectiveDps) : '—'}
+                    </td>
+                    <td className="py-1.5 pr-2 text-right text-parchment-300 tabular-nums">
+                      {vs.hitsToKill != null ? fmt1(vs.hitsToKill) : '—'}
+                    </td>
+                    <td className="py-1.5 pr-2 text-right text-parchment-300 tabular-nums">
+                      {vs.avgIncomingPerTurn > 0 ? fmt0(vs.avgIncomingPerTurn) : '—'}
+                    </td>
+                    <td className="py-1.5 text-right text-parchment-300 tabular-nums">
+                      {vs.hitsToDie != null ? fmt1(vs.hitsToDie) : '—'}
+                    </td>
+                  </tr>
+                  {openId === vs.creatureId && (
+                    <tr>
+                      <td colSpan={5} className="p-0">
+                        <VsTargetDetail vs={vs} />
+                      </td>
+                    </tr>
+                  )}
+                </tbody>
+              ))}
+            </table>
           </div>
-          <StatRow
-            label={S.results.effectiveDps}
-            value={vs.effectiveDps != null ? fmt1(vs.effectiveDps) : '—'}
-            tip={S.results.tooltips.effDps}
-          />
-          {result.offense.charmExpectedDps != null && (
-            <>
-              <StatRow
-                label={S.results.charmDps}
-                value={fmt1(result.offense.charmExpectedDps)}
-                tip={S.results.tooltips.charm}
-              />
-              <StatRow
-                label={S.results.charmPerProc}
-                value={fmt0(result.offense.charmExpectedDamagePerProc ?? 0)}
-                tip={S.results.tooltips.charm}
-              />
-            </>
-          )}
-          <StatRow
-            label={S.results.hitsToKill}
-            value={vs.hitsToKill != null ? fmt1(vs.hitsToKill) : '—'}
-            tip={S.results.tooltips.hitsToKill}
-          />
-          <StatRow
-            label={S.results.timeToKill}
-            value={vs.timeToKillSec != null ? fmtSeconds(vs.timeToKillSec) : '—'}
-            tip={S.results.tooltips.ttk}
-          />
         </>
       )}
     </Panel>
   );
 }
 
-export default function ResultsPanel({
-  result,
-  target,
-}: {
-  result: SimulationResult;
-  target: Creature | null;
-}) {
+export default function ResultsPanel({ result }: { result: SimulationResult }) {
   return (
     <div className="space-y-4">
       <OffenseCard result={result} />
-      <VsTargetCard result={result} target={target} />
+      <VsTargetsCard result={result} />
       <DefenseCard result={result} />
 
       <details className="rounded border border-ink-600/60 bg-ink-850/70 px-4 py-3 text-xs open:pb-4">

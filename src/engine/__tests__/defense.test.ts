@@ -5,6 +5,7 @@ import {
   aggregateResistances,
   defenseValue,
   computeDefense,
+  expectedIncomingDamage,
 } from '../defense';
 import { armorReductionRange, HP_FORMULA, MANA_FORMULA } from '../constants';
 import { resolveSheet } from '../character';
@@ -128,15 +129,18 @@ describe('dano recebido e hits para morrer', () => {
         armor: { itemId: 'test-armor', imbuementIds: [] },
       },
     });
-    const d = computeDefense(resolveSheet(build, fixtureData));
-    expect(totalArmor(resolveSheet(build, fixtureData))).toBe(25);
+    const sheet = resolveSheet(build, fixtureData);
+    const d = computeDefense(sheet);
+    expect(totalArmor(sheet)).toBe(25);
     expect(d.charHp).toBe(4565);
-    const melee = d.perCreatureAttack.find((a) => a.attackName === 'melee')!;
-    const fire = d.perCreatureAttack.find((a) => a.attackName === 'fire wave')!;
+    const incoming = expectedIncomingDamage(sheet, sheet.targets[0]);
+    const melee = incoming.find((a) => a.attackName === 'melee')!;
+    const fire = incoming.find((a) => a.attackName === 'fire wave')!;
     expect(melee.expectedDamage).toBeCloseTo(182.5, 6);
     expect(fire.expectedDamage).toBeCloseTo(128.25, 6);
-    expect(d.avgIncomingPerTurn).toBeCloseTo(310.75, 6);
-    expect(d.hitsToDie).toBeCloseTo(4565 / 310.75, 4);
+    const perTurn = incoming.reduce((s, a) => s + a.expectedDamage, 0);
+    expect(perTurn).toBeCloseTo(310.75, 6);
+    expect(d.charHp / perTurn).toBeCloseTo(4565 / 310.75, 4);
   });
 
   it('proteção 100% zera o dano do elemento (propriedade)', () => {
@@ -164,9 +168,8 @@ describe('dano recebido e hits para morrer', () => {
     expect(res.fire).toBeCloseTo(100, 6);
   });
 
-  it('sem alvo => sem ataques e hitsToDie null', () => {
-    const d = computeDefense(resolveSheet(makeBuild({}), fixtureData));
-    expect(d.perCreatureAttack).toEqual([]);
-    expect(d.hitsToDie).toBeNull();
+  it('sem alvo => nenhum target resolvido na ficha', () => {
+    const sheet = resolveSheet(makeBuild({}), fixtureData);
+    expect(sheet.targets).toEqual([]);
   });
 });
