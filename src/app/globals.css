@@ -1,0 +1,123 @@
+@import 'tailwindcss';
+
+/**
+ * Tema "dark fantasy sóbrio" (Seção 8 do plano): pedra/pergaminho/dourado
+ * discreto. Tokens próprios em vez de paleta genérica de template.
+ */
+@theme {
+  --color-ink-950: #0f0c08;
+  --color-ink-900: #16120c;
+  --color-ink-850: #1c1711;
+  --color-ink-800: #241d14;
+  --color-ink-700: #2f2619;
+  --color-ink-600: #3c3021;
+  --color-ink-500: #4d3f2b;
+
+  --color-parchment-100: #f2e8d5;
+  --color-parchment-200: #e8dcc3;
+  --color-parchment-300: #d9caa9;
+  --color-parchment-400: #c9b995;
+  --color-parchment-500: #a8977a;
+  --color-parchment-600: #8a7a5f;
+
+  --color-gold-300: #e3c778;
+  --color-gold-400: #d4b360;
+  --color-gold-500: #c9a44c;
+  --color-gold-600: #a98738;
+  --color-gold-700: #7d6524;
+
+  --color-blood-500: #b04040;
+  --color-blood-600: #8a2f2f;
+
+  --font-display: var(--font-cinzel), 'Georgia', serif;
+  --font-body: var(--font-alegreya), 'Georgia', serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  background:
+    radial-gradient(1200px 600px at 70% -10%, rgba(201, 164, 76, 0.06), transparent 60%),
+    radial-gradient(900px 500px at -10% 110%, rgba(176, 64, 64, 0.05), transparent 55%),
+    var(--color-ink-950);
+  color: var(--color-parchment-200);
+  font-family: var(--font-body);
+  min-height: 100dvh;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+  letter-spacing: 0.02em;
+}
+
+/* sprites do jogo: pixel art nítida */
+.sprite {
+  image-rendering: pixelated;
+}
+
+/* tooltip acessível via data-tip (hover + focus) */
+.tip {
+  position: relative;
+  cursor: help;
+  border-bottom: 1px dotted var(--color-parchment-600);
+}
+.tip::after {
+  content: attr(data-tip);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 8px);
+  transform: translateX(-50%) scale(0.98);
+  background: var(--color-ink-800);
+  color: var(--color-parchment-200);
+  border: 1px solid var(--color-gold-700);
+  border-radius: 6px;
+  padding: 8px 10px;
+  width: max-content;
+  max-width: 280px;
+  font-size: 12px;
+  line-height: 1.35;
+  text-align: left;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 120ms ease;
+  z-index: 50;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.5);
+}
+.tip:hover::after,
+.tip:focus-visible::after {
+  opacity: 1;
+}
+
+/* barra de rolagem discreta */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-ink-500) transparent;
+}
+
+::selection {
+  background: var(--color-gold-700);
+  color: var(--color-parchment-100);
+}
+
+input[type='number']::-webkit-inner-spin-button {
+  opacity: 0.4;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.fadein {
+  animation: fadein 160ms ease-out;
+}
