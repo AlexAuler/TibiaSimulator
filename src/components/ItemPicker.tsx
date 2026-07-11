@@ -9,8 +9,8 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import type { Item } from '@/engine/schemas/item';
 import type { Slot } from '@/engine/schemas/enums';
-import { itemsForSlot } from '@/lib/data';
-import { useSimStore } from '@/lib/store';
+import { itemById, itemsForSlot } from '@/lib/data';
+import { twoHandedConflict, useSimStore } from '@/lib/store';
 import { S } from '@/lib/strings';
 import { Sprite, ElementBadge } from './ui';
 
@@ -39,10 +39,22 @@ function itemStats(item: Item): string[] {
 export default function ItemPicker({ slot, onClose }: { slot: Slot; onClose: () => void }) {
   const build = useSimStore((s) => s.build);
   const equip = useSimStore((s) => s.equip);
+  const unequip = useSimStore((s) => s.unequip);
   const [query, setQuery] = useState('');
   const [cursor, setCursor] = useState(0);
   const inputRef = useRef<HTMLInputElement>(null);
   const listRef = useRef<HTMLUListElement>(null);
+
+  const equippedItem = build.equipment[slot]
+    ? itemById.get(build.equipment[slot].itemId)
+    : undefined;
+  // Regra do jogo: com arma de 2 mãos, o offhand só aceita quiver (e apenas
+  // se a arma for de distância). Itens em conflito ficam desabilitados.
+  const equippedWeapon =
+    slot === 'offhand' && build.equipment.weapon
+      ? itemById.get(build.equipment.weapon.itemId)
+      : undefined;
+  const isBlocked = (item: Item) => twoHandedConflict(equippedWeapon, item);
 
   const candidates = useMemo(
     () => itemsForSlot(slot, build.vocation, build.level),
@@ -66,7 +78,13 @@ export default function ItemPicker({ slot, onClose }: { slot: Slot; onClose: () 
   }, [cursor]);
 
   const select = (item: Item) => {
+    if (isBlocked(item)) return;
     equip(slot, item.id);
+    onClose();
+  };
+
+  const removeEquipped = () => {
+    unequip(slot);
     onClose();
   };
 
@@ -129,6 +147,20 @@ export default function ItemPicker({ slot, onClose }: { slot: Slot; onClose: () 
           role="listbox"
           className="max-h-[50vh] overflow-y-auto p-2"
         >
+          {equippedItem && (
+            <li className="mb-1 border-b border-ink-600/50 pb-1">
+              <button
+                type="button"
+                onClick={removeEquipped}
+                className="flex w-full items-center gap-2 rounded px-2 py-2 text-left text-sm text-blood-500 transition hover:bg-blood-600/10"
+              >
+                <span aria-hidden className="inline-flex w-8 justify-center text-base">
+                  ✕
+                </span>
+                {S.equipment.removeEquipped(equippedItem.name)}
+              </button>
+            </li>
+          )}
           {filtered.length === 0 && (
             <li className="px-3 py-6 text-center text-sm text-parchment-500">
               {S.equipment.noItems}
@@ -136,15 +168,18 @@ export default function ItemPicker({ slot, onClose }: { slot: Slot; onClose: () 
           )}
           {filtered.map((item, idx) => {
             const locked = item.minLevel > build.level;
+            const blocked = isBlocked(item);
             return (
               <li key={item.id} data-index={idx} role="option" aria-selected={idx === cursor}>
                 <button
                   type="button"
                   onClick={() => select(item)}
                   onMouseEnter={() => setCursor(idx)}
+                  disabled={blocked}
+                  title={blocked ? S.equipment.twoHandedBlocked : undefined}
                   className={`flex w-full items-center gap-3 rounded px-2 py-2 text-left transition ${
-                    idx === cursor ? 'bg-ink-700' : 'hover:bg-ink-800'
-                  } ${locked ? 'opacity-60' : ''}`}
+                    idx === cursor && !blocked ? 'bg-ink-700' : blocked ? '' : 'hover:bg-ink-800'
+                  } ${blocked ? 'cursor-not-allowed opacity-35' : locked ? 'opacity-60' : ''}`}
                 >
                   <Sprite src={`/sprites/items/${item.id}.gif`} alt={item.name} size={32} />
                   <span className="min-w-0 flex-1">
@@ -154,6 +189,11 @@ export default function ItemPicker({ slot, onClose }: { slot: Slot; onClose: () 
                     </span>
                     {item.attack?.element && <ElementBadge element={item.attack.element.type} />}
                   </span>
+                  {blocked && (
+                    <span className="shrink-0 rounded border border-blood-600/70 bg-blood-600/15 px-1.5 py-0.5 text-[10px] text-blood-500">
+                      {S.equipment.twoHandedChip}
+                    </span>
+                  )}
                   {item.minLevel > 0 && (
                     <span
                       className={`shrink-0 rounded border px-1.5 py-0.5 text-[10px] tabular-nums ${

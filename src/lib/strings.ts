@@ -55,6 +55,11 @@ export const S = {
     searchPlaceholder: 'Buscar item...',
     noItems: 'Nenhum item compatível com slot, vocação e level.',
     remove: 'Remover',
+    removeEquipped: (name: string) => `Remover ${name} (deixar slot vazio)`,
+    twoHandedChip: '2 mãos',
+    twoHandedBlocked: 'bloqueado: arma de duas mãos equipada',
+    twoHandedRemoved: (name: string) =>
+      `${name} foi removido: arma de duas mãos não permite item na outra mão (quiver com arma de distância é a exceção).`,
     imbuements: 'Imbuements',
     imbuementEmpty: 'sem imbuement',
     levelReq: (lvl: number) => `level ${lvl}+`,
