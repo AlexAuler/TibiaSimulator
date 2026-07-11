@@ -669,6 +669,16 @@ function convertItem(title, text) {
                 ? 'shield'
                 : 'other';
 
+  // offhand: escudo/spellbook/quiver — usado pela regra de duas mãos na UI
+  const offhandKind =
+    primary === 'shields'
+      ? 'shield'
+      : primary === 'spellbooks'
+        ? 'spellbook'
+        : primary === 'quivers'
+          ? 'quiver'
+          : undefined;
+
   const item = {
     id: slug(title),
     name: box.name?.trim() || title,
@@ -676,6 +686,7 @@ function convertItem(title, text) {
     vocations: parseVocations(box.vocrequired),
     minLevel: num(box.levelrequired) ?? 0,
     ...(weaponType ? { weaponType } : {}),
+    ...(offhandKind ? { offhandKind } : {}),
     ...(hands ? { hands } : {}),
     ...(attack ? { attack } : {}),
     ...(wandDamage ? { wandDamage } : {}),

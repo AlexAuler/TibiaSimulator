@@ -36,6 +36,12 @@ export const ItemSchema = z.object({
   weaponType: z
     .enum(['sword', 'axe', 'club', 'fist', 'distance', 'wand', 'rod', 'none'])
     .optional(),
+  /**
+   * Tipo do item de offhand. Regra do jogo: arma de duas mãos bloqueia o
+   * offhand, EXCETO quiver com arma de distância
+   * (https://tibia.fandom.com/wiki/Quivers).
+   */
+  offhandKind: z.enum(['shield', 'spellbook', 'quiver']).optional(),
   hands: z.union([z.literal(1), z.literal(2)]).optional(),
   attack: ItemAttackSchema.optional(),
   /** faixa de dano fixa de wands/rods */
