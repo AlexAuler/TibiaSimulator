@@ -7,7 +7,7 @@
 
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { simulate } from '@/engine/simulate';
-import { creatureById, datasets } from '@/lib/data';
+import { datasets } from '@/lib/data';
 import { BUILD_PARAM, decodeBuild, encodeBuild } from '@/lib/serialize';
 import { useSimStore } from '@/lib/store';
 import { S } from '@/lib/strings';
@@ -58,7 +58,6 @@ export default function SimulatorApp() {
   const [tab, setTab] = useState<Tab>('character');
 
   const result = useMemo(() => simulate(build, datasets), [build]);
-  const target = build.targetCreatureId ? (creatureById.get(build.targetCreatureId) ?? null) : null;
 
   const characterCol = (
     <div className="space-y-4">
@@ -73,7 +72,7 @@ export default function SimulatorApp() {
       <CreaturePicker />
     </div>
   );
-  const resultsCol = <ResultsPanel result={result} target={target} />;
+  const resultsCol = <ResultsPanel result={result} />;
 
   return (
     <div>
