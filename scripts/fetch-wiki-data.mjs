@@ -65,104 +65,30 @@ const CREATURES = [
   'Cobra Vizier',
 ];
 
-const ITEMS = [
-  // swords
-  'Falcon Longsword',
-  'Magic Sword',
-  'Giant Sword',
-  'Summerblade',
-  'Sanguine Blade',
-  'Grand Sanguine Blade',
-  'Gnome Sword',
-  // axes
-  'Falcon Battleaxe',
-  'War Axe',
-  'Solar Axe',
-  'Cobra Axe',
-  'Sanguine Battleaxe',
-  'Grand Sanguine Battleaxe',
-  // clubs
-  'Falcon Mace',
-  'Cobra Club',
-  'Cranial Basher',
-  'Sulphurous Demonbone',
-  'Sanguine Bludgeon',
-  'Grand Sanguine Bludgeon',
-  // distance + ammo
-  'Falcon Bow',
-  'Living Vine Bow',
-  'Cobra Crossbow',
-  'Warsinger Bow',
-  'Umbral Master Bow',
-  'Soulbleeder',
-  'Soulpiercer',
-  'Crystalline Arrow',
-  'Spectral Bolt',
-  'Diamond Arrow',
-  'Prismatic Bolt',
-  // wands/rods
-  'Wand of Inferno',
-  'Cobra Wand',
-  'Falcon Wand',
-  'Wand of Destruction',
-  'Soulhexer',
-  'Underworld Rod',
-  'Cobra Rod',
-  'Falcon Rod',
-  'Rod of Destruction',
-  'Soultainter',
-  // offhand
-  'Falcon Shield',
-  'Falcon Escutcheon',
-  'Gnome Shield',
-  'Ectoplasmic Shield',
-  'Phoenix Shield',
-  'Spellbook of Dark Mysteries',
-  'Spellbook of Ancient Arcana',
-  'Blue Quiver',
-  'Red Quiver',
-  // helmets
-  'Falcon Coif',
-  'Cobra Hood',
-  'Zaoan Helmet',
-  'Helmet of the Lost',
-  'Dark Whispers',
-  'Galea Mortis',
-  'Gnome Helmet',
-  // armors
-  'Falcon Plate',
-  'Gnome Armor',
-  'Prismatic Armor',
-  'Ornate Chestplate',
-  'Magic Plate Armor',
-  'Toga Mortis',
-  'Ghost Chestplate',
-  // legs
-  'Ornate Legs',
-  'Prismatic Legs',
-  'Gnome Legs',
-  'Zaoan Legs',
-  'Dwarven Legs',
-  // boots
-  'Boots of Haste',
-  'Pair of Dreamwalkers',
-  'Prismatic Boots',
-  'Cobra Boots',
-  // amulets
-  'Enchanted Sleep Shawl',
-  'Onyx Pendant',
-  'Gill Necklace',
-  'Prismatic Necklace',
-  'Collar of Blue Plasma',
-  'Collar of Red Plasma',
-  'Collar of Green Plasma',
-  // rings
-  'Might Ring',
-  'Prismatic Ring',
-  'Ring of Blue Plasma',
-  'Ring of Red Plasma',
-  'Ring of Green Plasma',
-  'Ring of Souls',
+/**
+ * Catálogo COMPLETO de equipamentos: os títulos são enumerados das
+ * categorias da TibiaWiki (list=categorymembers) em vez de lista curada.
+ * O parse continua vindo do Infobox Object de cada página; páginas com o
+ * banner {{Deprecated}} (conteúdo removido do jogo) são puladas.
+ */
+const ITEM_CATEGORIES = [
+  'Sword Weapons',
+  'Axe Weapons',
+  'Club Weapons',
+  'Fist Fighting Weapons',
+  'Distance Weapons',
+  'Wands',
+  'Rods',
+  'Ammunition',
+  'Quivers',
+  'Shields',
+  'Spellbooks',
+  'Helmets',
+  'Armors',
+  'Legs',
+  'Boots',
+  'Amulets and Necklaces',
+  'Rings',
 ];
 
 /**
@@ -307,6 +233,27 @@ const slug = (t) =>
 
 const pageUrl = (title) =>
   'https://tibia.fandom.com/wiki/' + encodeURIComponent(title.replace(/ /g, '_'));
+
+/** Enumera os títulos (ns=0) de uma categoria, seguindo cmcontinue. */
+async function fetchCategoryMembers(category) {
+  const titles = [];
+  let cont = '';
+  do {
+    const url =
+      `${API}?action=query&list=categorymembers&cmtitle=${encodeURIComponent('Category:' + category)}` +
+      `&cmlimit=500&cmtype=page&format=json&formatversion=2` +
+      (cont ? `&cmcontinue=${encodeURIComponent(cont)}` : '');
+    const res = await fetch(url, { headers: { 'user-agent': UA } });
+    if (!res.ok) throw new Error(`HTTP ${res.status} em Category:${category}`);
+    const data = await res.json();
+    for (const m of data?.query?.categorymembers ?? []) {
+      if (m.ns === 0) titles.push(m.title);
+    }
+    cont = data?.continue?.cmcontinue ?? '';
+    await new Promise((r) => setTimeout(r, 300));
+  } while (cont);
+  return titles;
+}
 
 async function fetchWikitext(titles) {
   const out = new Map();
@@ -638,8 +585,14 @@ function allowedImbuements(kind, item) {
 }
 
 function convertItem(title, text) {
+  // conteúdo removido do jogo (banner {{Deprecated}} no topo da página)
+  if (/\{\{\s*Deprecated\s*[|}]/i.test(text)) return null;
+  // itens de servidor de teste (ex.: "Bow of Destruction Test")
+  if (/\btest\b/i.test(title)) return null;
   const box = parseInfobox(text, 'Infobox[_ ]Object');
   if (!box) return null;
+  // objetos que não podem ser pegos não são equipáveis
+  if ((box.pickupable ?? '').trim().toLowerCase() === 'no') return null;
   const primary = (box.primarytype ?? '').toLowerCase().trim();
   const slots = SLOT_BY_PRIMARYTYPE[primary];
   if (!slots) return null;
@@ -647,8 +600,11 @@ function convertItem(title, text) {
   const weaponType = WEAPONTYPE_BY_PRIMARY[primary];
   const attrib = parseAttrib(box.attrib);
 
-  // attack físico + elemental (campos <el>_attack)
-  const physical = num(box.attack) ?? 0;
+  // attack físico + elemental (campos <el>_attack); arcos/bestas usam
+  // atk_mod (modificador somado ao attack da munição — wiki/Formulae:
+  // "Attack = attack da munição + attack modifier da arma de distância")
+  const physical =
+    (num(box.attack) ?? 0) + (weaponType === 'distance' ? (num(box.atk_mod) ?? 0) : 0);
   let element;
   for (const el of ['fire', 'earth', 'ice', 'energy', 'death', 'holy']) {
     const v = num(box[`${el}_attack`]);
@@ -940,6 +896,17 @@ function buildCharms() {
 
 async function main() {
   const spellTitles = Object.keys(SPELL_DEFS);
+
+  console.log('Enumerando categorias de equipamento...');
+  const itemTitleSet = new Set();
+  for (const cat of ITEM_CATEGORIES) {
+    const members = await fetchCategoryMembers(cat);
+    console.log(`  ${cat}: ${members.length}`);
+    for (const t of members) itemTitleSet.add(t);
+  }
+  const ITEMS = [...itemTitleSet].sort();
+  console.log(`total de páginas de item (únicas): ${ITEMS.length}`);
+
   console.log('Buscando wikitext...');
   const [creatureTexts, itemTexts, spellTexts] = [
     await fetchWikitext(CREATURES),
@@ -960,15 +927,22 @@ async function main() {
   }
 
   const items = [];
+  const skippedItems = [];
   for (const t of ITEMS) {
     const text = itemTexts.get(t);
     if (!text) {
-      console.warn('item ausente:', t);
+      skippedItems.push(`${t} (página ausente)`);
       continue;
     }
     const it = convertItem(t, text);
     if (it) items.push(it);
-    else console.warn('item não convertido:', t);
+    else skippedItems.push(t);
+  }
+  if (skippedItems.length) {
+    console.log(
+      `itens pulados (deprecated/sem infobox/primarytype desconhecido): ${skippedItems.length}`,
+    );
+    for (const s of skippedItems) console.log('  -', s);
   }
 
   const spells = [];
