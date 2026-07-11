@@ -39,9 +39,6 @@ export interface OffenseResult {
   /** motivo de não haver auto-attack (ex.: sem arma equipada) */
   autoAttackUnavailableReason?: string;
   perSpell: SpellResult[];
-  charmExpectedDps?: number;
-  /** dano esperado do proc do charm (após teto e modificador do alvo) */
-  charmExpectedDamagePerProc?: number;
 }
 
 export interface DefenseResult {
@@ -52,16 +49,19 @@ export interface DefenseResult {
   charMana: number;
   /** Defense Value da Cyclopedia (informativo) */
   defenseValue: number;
-  perCreatureAttack: Array<{
-    attackName: string;
-    element: Element;
-    expectedDamage: number;
-  }>;
-  avgIncomingPerTurn: number;
-  hitsToDie: number | null;
 }
 
+export interface CreatureAttackDamage {
+  attackName: string;
+  element: Element;
+  expectedDamage: number;
+}
+
+/** Resultado contra UM alvo; com local de caça há uma entrada por criatura. */
 export interface VsTargetResult {
+  creatureId: string;
+  creatureName: string;
+  creatureHp: number;
   /** DPS efetivo (auto-attack + charm) contra o alvo */
   effectiveDps: number | null;
   /** hits de auto-attack para matar */
@@ -69,12 +69,20 @@ export interface VsTargetResult {
   timeToKillSec: number | null;
   /** dano médio do auto-attack contra o alvo */
   autoAttackAvgVsTarget: number | null;
+  charmExpectedDps?: number;
+  /** dano esperado do proc do charm (após teto e modificador do alvo) */
+  charmExpectedDamagePerProc?: number;
+  /** dano recebido esperado desta criatura */
+  incomingPerAttack: CreatureAttackDamage[];
+  avgIncomingPerTurn: number;
+  hitsToDie: number | null;
 }
 
 export interface SimulationResult {
   offense: OffenseResult;
   defense: DefenseResult;
-  vsTarget: VsTargetResult | null;
+  /** um resultado por criatura-alvo selecionada */
+  vsTargets: VsTargetResult[];
   /** premissas usadas neste cálculo — SEMPRE exibidas na UI */
   assumptions: string[];
 }

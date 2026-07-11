@@ -20,10 +20,10 @@ describe('simulate vs alvo', () => {
       makeBuild({ equipment: baseEquip, targetCreatureId: 'test-drake' }),
       fixtureData,
     );
-    expect(r.vsTarget).not.toBeNull();
-    expect(r.vsTarget!.autoAttackAvgVsTarget).toBeCloseTo(265.489375, 4);
-    expect(r.vsTarget!.effectiveDps).toBeCloseTo(132.7446875, 4);
-    expect(r.vsTarget!.hitsToKill).toBeCloseTo(5000 / 265.489375, 4);
+    expect(r.vsTargets).toHaveLength(1);
+    expect(r.vsTargets[0]!.autoAttackAvgVsTarget).toBeCloseTo(265.489375, 4);
+    expect(r.vsTargets[0]!.effectiveDps).toBeCloseTo(132.7446875, 4);
+    expect(r.vsTargets[0]!.hitsToKill).toBeCloseTo(5000 / 265.489375, 4);
     expect(r.assumptions).toContain(ASSUMPTION.creatureMitigationApplied);
   });
 
@@ -37,7 +37,7 @@ describe('simulate vs alvo', () => {
       }),
       fixtureData,
     );
-    expect(r.vsTarget!.autoAttackAvgVsTarget).toBeCloseTo(125.8571875, 4);
+    expect(r.vsTargets[0]!.autoAttackAvgVsTarget).toBeCloseTo(125.8571875, 4);
   });
 
   // Alvo neutro sem armor/mitigation: dano igual ao painel ofensivo.
@@ -46,7 +46,7 @@ describe('simulate vs alvo', () => {
       makeBuild({ equipment: baseEquip, targetCreatureId: 'test-dummy' }),
       fixtureData,
     );
-    expect(r.vsTarget!.autoAttackAvgVsTarget).toBeCloseTo(326.625, 4);
+    expect(r.vsTargets[0]!.autoAttackAvgVsTarget).toBeCloseTo(326.625, 4);
     expect(r.assumptions).toContain(ASSUMPTION.creatureArmorMissing);
   });
 
@@ -63,10 +63,10 @@ describe('simulate vs alvo', () => {
       }),
       fixtureData,
     );
-    expect(r.offense.charmExpectedDamagePerProc).toBeCloseTo(213.75, 4);
-    expect(r.offense.charmExpectedDps).toBeCloseTo(11.75625, 4);
-    expect(r.vsTarget!.effectiveDps).toBeCloseTo(144.5009375, 4);
-    expect(r.vsTarget!.timeToKillSec).toBeCloseTo(5000 / 144.5009375, 3);
+    expect(r.vsTargets[0]!.charmExpectedDamagePerProc).toBeCloseTo(213.75, 4);
+    expect(r.vsTargets[0]!.charmExpectedDps).toBeCloseTo(11.75625, 4);
+    expect(r.vsTargets[0]!.effectiveDps).toBeCloseTo(144.5009375, 4);
+    expect(r.vsTargets[0]!.timeToKillSec).toBeCloseTo(5000 / 144.5009375, 3);
   });
 
   // Wound com cap: level 40 => teto 80 < 250: raw = 80 => 80*0.9*0.95 = 68.4
@@ -81,7 +81,7 @@ describe('simulate vs alvo', () => {
       }),
       fixtureData,
     );
-    expect(r.offense.charmExpectedDamagePerProc).toBeCloseTo(68.4, 4);
+    expect(r.vsTargets[0]!.charmExpectedDamagePerProc).toBeCloseTo(68.4, 4);
   });
 
   // Overpower: 5% do HP próprio (knight 300: HP=4565 => 228.25), cap 8% de
@@ -96,8 +96,8 @@ describe('simulate vs alvo', () => {
       }),
       fixtureData,
     );
-    expect(r.offense.charmExpectedDamagePerProc).toBeCloseTo(195.15375, 4);
-    expect(r.offense.charmExpectedDps).toBeCloseTo((0.11 * 195.15375) / 2, 4);
+    expect(r.vsTargets[0]!.charmExpectedDamagePerProc).toBeCloseTo(195.15375, 4);
+    expect(r.vsTargets[0]!.charmExpectedDps).toBeCloseTo((0.11 * 195.15375) / 2, 4);
   });
 
   // Low Blow (estágio 3: +9% chance) muda o crit apenas contra o alvo:
@@ -114,8 +114,8 @@ describe('simulate vs alvo', () => {
       fixtureData,
     );
     expect(r.offense.autoAttack!.avg).toBeCloseTo(326.625, 4); // painel neutro
-    expect(r.vsTarget!.autoAttackAvgVsTarget).toBeCloseTo(267.99025, 4);
-    expect(r.offense.charmExpectedDps).toBeUndefined();
+    expect(r.vsTargets[0]!.autoAttackAvgVsTarget).toBeCloseTo(267.99025, 4);
+    expect(r.vsTargets[0]!.charmExpectedDps).toBeUndefined();
   });
 
   // Spell física contra o alvo: Fierce Berserk avg 511 (golden do offense):
@@ -152,12 +152,42 @@ describe('simulate vs alvo', () => {
   });
 });
 
+describe('multi-alvo (locais de caça)', () => {
+  const baseEquip = { weapon: { itemId: 'test-sword', imbuementIds: [] as string[] } };
+
+  it('produz um VsTargetResult por criatura, com valores independentes', () => {
+    const r = simulate(
+      makeBuild({ equipment: baseEquip, targetCreatureIds: ['test-drake', 'test-dummy'] }),
+      fixtureData,
+    );
+    expect(r.vsTargets).toHaveLength(2);
+    const drake = r.vsTargets.find((v) => v.creatureId === 'test-drake')!;
+    const dummy = r.vsTargets.find((v) => v.creatureId === 'test-dummy')!;
+    // mesmos goldens dos testes single-target
+    expect(drake.autoAttackAvgVsTarget).toBeCloseTo(265.489375, 4);
+    expect(dummy.autoAttackAvgVsTarget).toBeCloseTo(326.625, 4);
+    // dano recebido: drake ataca (melee+fire wave), dummy não tem ataques
+    expect(drake.avgIncomingPerTurn).toBeGreaterThan(0);
+    expect(dummy.incomingPerAttack).toEqual([]);
+    expect(dummy.hitsToDie).toBeNull();
+  });
+
+  it('permalink legado (targetCreatureId) é migrado para a lista', () => {
+    const r = simulate(
+      makeBuild({ equipment: baseEquip, targetCreatureId: 'test-drake' }),
+      fixtureData,
+    );
+    expect(r.vsTargets).toHaveLength(1);
+    expect(r.vsTargets[0]!.creatureId).toBe('test-drake');
+  });
+});
+
 describe('estados incompletos (RF11)', () => {
   it('build vazia ainda produz resultado com defesa e assumptions', () => {
     const r = simulate(makeBuild({}), fixtureData);
     expect(r.offense.autoAttack).toBeNull();
     expect(r.offense.autoAttackUnavailableReason).toBe('no-weapon');
-    expect(r.vsTarget).toBeNull();
+    expect(r.vsTargets).toEqual([]);
     expect(r.defense.charHp).toBeGreaterThan(0);
     expect(r.assumptions.length).toBeGreaterThan(0);
   });
