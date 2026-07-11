@@ -33,7 +33,6 @@ function itemStats(item: Item): string[] {
     chips.push(`${S.elements[el] ?? el} ${v > 0 ? '+' : ''}${v}%`);
   }
   if (item.imbuementSlots) chips.push(`${item.imbuementSlots.count} imbue`);
-  if (item.minLevel > 0) chips.push(S.equipment.levelReq(item.minLevel));
   return chips;
 }
 
@@ -135,27 +134,41 @@ export default function ItemPicker({ slot, onClose }: { slot: Slot; onClose: () 
               {S.equipment.noItems}
             </li>
           )}
-          {filtered.map((item, idx) => (
-            <li key={item.id} data-index={idx} role="option" aria-selected={idx === cursor}>
-              <button
-                type="button"
-                onClick={() => select(item)}
-                onMouseEnter={() => setCursor(idx)}
-                className={`flex w-full items-center gap-3 rounded px-2 py-2 text-left transition ${
-                  idx === cursor ? 'bg-ink-700' : 'hover:bg-ink-800'
-                }`}
-              >
-                <Sprite src={`/sprites/items/${item.id}.gif`} alt={item.name} size={32} />
-                <span className="min-w-0 flex-1">
-                  <span className="block truncate text-sm text-parchment-100">{item.name}</span>
-                  <span className="block truncate text-[11px] text-parchment-500">
-                    {itemStats(item).join(' · ')}
+          {filtered.map((item, idx) => {
+            const locked = item.minLevel > build.level;
+            return (
+              <li key={item.id} data-index={idx} role="option" aria-selected={idx === cursor}>
+                <button
+                  type="button"
+                  onClick={() => select(item)}
+                  onMouseEnter={() => setCursor(idx)}
+                  className={`flex w-full items-center gap-3 rounded px-2 py-2 text-left transition ${
+                    idx === cursor ? 'bg-ink-700' : 'hover:bg-ink-800'
+                  } ${locked ? 'opacity-60' : ''}`}
+                >
+                  <Sprite src={`/sprites/items/${item.id}.gif`} alt={item.name} size={32} />
+                  <span className="min-w-0 flex-1">
+                    <span className="block truncate text-sm text-parchment-100">{item.name}</span>
+                    <span className="block truncate text-[11px] text-parchment-500">
+                      {itemStats(item).join(' · ')}
+                    </span>
+                    {item.attack?.element && <ElementBadge element={item.attack.element.type} />}
                   </span>
-                  {item.attack?.element && <ElementBadge element={item.attack.element.type} />}
-                </span>
-              </button>
-            </li>
-          ))}
+                  {item.minLevel > 0 && (
+                    <span
+                      className={`shrink-0 rounded border px-1.5 py-0.5 text-[10px] tabular-nums ${
+                        locked
+                          ? 'border-blood-600/70 bg-blood-600/15 text-blood-500'
+                          : 'border-ink-500 text-parchment-600'
+                      }`}
+                    >
+                      {S.equipment.levelReq(item.minLevel)}
+                    </span>
+                  )}
+                </button>
+              </li>
+            );
+          })}
         </ul>
       </div>
     </div>

@@ -50,11 +50,23 @@ export function itemFitsVocation(item: Item, vocation: Vocation): boolean {
   return item.vocations.length === 0 || item.vocations.includes(vocation);
 }
 
-/** Itens candidatos a um slot, filtrados por vocação e level (RF3). */
+/**
+ * Itens candidatos a um slot, filtrados por vocação (RF3). Itens acima do
+ * level NÃO são escondidos (pedido do dono em 2026-07-11): aparecem depois
+ * dos disponíveis, em ordem crescente de requisito, e a UI os destaca como
+ * bloqueados — senão itens de level alto ficam indescobríveis.
+ */
 export function itemsForSlot(slot: Slot, vocation: Vocation, level: number): Item[] {
   return allItems
-    .filter((i) => i.slots.includes(slot) && itemFitsVocation(i, vocation) && i.minLevel <= level)
-    .sort((a, b) => b.minLevel - a.minLevel || a.name.localeCompare(b.name));
+    .filter((i) => i.slots.includes(slot) && itemFitsVocation(i, vocation))
+    .sort((a, b) => {
+      const aLocked = a.minLevel > level;
+      const bLocked = b.minLevel > level;
+      if (aLocked !== bLocked) return aLocked ? 1 : -1;
+      // disponíveis: melhores (level alto) primeiro; bloqueados: mais próximos primeiro
+      const byLevel = aLocked ? a.minLevel - b.minLevel : b.minLevel - a.minLevel;
+      return byLevel || a.name.localeCompare(b.name);
+    });
 }
 
 export function spellsForVocation(vocation: Vocation): Spell[] {

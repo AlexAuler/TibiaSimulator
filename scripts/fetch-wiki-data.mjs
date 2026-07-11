@@ -234,6 +234,29 @@ const slug = (t) =>
 const pageUrl = (title) =>
   'https://tibia.fandom.com/wiki/' + encodeURIComponent(title.replace(/ /g, '_'));
 
+/**
+ * Enumera TODAS as páginas (ns=0) que transcluem um template. Cobre itens
+ * cuja página ainda não recebeu as tags de categoria (comum em conteúdo
+ * recém-lançado) — a conversão filtra depois pelo primarytype do infobox.
+ */
+async function fetchEmbeddedIn(template) {
+  const titles = [];
+  let cont = '';
+  do {
+    const url =
+      `${API}?action=query&list=embeddedin&eititle=${encodeURIComponent('Template:' + template)}` +
+      `&einamespace=0&eilimit=500&format=json&formatversion=2` +
+      (cont ? `&eicontinue=${encodeURIComponent(cont)}` : '');
+    const res = await fetch(url, { headers: { 'user-agent': UA } });
+    if (!res.ok) throw new Error(`HTTP ${res.status} em embeddedin ${template}`);
+    const data = await res.json();
+    for (const p of data?.query?.embeddedin ?? []) titles.push(p.title);
+    cont = data?.continue?.eicontinue ?? '';
+    await new Promise((r) => setTimeout(r, 300));
+  } while (cont);
+  return titles;
+}
+
 /** Enumera os títulos (ns=0) de uma categoria, seguindo cmcontinue. */
 async function fetchCategoryMembers(category) {
   const titles = [];
@@ -898,14 +921,18 @@ async function main() {
   const spellTitles = Object.keys(SPELL_DEFS);
 
   console.log('Enumerando categorias de equipamento...');
-  const itemTitleSet = new Set();
+  const categoryTitles = new Set();
   for (const cat of ITEM_CATEGORIES) {
     const members = await fetchCategoryMembers(cat);
     console.log(`  ${cat}: ${members.length}`);
-    for (const t of members) itemTitleSet.add(t);
+    for (const t of members) categoryTitles.add(t);
   }
+  console.log('Enumerando todas as páginas com Infobox Object (embeddedin)...');
+  const embedded = await fetchEmbeddedIn('Infobox_Object');
+  console.log(`  páginas com Infobox Object: ${embedded.length}`);
+  const itemTitleSet = new Set([...categoryTitles, ...embedded]);
   const ITEMS = [...itemTitleSet].sort();
-  console.log(`total de páginas de item (únicas): ${ITEMS.length}`);
+  console.log(`total de páginas candidatas (únicas): ${ITEMS.length}`);
 
   console.log('Buscando wikitext...');
   const [creatureTexts, itemTexts, spellTexts] = [
@@ -927,22 +954,25 @@ async function main() {
   }
 
   const items = [];
-  const skippedItems = [];
+  const skippedFromCategory = [];
+  let skippedOther = 0;
   for (const t of ITEMS) {
     const text = itemTexts.get(t);
-    if (!text) {
-      skippedItems.push(`${t} (página ausente)`);
-      continue;
+    const it = text ? convertItem(t, text) : null;
+    if (it) {
+      items.push(it);
+    } else if (categoryTitles.has(t)) {
+      // pulado apesar de estar numa categoria de equipamento: listar p/ revisão
+      skippedFromCategory.push(text ? t : `${t} (página ausente)`);
+    } else {
+      // objeto não-equipamento vindo do embeddedin (móveis, comida etc.)
+      skippedOther++;
     }
-    const it = convertItem(t, text);
-    if (it) items.push(it);
-    else skippedItems.push(t);
   }
-  if (skippedItems.length) {
-    console.log(
-      `itens pulados (deprecated/sem infobox/primarytype desconhecido): ${skippedItems.length}`,
-    );
-    for (const s of skippedItems) console.log('  -', s);
+  console.log(`objetos não-equipamento ignorados (embeddedin): ${skippedOther}`);
+  if (skippedFromCategory.length) {
+    console.log(`itens de categoria pulados (deprecated/test/etc.): ${skippedFromCategory.length}`);
+    for (const s of skippedFromCategory) console.log('  -', s);
   }
 
   const spells = [];
