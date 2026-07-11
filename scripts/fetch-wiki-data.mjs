@@ -24,46 +24,10 @@ const DATA_VERSION = '15.x';
 const TODAY = new Date().toISOString().slice(0, 10);
 
 // ---------------------------------------------------------------------------
-// Listas curadas (Seção 6.1 do plano). Páginas ausentes são apenas reportadas.
+// Criaturas: enumeração COMPLETA via embeddedin (Template:Infobox_Creature),
+// igual aos itens. Locais de caça: Category:Hunting_Places — as criaturas de
+// cada local vêm dos templates {{CreatureList|...}} do corpo da página.
 // ---------------------------------------------------------------------------
-
-const CREATURES = [
-  'Dragon',
-  'Dragon Lord',
-  'Demon',
-  'Hydra',
-  'Giant Spider',
-  'Behemoth',
-  'Warlock',
-  'Juggernaut',
-  'Grim Reaper',
-  'Hellspawn',
-  'Guzzlemaw',
-  'Frazzlemaw',
-  'Silencer',
-  'Dawnfire Asura',
-  'Midnight Asura',
-  'True Dawnfire Asura',
-  'True Midnight Asura',
-  'Falcon Knight',
-  'Falcon Paladin',
-  'Burster Spectre',
-  'Cloak of Terror',
-  'Brachiodemon',
-  'Turbulent Elemental',
-  'Rotten Golem',
-  'Sopping Corpus',
-  'Vexclaw',
-  'Grimeleech',
-  'Hellflayer',
-  'Werelion',
-  'Werelioness',
-  'Burning Gladiator',
-  'Priestess of the Wild Sun',
-  'Cobra Assassin',
-  'Cobra Scout',
-  'Cobra Vizier',
-];
 
 /**
  * Catálogo COMPLETO de equipamentos: os títulos são enumerados das
@@ -425,15 +389,17 @@ function parseAbilities(value) {
         const single = num(s);
         return single != null ? { min: single, max: single } : null;
       };
+      // valores negativos são curas/efeitos, não dano — ignorados
+      const valid = (r) => r && r.min >= 0 && r.max >= 0;
       if (tplName === 'melee') {
         const r = range(positional[0]);
-        if (r) attacks.push({ name: 'Melee', element: 'physical', ...r });
+        if (valid(r)) attacks.push({ name: 'Melee', element: 'physical', ...r });
       } else if (tplName === 'ability') {
         const name = stripLinks(positional[0] ?? '').trim() || 'Ability';
         const r = range(positional[1]);
         const elRaw = (named.element ?? positional[2] ?? '').toLowerCase().trim();
         const el = ELEMENT_ALIASES[elRaw];
-        if (r && el) attacks.push({ name, element: el, min: r.min, max: r.max });
+        if (valid(r) && el) attacks.push({ name, element: el, min: r.min, max: r.max });
       }
       i = j + 1;
     } else {
@@ -444,6 +410,9 @@ function parseAbilities(value) {
 }
 
 function convertCreature(title, text) {
+  // conteúdo removido do jogo / de servidor de teste
+  if (/\{\{\s*Deprecated\s*[|}]/i.test(text)) return null;
+  if (/\btest\b/i.test(title)) return null;
   const box = parseInfobox(text, 'Infobox[_ ]Creature');
   if (!box) return null;
   const mods = {};
@@ -461,7 +430,7 @@ function convertCreature(title, text) {
     mods[el] = v != null ? v / 100 : 1;
   }
   const hp = num(box.hp);
-  if (hp == null) return null;
+  if (hp == null || hp < 1) return null;
   const armor = num(box.armor);
   const mitigation = num(box.mitigation);
   return {
@@ -472,6 +441,84 @@ function convertCreature(title, text) {
     ...(armor != null ? { armor } : {}),
     ...(mitigation != null ? { mitigationPct: mitigation } : {}),
     attacks: parseAbilities(box.abilities),
+    source: pageUrl(title),
+  };
+}
+
+// ---------------------------------------------------------------------------
+// Locais de caça (Category:Hunting_Places)
+// ---------------------------------------------------------------------------
+
+/** Extrai TODOS os corpos de templates {{name ...}} (contagem de chaves). */
+function extractAllTemplates(text, name) {
+  const bodies = [];
+  const re = new RegExp('\\{\\{\\s*' + name, 'gi');
+  let m;
+  while ((m = re.exec(text))) {
+    let depth = 0;
+    for (let i = m.index; i < text.length - 1; i++) {
+      if (text[i] === '{' && text[i + 1] === '{') {
+        depth++;
+        i++;
+      } else if (text[i] === '}' && text[i + 1] === '}') {
+        depth--;
+        i++;
+        if (depth === 0) {
+          bodies.push(text.slice(m.index + 2, i - 1));
+          re.lastIndex = i;
+          break;
+        }
+      }
+    }
+  }
+  return bodies;
+}
+
+/**
+ * Converte uma página de hunting place: metadados do Infobox Hunt +
+ * criaturas dos templates {{CreatureList}} (parâmetros posicionais).
+ * Criaturas que não existirem no dataset são reportadas e ignoradas.
+ */
+function convertHuntingPlace(title, text, creatureIdSet, unknownCreatures) {
+  if (/\{\{\s*Deprecated\s*[|}]/i.test(text)) return null;
+  const box = parseInfobox(text, 'Infobox[_ ]Hunt');
+  if (!box) return null;
+
+  const creatureIds = new Set();
+  for (const body of extractAllTemplates(text, 'CreatureList')) {
+    for (const part of splitParams(body).slice(1)) {
+      if (part.includes('=')) continue; // type=/caption= etc.
+      const name = stripLinks(part).trim();
+      if (!name) continue;
+      const id = slug(name);
+      if (creatureIdSet.has(id)) creatureIds.add(id);
+      else unknownCreatures.add(name);
+    }
+  }
+  if (creatureIds.size === 0) return null;
+
+  const lvl = (k) => num(box[k]);
+  const stars = (k) => {
+    const v = num(box[k]);
+    return v != null && v >= 0 && v <= 5 ? v : undefined;
+  };
+  // nome pode conter HTML (ex.: "Hero Cave<br>Star Room")
+  const cleanName = (box.name ?? '')
+    .replace(/<[^>]*>/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+  return {
+    id: slug(title),
+    name: cleanName || title,
+    city: stripLinks(box.city ?? '').trim() || undefined,
+    levelHint: {
+      ...(lvl('lvlknights') != null ? { knight: lvl('lvlknights') } : {}),
+      ...(lvl('lvlpaladins') != null ? { paladin: lvl('lvlpaladins') } : {}),
+      ...(lvl('lvlmages') != null ? { mage: lvl('lvlmages') } : {}),
+    },
+    ...(stars('expstar') != null ? { expStars: stars('expstar') } : {}),
+    ...(stars('lootstar') != null ? { lootStars: stars('lootstar') } : {}),
+    creatureIds: [...creatureIds].sort(),
     source: pageUrl(title),
   };
 }
@@ -945,23 +992,46 @@ async function main() {
   const ITEMS = [...itemTitleSet].sort();
   console.log(`total de páginas candidatas (únicas): ${ITEMS.length}`);
 
+  console.log('Enumerando criaturas (embeddedin Infobox Creature)...');
+  const CREATURES = (await fetchEmbeddedIn('Infobox_Creature')).sort();
+  console.log(`  páginas de criatura: ${CREATURES.length}`);
+
+  console.log('Enumerando locais de caça...');
+  const HUNTS = (await fetchCategoryMembers('Hunting Places')).sort();
+  console.log(`  locais de caça: ${HUNTS.length}`);
+
   console.log('Buscando wikitext...');
-  const [creatureTexts, itemTexts, spellTexts] = [
+  const [creatureTexts, itemTexts, spellTexts, huntTexts] = [
     await fetchWikitext(CREATURES),
     await fetchWikitext(ITEMS),
     await fetchWikitext(spellTitles),
+    await fetchWikitext(HUNTS),
   ];
 
   const creatures = [];
+  let skippedCreatures = 0;
   for (const t of CREATURES) {
     const text = creatureTexts.get(t);
-    if (!text) {
-      console.warn('criatura ausente:', t);
-      continue;
-    }
-    const c = convertCreature(t, text);
+    const c = text ? convertCreature(t, text) : null;
     if (c) creatures.push(c);
-    else console.warn('criatura sem infobox:', t);
+    else skippedCreatures++;
+  }
+  console.log(`criaturas puladas (deprecated/test/sem infobox/sem HP): ${skippedCreatures}`);
+
+  const creatureIdSet = new Set(creatures.map((c) => c.id));
+  const huntingPlaces = [];
+  const unknownCreatures = new Set();
+  let skippedHunts = 0;
+  for (const t of HUNTS) {
+    const text = huntTexts.get(t);
+    const h = text ? convertHuntingPlace(t, text, creatureIdSet, unknownCreatures) : null;
+    if (h) huntingPlaces.push(h);
+    else skippedHunts++;
+  }
+  console.log(`locais pulados (sem Infobox Hunt/sem criaturas resolvidas): ${skippedHunts}`);
+  if (unknownCreatures.size) {
+    console.log(`nomes de criatura não resolvidos (${unknownCreatures.size}):`);
+    console.log('  ' + [...unknownCreatures].sort().slice(0, 40).join(' | '));
   }
 
   const items = [];
@@ -1008,6 +1078,7 @@ async function main() {
   write('spells.json', { ...meta, spells });
   write('imbuements.json', { ...meta, imbuements: buildImbuements() });
   write('charms.json', { ...meta, charms: buildCharms() });
+  write('hunting-places.json', { ...meta, huntingPlaces });
 
   // docs/data-review.md
   const lines = [
@@ -1058,7 +1129,8 @@ async function main() {
 
   console.log(
     `ok: ${creatures.length} criaturas, ${items.length} itens, ${spells.length} spells, ` +
-      `${buildImbuements().length} imbuements, ${buildCharms().length} charms`,
+      `${buildImbuements().length} imbuements, ${buildCharms().length} charms, ` +
+      `${huntingPlaces.length} locais de caça`,
   );
 }
 

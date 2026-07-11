@@ -13,6 +13,7 @@ import {
   SpellsFileSchema,
   ImbuementsFileSchema,
   CharmsFileSchema,
+  HuntingPlacesFileSchema,
 } from '../src/engine/schemas/dataset';
 
 const seedDir = join(dirname(fileURLToPath(import.meta.url)), '..', 'data', 'seed');
@@ -23,6 +24,7 @@ const files: Array<[string, ZodTypeAny]> = [
   ['spells.json', SpellsFileSchema],
   ['imbuements.json', ImbuementsFileSchema],
   ['charms.json', CharmsFileSchema],
+  ['hunting-places.json', HuntingPlacesFileSchema],
 ];
 
 let failed = false;
@@ -52,6 +54,20 @@ for (const [file, schema] of files) {
   }
   idSets.set(file, seen);
   console.log(`✓ ${file} (${records.length} registros)`);
+}
+
+// integridade referencial: criaturas dos locais de caça existem no dataset
+const creatureIds = idSets.get('creatures.json');
+if (creatureIds) {
+  const hunts = JSON.parse(readFileSync(join(seedDir, 'hunting-places.json'), 'utf8'));
+  for (const h of hunts.huntingPlaces as Array<{ id: string; creatureIds: string[] }>) {
+    for (const cid of h.creatureIds) {
+      if (!creatureIds.has(cid)) {
+        failed = true;
+        console.error(`✗ hunting-places.json: "${h.id}" referencia criatura inexistente "${cid}"`);
+      }
+    }
+  }
 }
 
 if (failed) process.exit(1);
