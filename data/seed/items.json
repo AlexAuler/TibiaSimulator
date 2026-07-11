@@ -26,6 +26,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "source": "https://tibia.fandom.com/wiki/Adamant_Shield"
     },
     {
@@ -64,6 +65,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer"],
       "minLevel": 250,
+      "offhandKind": "spellbook",
       "defense": 32,
       "source": "https://tibia.fandom.com/wiki/Alchemist's_Notepad",
       "attributes": {
@@ -112,6 +114,7 @@
       "slots": ["offhand"],
       "vocations": ["paladin"],
       "minLevel": 400,
+      "offhandKind": "quiver",
       "source": "https://tibia.fandom.com/wiki/Alicorn_Quiver",
       "attributes": {
         "skillBonuses": {
@@ -184,6 +187,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 42,
       "source": "https://tibia.fandom.com/wiki/Amazon_Shield",
       "imbuementSlots": {
@@ -541,6 +545,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 36,
       "source": "https://tibia.fandom.com/wiki/Ancient_Shield"
     },
@@ -654,6 +659,7 @@
       "slots": ["offhand"],
       "vocations": ["druid"],
       "minLevel": 400,
+      "offhandKind": "spellbook",
       "defense": 36,
       "source": "https://tibia.fandom.com/wiki/Arboreal_Tome",
       "attributes": {
@@ -716,6 +722,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer"],
       "minLevel": 400,
+      "offhandKind": "spellbook",
       "defense": 36,
       "source": "https://tibia.fandom.com/wiki/Arcanomancer_Folio",
       "attributes": {
@@ -1216,6 +1223,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 30,
       "source": "https://tibia.fandom.com/wiki/Battle_Shield"
     },
@@ -1318,6 +1326,7 @@
       "slots": ["offhand"],
       "vocations": ["knight"],
       "minLevel": 200,
+      "offhandKind": "shield",
       "defense": 47,
       "source": "https://tibia.fandom.com/wiki/Biscuit_Barrier",
       "attributes": {
@@ -1340,6 +1349,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 24,
       "source": "https://tibia.fandom.com/wiki/Black_Shield"
     },
@@ -1626,6 +1636,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 52,
       "source": "https://tibia.fandom.com/wiki/Blessed_Shield"
     },
@@ -1670,6 +1681,7 @@
       "slots": ["offhand"],
       "vocations": ["paladin"],
       "minLevel": 0,
+      "offhandKind": "quiver",
       "source": "https://tibia.fandom.com/wiki/Blue_Quiver"
     },
     {
@@ -1744,6 +1756,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 26,
       "source": "https://tibia.fandom.com/wiki/Bone_Shield"
     },
@@ -1794,6 +1807,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 37,
       "source": "https://tibia.fandom.com/wiki/Bonelord_Shield",
       "imbuementSlots": {
@@ -1821,6 +1835,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer", "druid"],
       "minLevel": 150,
+      "offhandKind": "spellbook",
       "defense": 29,
       "source": "https://tibia.fandom.com/wiki/Book_of_Lies",
       "attributes": {
@@ -2140,6 +2155,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer", "druid"],
       "minLevel": 180,
+      "offhandKind": "spellbook",
       "defense": 31,
       "source": "https://tibia.fandom.com/wiki/Brain_in_a_Jar",
       "attributes": {
@@ -2196,6 +2212,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 21,
       "source": "https://tibia.fandom.com/wiki/Brass_Shield"
     },
@@ -2327,6 +2344,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 15,
       "source": "https://tibia.fandom.com/wiki/Broken_Wooden_Shield"
     },
@@ -2491,6 +2509,7 @@
       "slots": ["offhand"],
       "vocations": ["paladin"],
       "minLevel": 200,
+      "offhandKind": "quiver",
       "source": "https://tibia.fandom.com/wiki/Candy-Coated_Quiver",
       "attributes": {
         "resistances": {
@@ -2513,6 +2532,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 47,
       "source": "https://tibia.fandom.com/wiki/Carapace_Shield",
       "imbuementSlots": {
@@ -2540,6 +2560,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 37,
       "source": "https://tibia.fandom.com/wiki/Castle_Shield",
       "imbuementSlots": {
@@ -3291,6 +3312,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer"],
       "minLevel": 200,
+      "offhandKind": "spellbook",
       "defense": 31,
       "source": "https://tibia.fandom.com/wiki/Cocoa_Grimoire",
       "attributes": {
@@ -3438,6 +3460,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 25,
       "source": "https://tibia.fandom.com/wiki/Copper_Shield"
     },
@@ -3479,6 +3502,7 @@
       "slots": ["offhand"],
       "vocations": ["druid"],
       "minLevel": 200,
+      "offhandKind": "spellbook",
       "defense": 31,
       "source": "https://tibia.fandom.com/wiki/Creamy_Grimoire",
       "attributes": {
@@ -3823,6 +3847,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 42,
       "source": "https://tibia.fandom.com/wiki/Crown_Shield",
       "imbuementSlots": {
@@ -3965,6 +3990,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer", "druid"],
       "minLevel": 75,
+      "offhandKind": "spellbook",
       "defense": 23,
       "source": "https://tibia.fandom.com/wiki/Crude_Umbral_Spellbook",
       "attributes": {
@@ -4467,6 +4493,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 33,
       "source": "https://tibia.fandom.com/wiki/Dark_Shield"
     },
@@ -4610,6 +4637,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 200,
+      "offhandKind": "shield",
       "defense": 50,
       "source": "https://tibia.fandom.com/wiki/Death_Gaze",
       "imbuementSlots": {
@@ -4816,6 +4844,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 46,
       "source": "https://tibia.fandom.com/wiki/Demon_Shield",
       "imbuementSlots": {
@@ -4989,6 +5018,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer", "druid"],
       "minLevel": 120,
+      "offhandKind": "shield",
       "defense": 33,
       "source": "https://tibia.fandom.com/wiki/Depth_Scutum",
       "attributes": {
@@ -5229,6 +5259,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 41,
       "source": "https://tibia.fandom.com/wiki/Dragon_Shield",
       "imbuementSlots": {
@@ -5768,6 +5799,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 34,
       "source": "https://tibia.fandom.com/wiki/Dwarven_Shield"
     },
@@ -5777,6 +5809,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 42,
       "source": "https://tibia.fandom.com/wiki/Eagle_Shield"
     },
@@ -6389,6 +6422,7 @@
       "slots": ["offhand"],
       "vocations": ["knight"],
       "minLevel": 180,
+      "offhandKind": "shield",
       "defense": 49,
       "source": "https://tibia.fandom.com/wiki/Ectoplasmic_Shield",
       "attributes": {
@@ -6412,6 +6446,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "source": "https://tibia.fandom.com/wiki/Eerie_Song_Book"
     },
     {
@@ -6551,6 +6586,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer"],
       "minLevel": 300,
+      "offhandKind": "spellbook",
       "defense": 34,
       "source": "https://tibia.fandom.com/wiki/Eldritch_Folio",
       "attributes": {
@@ -6634,6 +6670,7 @@
       "slots": ["offhand"],
       "vocations": ["paladin"],
       "minLevel": 250,
+      "offhandKind": "quiver",
       "source": "https://tibia.fandom.com/wiki/Eldritch_Quiver"
     },
     {
@@ -6668,6 +6705,7 @@
       "slots": ["offhand"],
       "vocations": ["knight"],
       "minLevel": 270,
+      "offhandKind": "shield",
       "defense": 51,
       "source": "https://tibia.fandom.com/wiki/Eldritch_Shield",
       "imbuementSlots": {
@@ -6681,6 +6719,7 @@
       "slots": ["offhand"],
       "vocations": ["druid"],
       "minLevel": 300,
+      "offhandKind": "spellbook",
       "defense": 34,
       "source": "https://tibia.fandom.com/wiki/Eldritch_Tome",
       "attributes": {
@@ -8063,6 +8102,7 @@
       "slots": ["offhand"],
       "vocations": ["knight", "paladin"],
       "minLevel": 300,
+      "offhandKind": "shield",
       "defense": 52,
       "source": "https://tibia.fandom.com/wiki/Falcon_Escutcheon",
       "attributes": {
@@ -8229,6 +8269,7 @@
       "slots": ["offhand"],
       "vocations": ["knight", "paladin"],
       "minLevel": 300,
+      "offhandKind": "shield",
       "defense": 51,
       "source": "https://tibia.fandom.com/wiki/Falcon_Shield",
       "attributes": {
@@ -8729,6 +8770,7 @@
       "slots": ["offhand"],
       "vocations": ["knight"],
       "minLevel": 100,
+      "offhandKind": "shield",
       "defense": 47,
       "source": "https://tibia.fandom.com/wiki/Fiery_Rainbow_Shield",
       "attributes": {
@@ -10100,6 +10142,7 @@
       "slots": ["offhand"],
       "vocations": ["knight", "paladin"],
       "minLevel": 200,
+      "offhandKind": "shield",
       "defense": 50,
       "source": "https://tibia.fandom.com/wiki/Gnome_Shield",
       "attributes": {
@@ -10243,6 +10286,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "source": "https://tibia.fandom.com/wiki/Golden_Blessed_Shield"
     },
     {
@@ -10371,6 +10415,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "source": "https://tibia.fandom.com/wiki/Gourd"
     },
     {
@@ -10696,6 +10741,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 50,
       "source": "https://tibia.fandom.com/wiki/Great_Shield",
       "imbuementSlots": {
@@ -10793,6 +10839,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 38,
       "source": "https://tibia.fandom.com/wiki/Griffin_Shield",
       "imbuementSlots": {
@@ -10870,6 +10917,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 39,
       "source": "https://tibia.fandom.com/wiki/Guardian_Shield"
     },
@@ -11240,6 +11288,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 45,
       "source": "https://tibia.fandom.com/wiki/Haunted_Mirror_Piece",
       "imbuementSlots": {
@@ -11999,6 +12048,7 @@
       "slots": ["offhand"],
       "vocations": ["knight"],
       "minLevel": 100,
+      "offhandKind": "shield",
       "defense": 51,
       "source": "https://tibia.fandom.com/wiki/Icy_Rainbow_Shield"
     },
@@ -12742,6 +12792,7 @@
       "slots": ["offhand"],
       "vocations": ["paladin"],
       "minLevel": 150,
+      "offhandKind": "quiver",
       "source": "https://tibia.fandom.com/wiki/Jungle_Quiver"
     },
     {
@@ -13480,6 +13531,7 @@
       "slots": ["offhand"],
       "vocations": ["knight"],
       "minLevel": 250,
+      "offhandKind": "shield",
       "defense": 51,
       "source": "https://tibia.fandom.com/wiki/Lion_Shield",
       "attributes": {
@@ -13521,6 +13573,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer", "druid"],
       "minLevel": 220,
+      "offhandKind": "spellbook",
       "defense": 32,
       "source": "https://tibia.fandom.com/wiki/Lion_Spellbook",
       "attributes": {
@@ -14227,6 +14280,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 49,
       "source": "https://tibia.fandom.com/wiki/Mastermind_Shield",
       "imbuementSlots": {
@@ -14240,6 +14294,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "source": "https://tibia.fandom.com/wiki/Mathmaster_Shield"
     },
     {
@@ -14248,6 +14303,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "source": "https://tibia.fandom.com/wiki/Mathmaster_Shield_(Replica)"
     },
     {
@@ -14283,6 +14339,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 13,
       "source": "https://tibia.fandom.com/wiki/Meat_Shield",
       "imbuementSlots": {
@@ -14296,6 +14353,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 43,
       "source": "https://tibia.fandom.com/wiki/Medusa_Shield",
       "imbuementSlots": {
@@ -14506,6 +14564,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 41,
       "source": "https://tibia.fandom.com/wiki/Mino_Shield"
     },
@@ -15018,6 +15077,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 150,
+      "offhandKind": "shield",
       "source": "https://tibia.fandom.com/wiki/Morshabaal's_Mask",
       "attributes": {
         "skillBonuses": {
@@ -15390,6 +15450,7 @@
       "slots": ["offhand"],
       "vocations": ["paladin"],
       "minLevel": 250,
+      "offhandKind": "quiver",
       "source": "https://tibia.fandom.com/wiki/Naga_Quiver",
       "attributes": {
         "resistances": {
@@ -15536,6 +15597,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 49,
       "source": "https://tibia.fandom.com/wiki/Necromancer_Shield",
       "imbuementSlots": {
@@ -15581,6 +15643,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 49,
       "source": "https://tibia.fandom.com/wiki/Nightmare_Shield",
       "imbuementSlots": {
@@ -15800,6 +15863,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 37,
       "source": "https://tibia.fandom.com/wiki/Norse_Shield",
       "imbuementSlots": {
@@ -16152,6 +16216,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 29,
       "source": "https://tibia.fandom.com/wiki/Ornamented_Shield",
       "imbuementSlots": {
@@ -16627,6 +16692,7 @@
       "slots": ["offhand"],
       "vocations": ["knight"],
       "minLevel": 130,
+      "offhandKind": "shield",
       "defense": 47,
       "source": "https://tibia.fandom.com/wiki/Ornate_Shield",
       "attributes": {
@@ -16645,6 +16711,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "source": "https://tibia.fandom.com/wiki/Painted_Gourd_Rattle"
     },
     {
@@ -16875,6 +16942,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 45,
       "source": "https://tibia.fandom.com/wiki/Phoenix_Shield",
       "imbuementSlots": {
@@ -17392,6 +17460,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 23,
       "source": "https://tibia.fandom.com/wiki/Plate_Shield"
     },
@@ -17633,6 +17702,7 @@
       "slots": ["offhand"],
       "vocations": ["knight"],
       "minLevel": 150,
+      "offhandKind": "shield",
       "defense": 49,
       "source": "https://tibia.fandom.com/wiki/Prismatic_Shield",
       "attributes": {
@@ -17690,6 +17760,7 @@
       "slots": ["offhand"],
       "vocations": ["paladin"],
       "minLevel": 0,
+      "offhandKind": "quiver",
       "source": "https://tibia.fandom.com/wiki/Quiver"
     },
     {
@@ -17739,6 +17810,7 @@
       "slots": ["offhand"],
       "vocations": ["knight"],
       "minLevel": 100,
+      "offhandKind": "shield",
       "defense": 39,
       "source": "https://tibia.fandom.com/wiki/Rainbow_Shield"
     },
@@ -17794,6 +17866,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "source": "https://tibia.fandom.com/wiki/Rattling_Gourd"
     },
     {
@@ -17848,6 +17921,7 @@
       "slots": ["offhand"],
       "vocations": ["paladin"],
       "minLevel": 0,
+      "offhandKind": "quiver",
       "source": "https://tibia.fandom.com/wiki/Red_Quiver"
     },
     {
@@ -17893,6 +17967,7 @@
       "slots": ["offhand"],
       "vocations": ["knight"],
       "minLevel": 350,
+      "offhandKind": "shield",
       "defense": 54,
       "source": "https://tibia.fandom.com/wiki/Refined_Stag_Shield",
       "attributes": {
@@ -18312,6 +18387,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 49,
       "source": "https://tibia.fandom.com/wiki/Rift_Shield",
       "imbuementSlots": {
@@ -18782,6 +18858,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 36,
       "source": "https://tibia.fandom.com/wiki/Rose_Shield"
     },
@@ -18979,6 +19056,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 41,
       "source": "https://tibia.fandom.com/wiki/Runic_Ice_Shield",
       "imbuementSlots": {
@@ -19093,6 +19171,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 34,
       "source": "https://tibia.fandom.com/wiki/Salamander_Shield"
     },
@@ -19554,6 +19633,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 33,
       "source": "https://tibia.fandom.com/wiki/Scarab_Shield"
     },
@@ -19631,6 +19711,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 29,
       "source": "https://tibia.fandom.com/wiki/Sentinel_Shield",
       "imbuementSlots": {
@@ -19712,6 +19793,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 11,
       "source": "https://tibia.fandom.com/wiki/Shield_of_Care",
       "imbuementSlots": {
@@ -19725,6 +19807,7 @@
       "slots": ["offhand"],
       "vocations": ["knight"],
       "minLevel": 80,
+      "offhandKind": "shield",
       "defense": 47,
       "source": "https://tibia.fandom.com/wiki/Shield_of_Corruption",
       "attributes": {
@@ -19743,6 +19826,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "source": "https://tibia.fandom.com/wiki/Shield_of_Endless_Search"
     },
     {
@@ -19751,6 +19835,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 43,
       "source": "https://tibia.fandom.com/wiki/Shield_of_Honour"
     },
@@ -19760,6 +19845,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 11,
       "source": "https://tibia.fandom.com/wiki/Shield_of_the_White_Knight",
       "imbuementSlots": {
@@ -19894,6 +19980,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer", "druid"],
       "minLevel": 180,
+      "offhandKind": "spellbook",
       "defense": 34,
       "source": "https://tibia.fandom.com/wiki/Shoulder_Plate",
       "attributes": {
@@ -19979,6 +20066,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "source": "https://tibia.fandom.com/wiki/Silver_Chimes"
     },
     {
@@ -20700,6 +20788,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer", "druid"],
       "minLevel": 100,
+      "offhandKind": "spellbook",
       "defense": 23,
       "source": "https://tibia.fandom.com/wiki/Snake_God's_Wristguard",
       "attributes": {
@@ -20814,6 +20903,7 @@
       "slots": ["offhand"],
       "vocations": ["knight"],
       "minLevel": 400,
+      "offhandKind": "shield",
       "defense": 55,
       "source": "https://tibia.fandom.com/wiki/Soulbastion",
       "attributes": {
@@ -21277,6 +21367,7 @@
       "slots": ["offhand"],
       "vocations": ["knight"],
       "minLevel": 100,
+      "offhandKind": "shield",
       "defense": 49,
       "source": "https://tibia.fandom.com/wiki/Sparking_Rainbow_Shield"
     },
@@ -21318,6 +21409,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer", "druid"],
       "minLevel": 0,
+      "offhandKind": "spellbook",
       "defense": 23,
       "source": "https://tibia.fandom.com/wiki/Spellbook",
       "imbuementSlots": {
@@ -21331,6 +21423,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer", "druid"],
       "minLevel": 150,
+      "offhandKind": "spellbook",
       "defense": 31,
       "source": "https://tibia.fandom.com/wiki/Spellbook_of_Ancient_Arcana",
       "attributes": {
@@ -21348,6 +21441,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer", "druid"],
       "minLevel": 80,
+      "offhandKind": "spellbook",
       "defense": 26,
       "source": "https://tibia.fandom.com/wiki/Spellbook_of_Dark_Mysteries",
       "attributes": {
@@ -21362,6 +21456,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer", "druid"],
       "minLevel": 30,
+      "offhandKind": "spellbook",
       "defense": 29,
       "source": "https://tibia.fandom.com/wiki/Spellbook_of_Enlightenment",
       "attributes": {
@@ -21380,6 +21475,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer", "druid"],
       "minLevel": 60,
+      "offhandKind": "spellbook",
       "defense": 32,
       "source": "https://tibia.fandom.com/wiki/Spellbook_of_Lost_Souls",
       "attributes": {
@@ -21394,6 +21490,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer", "druid"],
       "minLevel": 50,
+      "offhandKind": "spellbook",
       "defense": 26,
       "source": "https://tibia.fandom.com/wiki/Spellbook_of_Mind_Control",
       "attributes": {
@@ -21408,6 +21505,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer", "druid"],
       "minLevel": 130,
+      "offhandKind": "spellbook",
       "defense": 32,
       "source": "https://tibia.fandom.com/wiki/Spellbook_of_Vigilance",
       "attributes": {
@@ -21426,6 +21524,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer", "druid"],
       "minLevel": 40,
+      "offhandKind": "spellbook",
       "defense": 36,
       "source": "https://tibia.fandom.com/wiki/Spellbook_of_Warding",
       "attributes": {
@@ -21444,6 +21543,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer", "druid"],
       "minLevel": 0,
+      "offhandKind": "spellbook",
       "defense": 13,
       "source": "https://tibia.fandom.com/wiki/Spellbook_of_the_Novice"
     },
@@ -21453,6 +21553,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer", "druid"],
       "minLevel": 70,
+      "offhandKind": "spellbook",
       "defense": 20,
       "source": "https://tibia.fandom.com/wiki/Spellscroll_of_Prophecies",
       "attributes": {
@@ -21482,6 +21583,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 37,
       "source": "https://tibia.fandom.com/wiki/Spike_Shield"
     },
@@ -21573,6 +21675,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer", "druid"],
       "minLevel": 180,
+      "offhandKind": "spellbook",
       "defense": 28,
       "source": "https://tibia.fandom.com/wiki/Spirit_Guide",
       "attributes": {
@@ -21816,6 +21919,7 @@
       "slots": ["offhand"],
       "vocations": ["druid"],
       "minLevel": 350,
+      "offhandKind": "spellbook",
       "hands": 1,
       "defense": 34,
       "source": "https://tibia.fandom.com/wiki/Stag_Scrolls",
@@ -21839,6 +21943,7 @@
       "slots": ["offhand"],
       "vocations": ["knight"],
       "minLevel": 350,
+      "offhandKind": "shield",
       "defense": 52,
       "source": "https://tibia.fandom.com/wiki/Stag_Shield",
       "attributes": {
@@ -21876,6 +21981,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer"],
       "minLevel": 350,
+      "offhandKind": "spellbook",
       "hands": 1,
       "defense": 34,
       "source": "https://tibia.fandom.com/wiki/Stag_Spellbook",
@@ -21969,6 +22075,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 28,
       "source": "https://tibia.fandom.com/wiki/Steel_Shield",
       "imbuementSlots": {
@@ -22499,6 +22606,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "source": "https://tibia.fandom.com/wiki/Strange_Good_Night_Songs"
     },
     {
@@ -22584,6 +22692,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 20,
       "source": "https://tibia.fandom.com/wiki/Studded_Shield"
     },
@@ -22847,6 +22956,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 47,
       "source": "https://tibia.fandom.com/wiki/Tempest_Shield",
       "imbuementSlots": {
@@ -22986,6 +23096,7 @@
       "slots": ["offhand"],
       "vocations": ["knight"],
       "minLevel": 100,
+      "offhandKind": "shield",
       "defense": 49,
       "source": "https://tibia.fandom.com/wiki/Terran_Rainbow_Shield"
     },
@@ -23193,6 +23304,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 33,
       "source": "https://tibia.fandom.com/wiki/The_Shield_Nevermourn"
     },
@@ -23489,6 +23601,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 34,
       "source": "https://tibia.fandom.com/wiki/Tortoise_Shield"
     },
@@ -23498,6 +23611,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 42,
       "source": "https://tibia.fandom.com/wiki/Tower_Shield",
       "imbuementSlots": {
@@ -23561,6 +23675,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "source": "https://tibia.fandom.com/wiki/Traditional_Stein"
     },
     {
@@ -23629,6 +23744,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 36,
       "source": "https://tibia.fandom.com/wiki/Tusk_Shield"
     },
@@ -24035,6 +24151,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer", "druid"],
       "minLevel": 250,
+      "offhandKind": "spellbook",
       "defense": 32,
       "source": "https://tibia.fandom.com/wiki/Umbral_Master_Spellbook",
       "attributes": {
@@ -24100,6 +24217,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer", "druid"],
       "minLevel": 150,
+      "offhandKind": "spellbook",
       "defense": 26,
       "source": "https://tibia.fandom.com/wiki/Umbral_Spellbook",
       "attributes": {
@@ -24593,6 +24711,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 45,
       "source": "https://tibia.fandom.com/wiki/Vampire_Shield",
       "imbuementSlots": {
@@ -24646,6 +24765,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 29,
       "source": "https://tibia.fandom.com/wiki/Viking_Shield",
       "imbuementSlots": {
@@ -25268,6 +25388,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 43,
       "source": "https://tibia.fandom.com/wiki/Warrior's_Shield",
       "imbuementSlots": {
@@ -25464,6 +25585,7 @@
       "slots": ["offhand"],
       "vocations": [],
       "minLevel": 0,
+      "offhandKind": "shield",
       "defense": 19,
       "source": "https://tibia.fandom.com/wiki/Wooden_Shield"
     },
@@ -25473,6 +25595,7 @@
       "slots": ["offhand"],
       "vocations": ["sorcerer", "druid"],
       "minLevel": 80,
+      "offhandKind": "spellbook",
       "defense": 26,
       "source": "https://tibia.fandom.com/wiki/Wooden_Spellbook",
       "attributes": {

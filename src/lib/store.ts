@@ -4,19 +4,30 @@
  * Estado global da build (Zustand) + regras de consistência:
  * - trocar vocação remove itens/spells incompatíveis com aviso (RF1);
  * - equipar item incompatível com slot é impossível pela UI (RF3);
- * - imbuements respeitam count/categorias do item (RF4) — validado na UI.
+ * - imbuements respeitam count/categorias do item (RF4) — validado na UI;
+ * - arma de duas mãos não convive com offhand, exceto quiver com arma de
+ *   distância (regra do jogo — https://tibia.fandom.com/wiki/Quivers).
  */
 
 import { create } from 'zustand';
 import { emptyBuild, type Build } from '@/engine/schemas/build';
 import type { AttackMode, SkillKey, Slot, Vocation } from '@/engine/schemas/enums';
 import type { CharmStage } from '@/engine/schemas/charm';
+import type { Item } from '@/engine/schemas/item';
 import { itemById, itemFitsVocation, spellById } from './data';
+
+/** true se a arma (2 mãos) não pode conviver com este item de offhand. */
+export function twoHandedConflict(weapon: Item | undefined, offhand: Item | undefined): boolean {
+  if (!weapon || !offhand || weapon.hands !== 2) return false;
+  return !(weapon.weaponType === 'distance' && offhand.offhandKind === 'quiver');
+}
 
 interface SimStore {
   build: Build;
   /** nomes de itens removidos na última troca de vocação (aviso RF1) */
   removedByVocation: string[];
+  /** nome do item removido pela regra de duas mãos (aviso no equipamento) */
+  removedByTwoHanded: string | null;
   setVocation: (v: Vocation) => void;
   setLevel: (level: number) => void;
   setSkill: (skill: SkillKey, value: number) => void;
@@ -31,11 +42,13 @@ interface SimStore {
   reset: () => void;
   load: (build: Build) => void;
   dismissRemovedNotice: () => void;
+  dismissTwoHandedNotice: () => void;
 }
 
 export const useSimStore = create<SimStore>((set) => ({
   build: emptyBuild(),
   removedByVocation: [],
+  removedByTwoHanded: null,
 
   setVocation: (vocation) =>
     set((state) => {
@@ -74,15 +87,24 @@ export const useSimStore = create<SimStore>((set) => ({
   setAttackMode: (attackMode) => set((state) => ({ build: { ...state.build, attackMode } })),
 
   equip: (slot, itemId) =>
-    set((state) => ({
-      build: {
-        ...state.build,
-        equipment: {
-          ...state.build.equipment,
-          [slot]: { itemId, imbuementIds: [] },
-        },
-      },
-    })),
+    set((state) => {
+      const equipment: Build['equipment'] = {
+        ...state.build.equipment,
+        [slot]: { itemId, imbuementIds: [] },
+      };
+      let removedByTwoHanded: string | null = null;
+
+      // Regra de duas mãos: equipar arma 2H remove o offhand incompatível
+      // (a UI bloqueia o caminho inverso; aqui é a garantia de consistência).
+      const weapon = equipment.weapon ? itemById.get(equipment.weapon.itemId) : undefined;
+      const offhand = equipment.offhand ? itemById.get(equipment.offhand.itemId) : undefined;
+      if (twoHandedConflict(weapon, offhand)) {
+        removedByTwoHanded = slot === 'offhand' ? (weapon?.name ?? null) : (offhand?.name ?? null);
+        delete equipment[slot === 'offhand' ? 'weapon' : 'offhand'];
+      }
+
+      return { build: { ...state.build, equipment }, removedByTwoHanded };
+    }),
 
   unequip: (slot) =>
     set((state) => {
@@ -121,9 +143,10 @@ export const useSimStore = create<SimStore>((set) => ({
       };
     }),
 
-  reset: () => set({ build: emptyBuild(), removedByVocation: [] }),
-  load: (build) => set({ build, removedByVocation: [] }),
+  reset: () => set({ build: emptyBuild(), removedByVocation: [], removedByTwoHanded: null }),
+  load: (build) => set({ build, removedByVocation: [], removedByTwoHanded: null }),
   dismissRemovedNotice: () => set({ removedByVocation: [] }),
+  dismissTwoHandedNotice: () => set({ removedByTwoHanded: null }),
 }));
 
 function clampInt(v: number, min: number, max: number): number {

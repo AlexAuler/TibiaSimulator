@@ -71,6 +71,8 @@ function SlotCell({ slot, onOpen }: { slot: Slot; onOpen: (slot: Slot) => void }
 export default function EquipmentGrid() {
   const [openSlot, setOpenSlot] = useState<Slot | null>(null);
   const build = useSimStore((s) => s.build);
+  const removedByTwoHanded = useSimStore((s) => s.removedByTwoHanded);
+  const dismissTwoHandedNotice = useSimStore((s) => s.dismissTwoHandedNotice);
 
   // slots com item e com slots de imbuement, para renderizar seletores
   const imbuableEquipped = (Object.keys(build.equipment) as Slot[])
@@ -85,6 +87,19 @@ export default function EquipmentGrid() {
 
   return (
     <Panel title={S.equipment.title}>
+      {removedByTwoHanded && (
+        <div className="fadein mb-3 flex items-start gap-2 rounded border border-blood-600/60 bg-blood-600/10 px-3 py-2 text-xs text-parchment-300">
+          <span className="min-w-0 flex-1">{S.equipment.twoHandedRemoved(removedByTwoHanded)}</span>
+          <button
+            type="button"
+            onClick={dismissTwoHandedNotice}
+            aria-label="Dispensar aviso"
+            className="text-parchment-600 hover:text-parchment-200"
+          >
+            ✕
+          </button>
+        </div>
+      )}
       <div className="grid grid-cols-3 gap-2">
         {LAYOUT.flat().map((slot, i) =>
           slot ? <SlotCell key={slot} slot={slot} onOpen={setOpenSlot} /> : <div key={`x${i}`} />,
