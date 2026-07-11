@@ -1,0 +1,561 @@
+{
+  "dataVersion": "15.x",
+  "generatedAt": "2026-07-10",
+  "spells": [
+    {
+      "id": "flame-strike",
+      "name": "Flame Strike",
+      "words": "exori flam",
+      "vocations": ["sorcerer", "druid"],
+      "minLevel": 8,
+      "manaCost": 20,
+      "cooldownSec": 2,
+      "element": "fire",
+      "formula": {
+        "kind": "levelMl",
+        "min": {
+          "b": 1.403,
+          "c": 8
+        },
+        "max": {
+          "b": 2.203,
+          "c": 13
+        },
+        "levelCoef": 0.2
+      },
+      "basePower": 45,
+      "isAoe": false,
+      "source": "https://tibia.fandom.com/wiki/Flame_Strike"
+    },
+    {
+      "id": "energy-strike",
+      "name": "Energy Strike",
+      "words": "exori vis",
+      "vocations": ["sorcerer", "druid"],
+      "minLevel": 12,
+      "manaCost": 20,
+      "cooldownSec": 2,
+      "element": "energy",
+      "formula": {
+        "kind": "levelMl",
+        "min": {
+          "b": 1.403,
+          "c": 8
+        },
+        "max": {
+          "b": 2.203,
+          "c": 13
+        },
+        "levelCoef": 0.2
+      },
+      "basePower": 45,
+      "isAoe": false,
+      "source": "https://tibia.fandom.com/wiki/Energy_Strike"
+    },
+    {
+      "id": "ice-strike",
+      "name": "Ice Strike",
+      "words": "exori frigo",
+      "vocations": ["sorcerer", "druid"],
+      "minLevel": 8,
+      "manaCost": 20,
+      "cooldownSec": 2,
+      "element": "ice",
+      "formula": {
+        "kind": "levelMl",
+        "min": {
+          "b": 1.403,
+          "c": 8
+        },
+        "max": {
+          "b": 2.203,
+          "c": 13
+        },
+        "levelCoef": 0.2
+      },
+      "basePower": 45,
+      "isAoe": false,
+      "source": "https://tibia.fandom.com/wiki/Ice_Strike"
+    },
+    {
+      "id": "terra-strike",
+      "name": "Terra Strike",
+      "words": "exori tera",
+      "vocations": ["sorcerer", "druid"],
+      "minLevel": 13,
+      "manaCost": 20,
+      "cooldownSec": 2,
+      "element": "earth",
+      "formula": {
+        "kind": "levelMl",
+        "min": {
+          "b": 1.403,
+          "c": 8
+        },
+        "max": {
+          "b": 2.203,
+          "c": 13
+        },
+        "levelCoef": 0.2
+      },
+      "basePower": 45,
+      "isAoe": false,
+      "source": "https://tibia.fandom.com/wiki/Terra_Strike"
+    },
+    {
+      "id": "death-strike",
+      "name": "Death Strike",
+      "words": "exori mort",
+      "vocations": ["sorcerer"],
+      "minLevel": 16,
+      "manaCost": 20,
+      "cooldownSec": 2,
+      "element": "death",
+      "formula": {
+        "kind": "levelMl",
+        "min": {
+          "b": 1.403,
+          "c": 8
+        },
+        "max": {
+          "b": 2.203,
+          "c": 13
+        },
+        "levelCoef": 0.2
+      },
+      "basePower": 45,
+      "isAoe": false,
+      "source": "https://tibia.fandom.com/wiki/Death_Strike"
+    },
+    {
+      "id": "physical-strike",
+      "name": "Physical Strike",
+      "words": "exori moe ico",
+      "vocations": ["druid"],
+      "minLevel": 16,
+      "manaCost": 20,
+      "cooldownSec": 2,
+      "element": "physical",
+      "formula": {
+        "kind": "levelMl",
+        "min": {
+          "b": 1.403,
+          "c": 8
+        },
+        "max": {
+          "b": 2.203,
+          "c": 13
+        },
+        "levelCoef": 0.2
+      },
+      "basePower": 50,
+      "isAoe": false,
+      "source": "https://tibia.fandom.com/wiki/Physical_Strike"
+    },
+    {
+      "id": "divine-missile",
+      "name": "Divine Missile",
+      "words": "exori san",
+      "vocations": ["paladin"],
+      "minLevel": 40,
+      "manaCost": 20,
+      "cooldownSec": 2,
+      "element": "holy",
+      "formula": {
+        "kind": "levelMl",
+        "min": {
+          "b": 1.79,
+          "c": 11
+        },
+        "max": {
+          "b": 3,
+          "c": 18
+        },
+        "levelCoef": 0.2
+      },
+      "basePower": 60,
+      "isAoe": false,
+      "source": "https://tibia.fandom.com/wiki/Divine_Missile"
+    },
+    {
+      "id": "fire-wave",
+      "name": "Fire Wave",
+      "words": "exevo flam hur",
+      "vocations": ["sorcerer"],
+      "minLevel": 18,
+      "manaCost": 25,
+      "cooldownSec": 4,
+      "element": "fire",
+      "formula": {
+        "kind": "levelMl",
+        "min": {
+          "b": 1.25,
+          "c": 4
+        },
+        "max": {
+          "b": 2,
+          "c": 12
+        },
+        "levelCoef": 0.2
+      },
+      "basePower": 40,
+      "isAoe": true,
+      "source": "https://tibia.fandom.com/wiki/Fire_Wave"
+    },
+    {
+      "id": "ice-wave",
+      "name": "Ice Wave",
+      "words": "exevo frigo hur",
+      "vocations": ["druid"],
+      "minLevel": 18,
+      "manaCost": 25,
+      "cooldownSec": 4,
+      "element": "ice",
+      "formula": {
+        "kind": "levelMl",
+        "min": {
+          "b": 0.81,
+          "c": 4
+        },
+        "max": {
+          "b": 2,
+          "c": 12
+        },
+        "levelCoef": 0.2
+      },
+      "basePower": 35,
+      "isAoe": true,
+      "source": "https://tibia.fandom.com/wiki/Ice_Wave"
+    },
+    {
+      "id": "energy-beam",
+      "name": "Energy Beam",
+      "words": "exevo vis lux",
+      "vocations": ["sorcerer"],
+      "minLevel": 23,
+      "manaCost": 40,
+      "cooldownSec": 4,
+      "element": "energy",
+      "formula": {
+        "kind": "levelMl",
+        "min": {
+          "b": 2.5,
+          "c": 0
+        },
+        "max": {
+          "b": 4,
+          "c": 0
+        },
+        "levelCoef": 0.2
+      },
+      "basePower": 60,
+      "isAoe": true,
+      "source": "https://tibia.fandom.com/wiki/Energy_Beam"
+    },
+    {
+      "id": "great-energy-beam",
+      "name": "Great Energy Beam",
+      "words": "exevo gran vis lux",
+      "vocations": ["sorcerer"],
+      "minLevel": 29,
+      "manaCost": 110,
+      "cooldownSec": 6,
+      "element": "energy",
+      "formula": {
+        "kind": "levelMl",
+        "min": {
+          "b": 4,
+          "c": 0
+        },
+        "max": {
+          "b": 7,
+          "c": 0
+        },
+        "levelCoef": 0.2
+      },
+      "basePower": 155,
+      "isAoe": true,
+      "source": "https://tibia.fandom.com/wiki/Great_Energy_Beam"
+    },
+    {
+      "id": "divine-caldera",
+      "name": "Divine Caldera",
+      "words": "exevo mas san",
+      "vocations": ["paladin"],
+      "minLevel": 50,
+      "manaCost": 160,
+      "cooldownSec": 4,
+      "element": "holy",
+      "formula": {
+        "kind": "levelMl",
+        "min": {
+          "b": 4,
+          "c": 0
+        },
+        "max": {
+          "b": 6,
+          "c": 0
+        },
+        "levelCoef": 0.2
+      },
+      "basePower": 150,
+      "isAoe": true,
+      "source": "https://tibia.fandom.com/wiki/Divine_Caldera"
+    },
+    {
+      "id": "terra-wave",
+      "name": "Terra Wave",
+      "words": "exevo tera hur",
+      "vocations": ["druid"],
+      "minLevel": 38,
+      "manaCost": 170,
+      "cooldownSec": 4,
+      "element": "earth",
+      "formula": {
+        "kind": "levelMl",
+        "min": {
+          "b": 3.5,
+          "c": 0
+        },
+        "max": {
+          "b": 7,
+          "c": 0
+        },
+        "levelCoef": 0.2
+      },
+      "basePower": 120,
+      "isAoe": true,
+      "source": "https://tibia.fandom.com/wiki/Terra_Wave"
+    },
+    {
+      "id": "energy-wave",
+      "name": "Energy Wave",
+      "words": "exevo vis hur",
+      "vocations": ["sorcerer"],
+      "minLevel": 38,
+      "manaCost": 170,
+      "cooldownSec": 8,
+      "element": "energy",
+      "formula": {
+        "kind": "levelMl",
+        "min": {
+          "b": 4.5,
+          "c": 0
+        },
+        "max": {
+          "b": 9,
+          "c": 0
+        },
+        "levelCoef": 0.2
+      },
+      "basePower": 150,
+      "isAoe": true,
+      "source": "https://tibia.fandom.com/wiki/Energy_Wave"
+    },
+    {
+      "id": "hells-core",
+      "name": "Hell's Core",
+      "words": "exevo gran mas flam",
+      "vocations": ["sorcerer"],
+      "minLevel": 60,
+      "manaCost": 1100,
+      "cooldownSec": 40,
+      "element": "fire",
+      "formula": {
+        "kind": "levelMl",
+        "min": {
+          "b": 7,
+          "c": 0
+        },
+        "max": {
+          "b": 14,
+          "c": 0
+        },
+        "levelCoef": 0.2
+      },
+      "basePower": 250,
+      "isAoe": true,
+      "source": "https://tibia.fandom.com/wiki/Hell's_Core"
+    },
+    {
+      "id": "rage-of-the-skies",
+      "name": "Rage of the Skies",
+      "words": "exevo gran mas vis",
+      "vocations": ["sorcerer"],
+      "minLevel": 55,
+      "manaCost": 600,
+      "cooldownSec": 40,
+      "element": "energy",
+      "formula": {
+        "kind": "levelMl",
+        "min": {
+          "b": 5,
+          "c": 0
+        },
+        "max": {
+          "b": 12,
+          "c": 0
+        },
+        "levelCoef": 0.2
+      },
+      "basePower": 200,
+      "isAoe": true,
+      "source": "https://tibia.fandom.com/wiki/Rage_of_the_Skies"
+    },
+    {
+      "id": "wrath-of-nature",
+      "name": "Wrath of Nature",
+      "words": "exevo gran mas tera",
+      "vocations": ["druid"],
+      "minLevel": 55,
+      "manaCost": 700,
+      "cooldownSec": 40,
+      "element": "earth",
+      "formula": {
+        "kind": "levelMl",
+        "min": {
+          "b": 5,
+          "c": 0
+        },
+        "max": {
+          "b": 10,
+          "c": 0
+        },
+        "levelCoef": 0.2
+      },
+      "basePower": 175,
+      "isAoe": true,
+      "source": "https://tibia.fandom.com/wiki/Wrath_of_Nature"
+    },
+    {
+      "id": "eternal-winter",
+      "name": "Eternal Winter",
+      "words": "exevo gran mas frigo",
+      "vocations": ["druid"],
+      "minLevel": 60,
+      "manaCost": 1050,
+      "cooldownSec": 40,
+      "element": "ice",
+      "formula": {
+        "kind": "levelMl",
+        "min": {
+          "b": 6,
+          "c": 0
+        },
+        "max": {
+          "b": 12,
+          "c": 0
+        },
+        "levelCoef": 0.2
+      },
+      "basePower": 200,
+      "isAoe": true,
+      "source": "https://tibia.fandom.com/wiki/Eternal_Winter"
+    },
+    {
+      "id": "berserk",
+      "name": "Berserk",
+      "words": "exori",
+      "vocations": ["knight"],
+      "minLevel": 35,
+      "manaCost": 125,
+      "cooldownSec": 4,
+      "element": "physical",
+      "formula": {
+        "kind": "weaponSkill",
+        "atkMultiplier": 1,
+        "offset": 0,
+        "ignoresWeaponAttack": false,
+        "minFactor": 0.5,
+        "maxFactor": 1.5
+      },
+      "basePower": 44,
+      "isAoe": true,
+      "source": "https://tibia.fandom.com/wiki/Berserk"
+    },
+    {
+      "id": "fierce-berserk",
+      "name": "Fierce Berserk",
+      "words": "exori gran",
+      "vocations": ["knight"],
+      "minLevel": 90,
+      "manaCost": 360,
+      "cooldownSec": 6,
+      "element": "physical",
+      "formula": {
+        "kind": "weaponSkill",
+        "atkMultiplier": 2,
+        "offset": 0,
+        "ignoresWeaponAttack": false,
+        "minFactor": 1.1,
+        "maxFactor": 3
+      },
+      "basePower": 92,
+      "isAoe": true,
+      "source": "https://tibia.fandom.com/wiki/Fierce_Berserk"
+    },
+    {
+      "id": "groundshaker",
+      "name": "Groundshaker",
+      "words": "exori mas",
+      "vocations": ["knight"],
+      "minLevel": 33,
+      "manaCost": 200,
+      "cooldownSec": 8,
+      "element": "physical",
+      "formula": {
+        "kind": "weaponSkill",
+        "atkMultiplier": 1,
+        "offset": 0,
+        "ignoresWeaponAttack": false,
+        "minFactor": 0.5,
+        "maxFactor": 1.1
+      },
+      "basePower": 32,
+      "isAoe": true,
+      "source": "https://tibia.fandom.com/wiki/Groundshaker"
+    },
+    {
+      "id": "whirlwind-throw",
+      "name": "Whirlwind Throw",
+      "words": "exori hur",
+      "vocations": ["knight"],
+      "minLevel": 28,
+      "manaCost": 40,
+      "cooldownSec": 6,
+      "element": "physical",
+      "formula": {
+        "kind": "weaponSkill",
+        "atkMultiplier": 1,
+        "offset": 0,
+        "ignoresWeaponAttack": false,
+        "minFactor": 0.3333333333333333,
+        "maxFactor": 1
+      },
+      "basePower": 32,
+      "isAoe": false,
+      "source": "https://tibia.fandom.com/wiki/Whirlwind_Throw"
+    },
+    {
+      "id": "ethereal-spear",
+      "name": "Ethereal Spear",
+      "words": "exori con",
+      "vocations": ["paladin"],
+      "minLevel": 23,
+      "manaCost": 25,
+      "cooldownSec": 2,
+      "element": "physical",
+      "formula": {
+        "kind": "weaponSkill",
+        "atkMultiplier": 0,
+        "offset": 25,
+        "ignoresWeaponAttack": true,
+        "minFactor": 0.3333333333333333,
+        "maxFactor": 1
+      },
+      "basePower": 25,
+      "isAoe": false,
+      "source": "https://tibia.fandom.com/wiki/Ethereal_Spear"
+    }
+  ]
+}

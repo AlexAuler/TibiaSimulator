@@ -1,0 +1,1633 @@
+{
+  "dataVersion": "15.x",
+  "generatedAt": "2026-07-10",
+  "items": [
+    {
+      "id": "falcon-longsword",
+      "name": "Falcon Longsword",
+      "slots": ["weapon"],
+      "vocations": ["knight"],
+      "minLevel": 300,
+      "weaponType": "sword",
+      "hands": 2,
+      "attack": {
+        "physical": 56
+      },
+      "defense": 34,
+      "source": "https://tibia.fandom.com/wiki/Falcon_Longsword",
+      "attributes": {
+        "skillBonuses": {
+          "sword": 4
+        },
+        "resistances": {
+          "earth": 10
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["elementalDamage", "critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "magic-sword",
+      "name": "Magic Sword",
+      "slots": ["weapon"],
+      "vocations": [],
+      "minLevel": 80,
+      "weaponType": "sword",
+      "hands": 1,
+      "attack": {
+        "physical": 48
+      },
+      "defense": 35,
+      "source": "https://tibia.fandom.com/wiki/Magic_Sword",
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["elementalDamage", "critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "giant-sword",
+      "name": "Giant Sword",
+      "slots": ["weapon"],
+      "vocations": ["knight"],
+      "minLevel": 55,
+      "weaponType": "sword",
+      "hands": 2,
+      "attack": {
+        "physical": 46
+      },
+      "defense": 22,
+      "source": "https://tibia.fandom.com/wiki/Giant_Sword",
+      "imbuementSlots": {
+        "count": 3,
+        "allowed": ["elementalDamage", "critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "summerblade",
+      "name": "Summerblade",
+      "slots": ["weapon"],
+      "vocations": ["knight"],
+      "minLevel": 200,
+      "weaponType": "sword",
+      "hands": 1,
+      "attack": {
+        "physical": 10,
+        "element": {
+          "type": "fire",
+          "value": 41
+        }
+      },
+      "defense": 20,
+      "source": "https://tibia.fandom.com/wiki/Summerblade",
+      "attributes": {
+        "skillBonuses": {
+          "sword": 1
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "sanguine-blade",
+      "name": "Sanguine Blade",
+      "slots": ["weapon"],
+      "vocations": ["knight"],
+      "minLevel": 600,
+      "weaponType": "sword",
+      "hands": 1,
+      "attack": {
+        "physical": 8,
+        "element": {
+          "type": "fire",
+          "value": 46
+        }
+      },
+      "defense": 32,
+      "source": "https://tibia.fandom.com/wiki/Sanguine_Blade",
+      "attributes": {
+        "skillBonuses": {
+          "sword": 4
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "grand-sanguine-blade",
+      "name": "Grand Sanguine Blade",
+      "slots": ["weapon"],
+      "vocations": ["knight"],
+      "minLevel": 600,
+      "weaponType": "sword",
+      "hands": 1,
+      "attack": {
+        "physical": 8,
+        "element": {
+          "type": "fire",
+          "value": 46
+        }
+      },
+      "defense": 32,
+      "source": "https://tibia.fandom.com/wiki/Grand_Sanguine_Blade",
+      "attributes": {
+        "skillBonuses": {
+          "sword": 4
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "gnome-sword",
+      "name": "Gnome Sword",
+      "slots": ["weapon"],
+      "vocations": ["knight"],
+      "minLevel": 250,
+      "weaponType": "sword",
+      "hands": 1,
+      "attack": {
+        "physical": 10,
+        "element": {
+          "type": "energy",
+          "value": 41
+        }
+      },
+      "defense": 29,
+      "source": "https://tibia.fandom.com/wiki/Gnome_Sword",
+      "attributes": {
+        "skillBonuses": {
+          "sword": 1
+        },
+        "resistances": {
+          "energy": 6
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "falcon-battleaxe",
+      "name": "Falcon Battleaxe",
+      "slots": ["weapon"],
+      "vocations": ["knight"],
+      "minLevel": 300,
+      "weaponType": "axe",
+      "hands": 2,
+      "attack": {
+        "physical": 10,
+        "element": {
+          "type": "energy",
+          "value": 47
+        }
+      },
+      "defense": 33,
+      "source": "https://tibia.fandom.com/wiki/Falcon_Battleaxe",
+      "attributes": {
+        "skillBonuses": {
+          "axe": 4
+        },
+        "resistances": {
+          "energy": 12
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "war-axe",
+      "name": "War Axe",
+      "slots": ["weapon"],
+      "vocations": ["knight"],
+      "minLevel": 65,
+      "weaponType": "axe",
+      "hands": 2,
+      "attack": {
+        "physical": 48
+      },
+      "defense": 10,
+      "source": "https://tibia.fandom.com/wiki/War_Axe",
+      "imbuementSlots": {
+        "count": 3,
+        "allowed": ["elementalDamage", "critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "solar-axe",
+      "name": "Solar Axe",
+      "slots": ["weapon"],
+      "vocations": [],
+      "minLevel": 130,
+      "weaponType": "axe",
+      "hands": 1,
+      "attack": {
+        "physical": 52
+      },
+      "defense": 29,
+      "source": "https://tibia.fandom.com/wiki/Solar_Axe",
+      "imbuementSlots": {
+        "count": 1,
+        "allowed": ["elementalDamage", "critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "cobra-axe",
+      "name": "Cobra Axe",
+      "slots": ["weapon"],
+      "vocations": ["knight"],
+      "minLevel": 220,
+      "weaponType": "axe",
+      "hands": 1,
+      "attack": {
+        "physical": 8,
+        "element": {
+          "type": "ice",
+          "value": 44
+        }
+      },
+      "defense": 29,
+      "source": "https://tibia.fandom.com/wiki/Cobra_Axe",
+      "attributes": {
+        "skillBonuses": {
+          "axe": 2
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "sanguine-battleaxe",
+      "name": "Sanguine Battleaxe",
+      "slots": ["weapon"],
+      "vocations": ["knight"],
+      "minLevel": 600,
+      "weaponType": "axe",
+      "hands": 2,
+      "attack": {
+        "physical": 8,
+        "element": {
+          "type": "death",
+          "value": 50
+        }
+      },
+      "defense": 35,
+      "source": "https://tibia.fandom.com/wiki/Sanguine_Battleaxe",
+      "attributes": {
+        "skillBonuses": {
+          "axe": 4
+        }
+      },
+      "imbuementSlots": {
+        "count": 3,
+        "allowed": ["critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "grand-sanguine-battleaxe",
+      "name": "Grand Sanguine Battleaxe",
+      "slots": ["weapon"],
+      "vocations": ["knight"],
+      "minLevel": 600,
+      "weaponType": "axe",
+      "hands": 2,
+      "attack": {
+        "physical": 8,
+        "element": {
+          "type": "death",
+          "value": 50
+        }
+      },
+      "defense": 35,
+      "source": "https://tibia.fandom.com/wiki/Grand_Sanguine_Battleaxe",
+      "attributes": {
+        "skillBonuses": {
+          "axe": 4
+        }
+      },
+      "imbuementSlots": {
+        "count": 3,
+        "allowed": ["critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "falcon-mace",
+      "name": "Falcon Mace",
+      "slots": ["weapon"],
+      "vocations": ["knight"],
+      "minLevel": 300,
+      "weaponType": "club",
+      "hands": 1,
+      "attack": {
+        "physical": 11,
+        "element": {
+          "type": "energy",
+          "value": 41
+        }
+      },
+      "defense": 33,
+      "source": "https://tibia.fandom.com/wiki/Falcon_Mace",
+      "attributes": {
+        "skillBonuses": {
+          "club": 3
+        },
+        "resistances": {
+          "energy": 7
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "cobra-club",
+      "name": "Cobra Club",
+      "slots": ["weapon"],
+      "vocations": ["knight"],
+      "minLevel": 220,
+      "weaponType": "club",
+      "hands": 1,
+      "attack": {
+        "physical": 8,
+        "element": {
+          "type": "fire",
+          "value": 44
+        }
+      },
+      "defense": 29,
+      "source": "https://tibia.fandom.com/wiki/Cobra_Club",
+      "attributes": {
+        "skillBonuses": {
+          "club": 2
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "cranial-basher",
+      "name": "Cranial Basher",
+      "slots": ["weapon"],
+      "vocations": [],
+      "minLevel": 60,
+      "weaponType": "club",
+      "hands": 1,
+      "attack": {
+        "physical": 44
+      },
+      "defense": 20,
+      "source": "https://tibia.fandom.com/wiki/Cranial_Basher",
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["elementalDamage", "critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "sulphurous-demonbone",
+      "name": "Sulphurous Demonbone",
+      "slots": ["weapon"],
+      "vocations": [],
+      "minLevel": 80,
+      "weaponType": "club",
+      "hands": 1,
+      "attack": {
+        "physical": 46
+      },
+      "defense": 40,
+      "armor": 1,
+      "source": "https://tibia.fandom.com/wiki/Sulphurous_Demonbone",
+      "attributes": {
+        "resistances": {
+          "fire": 3
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["elementalDamage", "critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "sanguine-bludgeon",
+      "name": "Sanguine Bludgeon",
+      "slots": ["weapon"],
+      "vocations": ["knight"],
+      "minLevel": 600,
+      "weaponType": "club",
+      "hands": 2,
+      "attack": {
+        "physical": 8,
+        "element": {
+          "type": "earth",
+          "value": 50
+        }
+      },
+      "defense": 35,
+      "source": "https://tibia.fandom.com/wiki/Sanguine_Bludgeon",
+      "attributes": {
+        "skillBonuses": {
+          "club": 4
+        }
+      },
+      "imbuementSlots": {
+        "count": 3,
+        "allowed": ["critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "grand-sanguine-bludgeon",
+      "name": "Grand Sanguine Bludgeon",
+      "slots": ["weapon"],
+      "vocations": ["knight"],
+      "minLevel": 600,
+      "weaponType": "club",
+      "hands": 2,
+      "attack": {
+        "physical": 8,
+        "element": {
+          "type": "earth",
+          "value": 50
+        }
+      },
+      "defense": 35,
+      "source": "https://tibia.fandom.com/wiki/Grand_Sanguine_Bludgeon",
+      "attributes": {
+        "skillBonuses": {
+          "club": 4
+        }
+      },
+      "imbuementSlots": {
+        "count": 3,
+        "allowed": ["critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "falcon-bow",
+      "name": "Falcon Bow",
+      "slots": ["weapon"],
+      "vocations": ["paladin"],
+      "minLevel": 300,
+      "weaponType": "distance",
+      "hands": 2,
+      "source": "https://tibia.fandom.com/wiki/Falcon_Bow",
+      "attributes": {
+        "skillBonuses": {
+          "distance": 2
+        },
+        "resistances": {
+          "fire": 5
+        }
+      },
+      "imbuementSlots": {
+        "count": 3,
+        "allowed": ["elementalDamage", "critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "living-vine-bow",
+      "name": "Living Vine Bow",
+      "slots": ["weapon"],
+      "vocations": ["paladin"],
+      "minLevel": 220,
+      "weaponType": "distance",
+      "hands": 2,
+      "source": "https://tibia.fandom.com/wiki/Living_Vine_Bow",
+      "attributes": {
+        "skillBonuses": {
+          "distance": 1
+        },
+        "resistances": {
+          "earth": 4
+        }
+      },
+      "imbuementSlots": {
+        "count": 3,
+        "allowed": ["elementalDamage", "critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "cobra-crossbow",
+      "name": "Cobra Crossbow",
+      "slots": ["weapon"],
+      "vocations": ["paladin"],
+      "minLevel": 220,
+      "weaponType": "distance",
+      "hands": 2,
+      "source": "https://tibia.fandom.com/wiki/Cobra_Crossbow",
+      "attributes": {
+        "skillBonuses": {
+          "distance": 1
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["elementalDamage", "critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "warsinger-bow",
+      "name": "Warsinger Bow",
+      "slots": ["weapon"],
+      "vocations": ["paladin"],
+      "minLevel": 80,
+      "weaponType": "distance",
+      "hands": 2,
+      "source": "https://tibia.fandom.com/wiki/Warsinger_Bow",
+      "imbuementSlots": {
+        "count": 3,
+        "allowed": ["elementalDamage", "critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "umbral-master-bow",
+      "name": "Umbral Master Bow",
+      "slots": ["weapon"],
+      "vocations": ["paladin"],
+      "minLevel": 250,
+      "weaponType": "distance",
+      "hands": 2,
+      "source": "https://tibia.fandom.com/wiki/Umbral_Master_Bow",
+      "attributes": {
+        "skillBonuses": {
+          "distance": 3
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["elementalDamage", "critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "soulbleeder",
+      "name": "Soulbleeder",
+      "slots": ["weapon"],
+      "vocations": ["paladin"],
+      "minLevel": 400,
+      "weaponType": "distance",
+      "hands": 2,
+      "source": "https://tibia.fandom.com/wiki/Soulbleeder",
+      "attributes": {
+        "skillBonuses": {
+          "distance": 3
+        },
+        "resistances": {
+          "holy": 7
+        }
+      },
+      "imbuementSlots": {
+        "count": 3,
+        "allowed": ["elementalDamage", "critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "soulpiercer",
+      "name": "Soulpiercer",
+      "slots": ["weapon"],
+      "vocations": ["paladin"],
+      "minLevel": 400,
+      "weaponType": "distance",
+      "hands": 2,
+      "source": "https://tibia.fandom.com/wiki/Soulpiercer",
+      "attributes": {
+        "skillBonuses": {
+          "distance": 3
+        },
+        "resistances": {
+          "death": 7
+        }
+      },
+      "imbuementSlots": {
+        "count": 3,
+        "allowed": ["elementalDamage", "critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "crystalline-arrow",
+      "name": "Crystalline Arrow",
+      "slots": ["ammo"],
+      "vocations": [],
+      "minLevel": 90,
+      "attack": {
+        "physical": 65
+      },
+      "source": "https://tibia.fandom.com/wiki/Crystalline_Arrow"
+    },
+    {
+      "id": "spectral-bolt",
+      "name": "Spectral Bolt",
+      "slots": ["ammo"],
+      "vocations": [],
+      "minLevel": 150,
+      "attack": {
+        "physical": 78
+      },
+      "source": "https://tibia.fandom.com/wiki/Spectral_Bolt"
+    },
+    {
+      "id": "diamond-arrow",
+      "name": "Diamond Arrow",
+      "slots": ["ammo"],
+      "vocations": [],
+      "minLevel": 150,
+      "attack": {
+        "physical": 37
+      },
+      "source": "https://tibia.fandom.com/wiki/Diamond_Arrow"
+    },
+    {
+      "id": "prismatic-bolt",
+      "name": "Prismatic Bolt",
+      "slots": ["ammo"],
+      "vocations": [],
+      "minLevel": 90,
+      "attack": {
+        "physical": 66
+      },
+      "source": "https://tibia.fandom.com/wiki/Prismatic_Bolt"
+    },
+    {
+      "id": "wand-of-inferno",
+      "name": "Wand of Inferno",
+      "slots": ["weapon"],
+      "vocations": ["sorcerer"],
+      "minLevel": 33,
+      "weaponType": "wand",
+      "wandDamage": {
+        "min": 56,
+        "max": 74,
+        "element": "fire"
+      },
+      "source": "https://tibia.fandom.com/wiki/Wand_of_Inferno"
+    },
+    {
+      "id": "cobra-wand",
+      "name": "Cobra Wand",
+      "slots": ["weapon"],
+      "vocations": ["sorcerer"],
+      "minLevel": 270,
+      "weaponType": "wand",
+      "wandDamage": {
+        "min": 94,
+        "max": 100,
+        "element": "energy"
+      },
+      "source": "https://tibia.fandom.com/wiki/Cobra_Wand",
+      "attributes": {
+        "skillBonuses": {
+          "magic": 2
+        },
+        "critChancePct": 5,
+        "critExtraDmgPct": 25
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "falcon-wand",
+      "name": "Falcon Wand",
+      "slots": ["weapon"],
+      "vocations": ["sorcerer"],
+      "minLevel": 300,
+      "weaponType": "wand",
+      "wandDamage": {
+        "min": 86,
+        "max": 102,
+        "element": "energy"
+      },
+      "source": "https://tibia.fandom.com/wiki/Falcon_Wand",
+      "attributes": {
+        "skillBonuses": {
+          "magic": 3
+        },
+        "resistances": {
+          "fire": 8
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "wand-of-destruction",
+      "name": "Wand of Destruction",
+      "slots": ["weapon"],
+      "vocations": ["sorcerer"],
+      "minLevel": 200,
+      "weaponType": "wand",
+      "wandDamage": {
+        "min": 80,
+        "max": 110,
+        "element": "energy"
+      },
+      "source": "https://tibia.fandom.com/wiki/Wand_of_Destruction",
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "soulhexer",
+      "name": "Soulhexer",
+      "slots": ["weapon"],
+      "vocations": ["druid"],
+      "minLevel": 400,
+      "weaponType": "rod",
+      "wandDamage": {
+        "min": 98,
+        "max": 118,
+        "element": "ice"
+      },
+      "source": "https://tibia.fandom.com/wiki/Soulhexer",
+      "attributes": {
+        "skillBonuses": {
+          "magic": 4
+        },
+        "resistances": {
+          "ice": 12
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "underworld-rod",
+      "name": "Underworld Rod",
+      "slots": ["weapon"],
+      "vocations": ["druid"],
+      "minLevel": 42,
+      "weaponType": "rod",
+      "wandDamage": {
+        "min": 56,
+        "max": 74,
+        "element": "death"
+      },
+      "source": "https://tibia.fandom.com/wiki/Underworld_Rod",
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "cobra-rod",
+      "name": "Cobra Rod",
+      "slots": ["weapon"],
+      "vocations": ["druid"],
+      "minLevel": 220,
+      "weaponType": "rod",
+      "wandDamage": {
+        "min": 70,
+        "max": 110,
+        "element": "earth"
+      },
+      "source": "https://tibia.fandom.com/wiki/Cobra_Rod",
+      "attributes": {
+        "skillBonuses": {
+          "magic": 2
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "falcon-rod",
+      "name": "Falcon Rod",
+      "slots": ["weapon"],
+      "vocations": ["druid"],
+      "minLevel": 300,
+      "weaponType": "rod",
+      "wandDamage": {
+        "min": 87,
+        "max": 101,
+        "element": "earth"
+      },
+      "source": "https://tibia.fandom.com/wiki/Falcon_Rod",
+      "attributes": {
+        "skillBonuses": {
+          "magic": 3
+        },
+        "resistances": {
+          "energy": 8
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "rod-of-destruction",
+      "name": "Rod of Destruction",
+      "slots": ["weapon"],
+      "vocations": ["druid"],
+      "minLevel": 200,
+      "weaponType": "rod",
+      "wandDamage": {
+        "min": 80,
+        "max": 110,
+        "element": "ice"
+      },
+      "source": "https://tibia.fandom.com/wiki/Rod_of_Destruction",
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "soultainter",
+      "name": "Soultainter",
+      "slots": ["weapon"],
+      "vocations": ["sorcerer"],
+      "minLevel": 400,
+      "weaponType": "wand",
+      "wandDamage": {
+        "min": 100,
+        "max": 120,
+        "element": "death"
+      },
+      "source": "https://tibia.fandom.com/wiki/Soultainter",
+      "attributes": {
+        "skillBonuses": {
+          "magic": 4
+        },
+        "resistances": {
+          "death": 12
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["critical", "leechHp", "leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "falcon-shield",
+      "name": "Falcon Shield",
+      "slots": ["offhand"],
+      "vocations": ["knight", "paladin"],
+      "minLevel": 300,
+      "defense": 51,
+      "source": "https://tibia.fandom.com/wiki/Falcon_Shield",
+      "attributes": {
+        "resistances": {
+          "physical": 6,
+          "fire": 10
+        }
+      },
+      "imbuementSlots": {
+        "count": 1,
+        "allowed": ["protection", "skillBoost"]
+      }
+    },
+    {
+      "id": "falcon-escutcheon",
+      "name": "Falcon Escutcheon",
+      "slots": ["offhand"],
+      "vocations": ["knight", "paladin"],
+      "minLevel": 300,
+      "defense": 52,
+      "source": "https://tibia.fandom.com/wiki/Falcon_Escutcheon",
+      "attributes": {
+        "resistances": {
+          "physical": 7,
+          "fire": 15
+        }
+      },
+      "imbuementSlots": {
+        "count": 1,
+        "allowed": ["protection", "skillBoost"]
+      }
+    },
+    {
+      "id": "gnome-shield",
+      "name": "Gnome Shield",
+      "slots": ["offhand"],
+      "vocations": ["knight", "paladin"],
+      "minLevel": 200,
+      "defense": 50,
+      "source": "https://tibia.fandom.com/wiki/Gnome_Shield",
+      "attributes": {
+        "skillBonuses": {
+          "shielding": 2
+        },
+        "resistances": {
+          "energy": 8,
+          "physical": 6,
+          "ice": -2
+        }
+      },
+      "imbuementSlots": {
+        "count": 1,
+        "allowed": ["protection", "skillBoost"]
+      }
+    },
+    {
+      "id": "ectoplasmic-shield",
+      "name": "Ectoplasmic Shield",
+      "slots": ["offhand"],
+      "vocations": ["knight"],
+      "minLevel": 180,
+      "defense": 49,
+      "source": "https://tibia.fandom.com/wiki/Ectoplasmic_Shield",
+      "attributes": {
+        "skillBonuses": {
+          "axe": 3,
+          "club": 3
+        },
+        "resistances": {
+          "ice": 7,
+          "fire": -3
+        }
+      },
+      "imbuementSlots": {
+        "count": 1,
+        "allowed": ["protection", "skillBoost"]
+      }
+    },
+    {
+      "id": "phoenix-shield",
+      "name": "Phoenix Shield",
+      "slots": ["offhand"],
+      "vocations": [],
+      "minLevel": 0,
+      "defense": 45,
+      "source": "https://tibia.fandom.com/wiki/Phoenix_Shield",
+      "imbuementSlots": {
+        "count": 1,
+        "allowed": ["protection", "skillBoost"]
+      }
+    },
+    {
+      "id": "spellbook-of-dark-mysteries",
+      "name": "Spellbook of Dark Mysteries",
+      "slots": ["offhand"],
+      "vocations": ["sorcerer", "druid"],
+      "minLevel": 80,
+      "defense": 26,
+      "source": "https://tibia.fandom.com/wiki/Spellbook_of_Dark_Mysteries",
+      "attributes": {
+        "skillBonuses": {
+          "magic": 3
+        }
+      }
+    },
+    {
+      "id": "spellbook-of-ancient-arcana",
+      "name": "Spellbook of Ancient Arcana",
+      "slots": ["offhand"],
+      "vocations": ["sorcerer", "druid"],
+      "minLevel": 150,
+      "defense": 31,
+      "source": "https://tibia.fandom.com/wiki/Spellbook_of_Ancient_Arcana",
+      "attributes": {
+        "skillBonuses": {
+          "magic": 4
+        },
+        "resistances": {
+          "death": 5
+        }
+      }
+    },
+    {
+      "id": "blue-quiver",
+      "name": "Blue Quiver",
+      "slots": ["offhand"],
+      "vocations": ["paladin"],
+      "minLevel": 0,
+      "source": "https://tibia.fandom.com/wiki/Blue_Quiver"
+    },
+    {
+      "id": "red-quiver",
+      "name": "Red Quiver",
+      "slots": ["offhand"],
+      "vocations": ["paladin"],
+      "minLevel": 0,
+      "source": "https://tibia.fandom.com/wiki/Red_Quiver"
+    },
+    {
+      "id": "falcon-coif",
+      "name": "Falcon Coif",
+      "slots": ["helmet"],
+      "vocations": ["knight", "paladin"],
+      "minLevel": 300,
+      "armor": 10,
+      "source": "https://tibia.fandom.com/wiki/Falcon_Coif",
+      "attributes": {
+        "skillBonuses": {
+          "distance": 2,
+          "shielding": 2
+        },
+        "resistances": {
+          "physical": 3,
+          "fire": 10
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "cobra-hood",
+      "name": "Cobra Hood",
+      "slots": ["helmet"],
+      "vocations": ["knight"],
+      "minLevel": 270,
+      "armor": 9,
+      "source": "https://tibia.fandom.com/wiki/Cobra_Hood",
+      "attributes": {
+        "skillBonuses": {
+          "sword": 1,
+          "club": 1,
+          "axe": 1
+        },
+        "resistances": {
+          "physical": 5
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "zaoan-helmet",
+      "name": "Zaoan Helmet",
+      "slots": ["helmet"],
+      "vocations": ["knight", "paladin"],
+      "minLevel": 0,
+      "armor": 9,
+      "source": "https://tibia.fandom.com/wiki/Zaoan_Helmet",
+      "attributes": {
+        "resistances": {
+          "physical": 5
+        }
+      },
+      "imbuementSlots": {
+        "count": 1,
+        "allowed": ["leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "helmet-of-the-lost",
+      "name": "Helmet of the Lost",
+      "slots": ["helmet"],
+      "vocations": [],
+      "minLevel": 0,
+      "armor": 7,
+      "source": "https://tibia.fandom.com/wiki/Helmet_of_the_Lost",
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "dark-whispers",
+      "name": "Dark Whispers",
+      "slots": ["helmet"],
+      "vocations": ["paladin"],
+      "minLevel": 180,
+      "armor": 7,
+      "source": "https://tibia.fandom.com/wiki/Dark_Whispers",
+      "attributes": {
+        "skillBonuses": {
+          "distance": 2
+        },
+        "resistances": {
+          "ice": 3
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "galea-mortis",
+      "name": "Galea Mortis",
+      "slots": ["helmet"],
+      "vocations": ["sorcerer"],
+      "minLevel": 220,
+      "armor": 7,
+      "source": "https://tibia.fandom.com/wiki/Galea_Mortis",
+      "attributes": {
+        "skillBonuses": {
+          "magic": 2
+        },
+        "resistances": {
+          "death": 6,
+          "holy": -3
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "gnome-helmet",
+      "name": "Gnome Helmet",
+      "slots": ["helmet"],
+      "vocations": ["sorcerer", "druid"],
+      "minLevel": 200,
+      "armor": 8,
+      "source": "https://tibia.fandom.com/wiki/Gnome_Helmet",
+      "attributes": {
+        "skillBonuses": {
+          "magic": 2
+        },
+        "resistances": {
+          "physical": 3,
+          "energy": 8,
+          "ice": -2
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["leechMana", "skillBoost"]
+      }
+    },
+    {
+      "id": "falcon-plate",
+      "name": "Falcon Plate",
+      "slots": ["armor"],
+      "vocations": ["knight"],
+      "minLevel": 300,
+      "armor": 18,
+      "source": "https://tibia.fandom.com/wiki/Falcon_Plate",
+      "attributes": {
+        "skillBonuses": {
+          "shielding": 4
+        },
+        "resistances": {
+          "physical": 12
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["leechHp", "protection"]
+      }
+    },
+    {
+      "id": "gnome-armor",
+      "name": "Gnome Armor",
+      "slots": ["armor"],
+      "vocations": ["paladin"],
+      "minLevel": 200,
+      "armor": 17,
+      "source": "https://tibia.fandom.com/wiki/Gnome_Armor",
+      "attributes": {
+        "skillBonuses": {
+          "distance": 3
+        },
+        "resistances": {
+          "energy": 8,
+          "physical": 4,
+          "ice": -2
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["leechHp", "protection"]
+      }
+    },
+    {
+      "id": "prismatic-armor",
+      "name": "Prismatic Armor",
+      "slots": ["armor"],
+      "vocations": ["knight", "paladin"],
+      "minLevel": 120,
+      "armor": 15,
+      "source": "https://tibia.fandom.com/wiki/Prismatic_Armor",
+      "attributes": {
+        "resistances": {
+          "physical": 5
+        }
+      },
+      "imbuementSlots": {
+        "count": 1,
+        "allowed": ["leechHp", "protection"]
+      }
+    },
+    {
+      "id": "ornate-chestplate",
+      "name": "Ornate Chestplate",
+      "slots": ["armor"],
+      "vocations": ["knight"],
+      "minLevel": 200,
+      "armor": 16,
+      "source": "https://tibia.fandom.com/wiki/Ornate_Chestplate",
+      "attributes": {
+        "skillBonuses": {
+          "shielding": 3
+        },
+        "resistances": {
+          "physical": 8
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["leechHp", "protection"]
+      }
+    },
+    {
+      "id": "magic-plate-armor",
+      "name": "Magic Plate Armor",
+      "slots": ["armor"],
+      "vocations": ["knight", "paladin"],
+      "minLevel": 0,
+      "armor": 17,
+      "source": "https://tibia.fandom.com/wiki/Magic_Plate_Armor",
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["leechHp", "protection"]
+      }
+    },
+    {
+      "id": "toga-mortis",
+      "name": "Toga Mortis",
+      "slots": ["armor"],
+      "vocations": ["sorcerer"],
+      "minLevel": 220,
+      "armor": 16,
+      "source": "https://tibia.fandom.com/wiki/Toga_Mortis",
+      "attributes": {
+        "skillBonuses": {
+          "magic": 4
+        },
+        "resistances": {
+          "death": 6
+        }
+      },
+      "imbuementSlots": {
+        "count": 1,
+        "allowed": ["leechHp", "protection"]
+      }
+    },
+    {
+      "id": "ghost-chestplate",
+      "name": "Ghost Chestplate",
+      "slots": ["armor"],
+      "vocations": ["paladin"],
+      "minLevel": 230,
+      "armor": 17,
+      "source": "https://tibia.fandom.com/wiki/Ghost_Chestplate",
+      "attributes": {
+        "skillBonuses": {
+          "distance": 2
+        },
+        "resistances": {
+          "physical": 3
+        }
+      },
+      "imbuementSlots": {
+        "count": 2,
+        "allowed": ["leechHp", "protection"]
+      }
+    },
+    {
+      "id": "ornate-legs",
+      "name": "Ornate Legs",
+      "slots": ["legs"],
+      "vocations": ["knight"],
+      "minLevel": 185,
+      "armor": 8,
+      "source": "https://tibia.fandom.com/wiki/Ornate_Legs",
+      "attributes": {
+        "resistances": {
+          "physical": 5
+        }
+      }
+    },
+    {
+      "id": "prismatic-legs",
+      "name": "Prismatic Legs",
+      "slots": ["legs"],
+      "vocations": ["paladin"],
+      "minLevel": 150,
+      "armor": 8,
+      "source": "https://tibia.fandom.com/wiki/Prismatic_Legs",
+      "attributes": {
+        "skillBonuses": {
+          "distance": 2
+        },
+        "resistances": {
+          "physical": 3
+        }
+      }
+    },
+    {
+      "id": "gnome-legs",
+      "name": "Gnome Legs",
+      "slots": ["legs"],
+      "vocations": ["sorcerer", "druid"],
+      "minLevel": 200,
+      "armor": 9,
+      "source": "https://tibia.fandom.com/wiki/Gnome_Legs",
+      "attributes": {
+        "skillBonuses": {
+          "magic": 2
+        },
+        "resistances": {
+          "energy": 7,
+          "ice": -2
+        }
+      }
+    },
+    {
+      "id": "zaoan-legs",
+      "name": "Zaoan Legs",
+      "slots": ["legs"],
+      "vocations": [],
+      "minLevel": 0,
+      "armor": 8,
+      "source": "https://tibia.fandom.com/wiki/Zaoan_Legs",
+      "attributes": {
+        "resistances": {
+          "physical": 2
+        }
+      }
+    },
+    {
+      "id": "dwarven-legs",
+      "name": "Dwarven Legs",
+      "slots": ["legs"],
+      "vocations": [],
+      "minLevel": 0,
+      "armor": 7,
+      "source": "https://tibia.fandom.com/wiki/Dwarven_Legs",
+      "attributes": {
+        "resistances": {
+          "physical": 3
+        }
+      }
+    },
+    {
+      "id": "boots-of-haste",
+      "name": "Boots of Haste",
+      "slots": ["boots"],
+      "vocations": [],
+      "minLevel": 0,
+      "source": "https://tibia.fandom.com/wiki/Boots_of_Haste"
+    },
+    {
+      "id": "pair-of-dreamwalkers",
+      "name": "Pair of Dreamwalkers",
+      "slots": ["boots"],
+      "vocations": ["sorcerer", "druid"],
+      "minLevel": 180,
+      "armor": 2,
+      "source": "https://tibia.fandom.com/wiki/Pair_of_Dreamwalkers",
+      "attributes": {
+        "skillBonuses": {
+          "magic": 1
+        },
+        "resistances": {
+          "earth": 8
+        }
+      }
+    },
+    {
+      "id": "prismatic-boots",
+      "name": "Prismatic Boots",
+      "slots": ["boots"],
+      "vocations": ["paladin"],
+      "minLevel": 150,
+      "armor": 3,
+      "source": "https://tibia.fandom.com/wiki/Prismatic_Boots",
+      "attributes": {
+        "resistances": {
+          "death": 3
+        }
+      }
+    },
+    {
+      "id": "cobra-boots",
+      "name": "Cobra Boots",
+      "slots": ["boots"],
+      "vocations": ["knight"],
+      "minLevel": 220,
+      "armor": 3,
+      "source": "https://tibia.fandom.com/wiki/Cobra_Boots",
+      "attributes": {
+        "resistances": {
+          "physical": 6
+        }
+      }
+    },
+    {
+      "id": "enchanted-sleep-shawl",
+      "name": "Enchanted Sleep Shawl",
+      "slots": ["amulet"],
+      "vocations": ["paladin"],
+      "minLevel": 180,
+      "armor": 3,
+      "source": "https://tibia.fandom.com/wiki/Enchanted_Sleep_Shawl",
+      "attributes": {
+        "skillBonuses": {
+          "distance": 3
+        },
+        "resistances": {
+          "earth": 24
+        }
+      }
+    },
+    {
+      "id": "onyx-pendant",
+      "name": "Onyx Pendant",
+      "slots": ["amulet"],
+      "vocations": [],
+      "minLevel": 60,
+      "armor": 2,
+      "source": "https://tibia.fandom.com/wiki/Onyx_Pendant",
+      "attributes": {
+        "resistances": {
+          "death": 2
+        }
+      }
+    },
+    {
+      "id": "gill-necklace",
+      "name": "Gill Necklace",
+      "slots": ["amulet"],
+      "vocations": [],
+      "minLevel": 150,
+      "source": "https://tibia.fandom.com/wiki/Gill_Necklace",
+      "attributes": {
+        "resistances": {
+          "physical": 15,
+          "earth": 10
+        }
+      }
+    },
+    {
+      "id": "prismatic-necklace",
+      "name": "Prismatic Necklace",
+      "slots": ["amulet"],
+      "vocations": [],
+      "minLevel": 150,
+      "source": "https://tibia.fandom.com/wiki/Prismatic_Necklace",
+      "attributes": {
+        "resistances": {
+          "physical": 10,
+          "energy": 15
+        }
+      }
+    },
+    {
+      "id": "collar-of-blue-plasma",
+      "name": "Collar of Blue Plasma",
+      "slots": ["amulet"],
+      "vocations": ["paladin"],
+      "minLevel": 150,
+      "source": "https://tibia.fandom.com/wiki/Collar_of_Blue_Plasma",
+      "attributes": {
+        "skillBonuses": {
+          "distance": 4,
+          "magic": 2
+        }
+      }
+    },
+    {
+      "id": "collar-of-red-plasma",
+      "name": "Collar of Red Plasma",
+      "slots": ["amulet"],
+      "vocations": ["knight"],
+      "minLevel": 150,
+      "source": "https://tibia.fandom.com/wiki/Collar_of_Red_Plasma",
+      "attributes": {
+        "skillBonuses": {
+          "sword": 4,
+          "club": 4,
+          "axe": 4
+        },
+        "resistances": {
+          "physical": 5
+        }
+      }
+    },
+    {
+      "id": "collar-of-green-plasma",
+      "name": "Collar of Green Plasma",
+      "slots": ["amulet"],
+      "vocations": ["sorcerer", "druid"],
+      "minLevel": 150,
+      "source": "https://tibia.fandom.com/wiki/Collar_of_Green_Plasma",
+      "attributes": {
+        "skillBonuses": {
+          "magic": 3
+        }
+      }
+    },
+    {
+      "id": "might-ring",
+      "name": "Might Ring",
+      "slots": ["ring"],
+      "vocations": [],
+      "minLevel": 0,
+      "source": "https://tibia.fandom.com/wiki/Might_Ring",
+      "attributes": {
+        "resistances": {
+          "physical": 20,
+          "fire": 20,
+          "earth": 20,
+          "energy": 20,
+          "ice": 20,
+          "holy": 20,
+          "death": 20
+        }
+      }
+    },
+    {
+      "id": "prismatic-ring",
+      "name": "Prismatic Ring",
+      "slots": ["ring"],
+      "vocations": [],
+      "minLevel": 120,
+      "source": "https://tibia.fandom.com/wiki/Prismatic_Ring",
+      "attributes": {
+        "resistances": {
+          "physical": 10,
+          "energy": 8
+        }
+      }
+    },
+    {
+      "id": "ring-of-blue-plasma",
+      "name": "Ring of Blue Plasma",
+      "slots": ["ring"],
+      "vocations": ["paladin"],
+      "minLevel": 100,
+      "source": "https://tibia.fandom.com/wiki/Ring_of_Blue_Plasma",
+      "attributes": {
+        "skillBonuses": {
+          "distance": 3,
+          "magic": 1
+        }
+      }
+    },
+    {
+      "id": "ring-of-red-plasma",
+      "name": "Ring of Red Plasma",
+      "slots": ["ring"],
+      "vocations": ["knight"],
+      "minLevel": 100,
+      "source": "https://tibia.fandom.com/wiki/Ring_of_Red_Plasma",
+      "attributes": {
+        "skillBonuses": {
+          "sword": 3,
+          "club": 3,
+          "axe": 3
+        },
+        "resistances": {
+          "physical": 3
+        }
+      }
+    },
+    {
+      "id": "ring-of-green-plasma",
+      "name": "Ring of Green Plasma",
+      "slots": ["ring"],
+      "vocations": ["sorcerer", "druid"],
+      "minLevel": 100,
+      "source": "https://tibia.fandom.com/wiki/Ring_of_Green_Plasma",
+      "attributes": {
+        "skillBonuses": {
+          "magic": 2
+        }
+      }
+    },
+    {
+      "id": "ring-of-souls",
+      "name": "Ring of Souls",
+      "slots": ["ring"],
+      "vocations": [],
+      "minLevel": 200,
+      "source": "https://tibia.fandom.com/wiki/Ring_of_Souls",
+      "attributes": {
+        "resistances": {
+          "physical": 2
+        }
+      }
+    }
+  ]
+}

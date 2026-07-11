@@ -1,0 +1,134 @@
+{
+  "dataVersion": "15.x",
+  "generatedAt": "2026-07-10",
+  "charms": [
+    {
+      "id": "wound",
+      "name": "Wound",
+      "procChancePctByStage": [5, 10, 11],
+      "effect": {
+        "kind": "proc",
+        "element": "physical",
+        "creatureMaxHpPct": 5,
+        "capCharacterLevelMultiplier": 2
+      },
+      "source": "https://tibia.fandom.com/wiki/Wound"
+    },
+    {
+      "id": "enflame",
+      "name": "Enflame",
+      "procChancePctByStage": [5, 10, 11],
+      "effect": {
+        "kind": "proc",
+        "element": "fire",
+        "creatureMaxHpPct": 5,
+        "capCharacterLevelMultiplier": 2
+      },
+      "source": "https://tibia.fandom.com/wiki/Enflame"
+    },
+    {
+      "id": "freeze",
+      "name": "Freeze",
+      "procChancePctByStage": [5, 10, 11],
+      "effect": {
+        "kind": "proc",
+        "element": "ice",
+        "creatureMaxHpPct": 5,
+        "capCharacterLevelMultiplier": 2
+      },
+      "source": "https://tibia.fandom.com/wiki/Freeze"
+    },
+    {
+      "id": "zap",
+      "name": "Zap",
+      "procChancePctByStage": [5, 10, 11],
+      "effect": {
+        "kind": "proc",
+        "element": "energy",
+        "creatureMaxHpPct": 5,
+        "capCharacterLevelMultiplier": 2
+      },
+      "source": "https://tibia.fandom.com/wiki/Zap"
+    },
+    {
+      "id": "poison-charm",
+      "name": "Poison",
+      "procChancePctByStage": [5, 10, 11],
+      "effect": {
+        "kind": "proc",
+        "element": "earth",
+        "creatureMaxHpPct": 5,
+        "capCharacterLevelMultiplier": 2
+      },
+      "source": "https://tibia.fandom.com/wiki/Poison"
+    },
+    {
+      "id": "curse-charm",
+      "name": "Curse",
+      "procChancePctByStage": [5, 10, 11],
+      "effect": {
+        "kind": "proc",
+        "element": "death",
+        "creatureMaxHpPct": 5,
+        "capCharacterLevelMultiplier": 2
+      },
+      "source": "https://tibia.fandom.com/wiki/Curse_(Charm)"
+    },
+    {
+      "id": "divine-wrath",
+      "name": "Divine Wrath",
+      "procChancePctByStage": [5, 10, 11],
+      "effect": {
+        "kind": "proc",
+        "element": "holy",
+        "creatureMaxHpPct": 5,
+        "capCharacterLevelMultiplier": 2
+      },
+      "source": "https://tibia.fandom.com/wiki/Divine_Wrath"
+    },
+    {
+      "id": "overpower",
+      "name": "Overpower",
+      "procChancePctByStage": [5, 10, 11],
+      "effect": {
+        "kind": "procOwnStat",
+        "element": "physical",
+        "stat": "hp",
+        "ownStatPct": 5,
+        "capCreatureMaxHpPct": 8
+      },
+      "source": "https://tibia.fandom.com/wiki/Overpower"
+    },
+    {
+      "id": "overflux",
+      "name": "Overflux",
+      "procChancePctByStage": [5, 10, 11],
+      "effect": {
+        "kind": "procOwnStat",
+        "element": "physical",
+        "stat": "mana",
+        "ownStatPct": 2.5,
+        "capCreatureMaxHpPct": 8
+      },
+      "source": "https://tibia.fandom.com/wiki/Overflux"
+    },
+    {
+      "id": "low-blow",
+      "name": "Low Blow",
+      "effect": {
+        "kind": "critChance",
+        "chancePctByStage": [4, 8, 9]
+      },
+      "source": "https://tibia.fandom.com/wiki/Low_Blow"
+    },
+    {
+      "id": "savage-blow",
+      "name": "Savage Blow",
+      "effect": {
+        "kind": "critExtra",
+        "extraDmgPctByStage": [20, 40, 44]
+      },
+      "source": "https://tibia.fandom.com/wiki/Savage_Blow"
+    }
+  ]
+}

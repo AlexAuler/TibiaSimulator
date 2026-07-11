@@ -1,0 +1,1360 @@
+{
+  "dataVersion": "15.x",
+  "generatedAt": "2026-07-10",
+  "creatures": [
+    {
+      "id": "dragon",
+      "name": "Dragon",
+      "hitpoints": 1000,
+      "elementModifiers": {
+        "physical": 1,
+        "earth": 0.2,
+        "fire": 0,
+        "death": 1,
+        "energy": 0.8,
+        "holy": 1,
+        "ice": 1.1
+      },
+      "armor": 25,
+      "mitigationPct": 1.56,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 120
+        },
+        {
+          "name": "Fire Wave",
+          "element": "fire",
+          "min": 100,
+          "max": 170
+        },
+        {
+          "name": "Great Fireball",
+          "element": "fire",
+          "min": 60,
+          "max": 140
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Dragon"
+    },
+    {
+      "id": "dragon-lord",
+      "name": "Dragon Lord",
+      "hitpoints": 1900,
+      "elementModifiers": {
+        "physical": 1,
+        "earth": 0.2,
+        "fire": 0,
+        "death": 1,
+        "energy": 0.8,
+        "holy": 1,
+        "ice": 1.1
+      },
+      "armor": 34,
+      "mitigationPct": 2.04,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 230
+        },
+        {
+          "name": "Great Fireball",
+          "element": "fire",
+          "min": 100,
+          "max": 200
+        },
+        {
+          "name": "Fire Wave",
+          "element": "fire",
+          "min": 150,
+          "max": 230
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Dragon_Lord"
+    },
+    {
+      "id": "demon",
+      "name": "Demon",
+      "hitpoints": 8200,
+      "elementModifiers": {
+        "physical": 0.75,
+        "earth": 0.6,
+        "fire": 0,
+        "death": 0.8,
+        "energy": 0.5,
+        "holy": 1.12,
+        "ice": 1.12
+      },
+      "armor": 44,
+      "mitigationPct": 2.76,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 500
+        },
+        {
+          "name": "Great Fireball",
+          "element": "fire",
+          "min": 150,
+          "max": 250
+        },
+        {
+          "name": "Close-range Energy Strike",
+          "element": "energy",
+          "min": 210,
+          "max": 300
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Demon"
+    },
+    {
+      "id": "hydra",
+      "name": "Hydra",
+      "hitpoints": 2350,
+      "elementModifiers": {
+        "physical": 1.05,
+        "earth": 0,
+        "fire": 1,
+        "death": 1,
+        "energy": 1.1,
+        "holy": 0.7,
+        "ice": 0.5
+      },
+      "armor": 27,
+      "mitigationPct": 1.87,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 270
+        },
+        {
+          "name": "Earth Wave",
+          "element": "earth",
+          "min": 60,
+          "max": 320
+        },
+        {
+          "name": "Hot Water Wave",
+          "element": "ice",
+          "min": 100,
+          "max": 250
+        },
+        {
+          "name": "Ice Missile",
+          "element": "ice",
+          "min": 70,
+          "max": 155
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Hydra"
+    },
+    {
+      "id": "giant-spider",
+      "name": "Giant Spider",
+      "hitpoints": 1300,
+      "elementModifiers": {
+        "physical": 1,
+        "earth": 0,
+        "fire": 1.1,
+        "death": 1,
+        "energy": 0.8,
+        "holy": 1,
+        "ice": 0.8
+      },
+      "armor": 30,
+      "mitigationPct": 1.65,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 300
+        },
+        {
+          "name": "Earth Strike",
+          "element": "earth",
+          "min": 40,
+          "max": 70
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Giant_Spider"
+    },
+    {
+      "id": "behemoth",
+      "name": "Behemoth",
+      "hitpoints": 4000,
+      "elementModifiers": {
+        "physical": 0.9,
+        "earth": 0.2,
+        "fire": 0.7,
+        "death": 1.05,
+        "energy": 0.9,
+        "holy": 0.7,
+        "ice": 1.1
+      },
+      "armor": 50,
+      "mitigationPct": 2.76,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 455
+        },
+        {
+          "name": "Boulder throw",
+          "element": "physical",
+          "min": 0,
+          "max": 200
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Behemoth"
+    },
+    {
+      "id": "warlock",
+      "name": "Warlock",
+      "hitpoints": 3500,
+      "elementModifiers": {
+        "physical": 1.05,
+        "earth": 0.05,
+        "fire": 0,
+        "death": 1,
+        "energy": 0,
+        "holy": 1.08,
+        "ice": 0
+      },
+      "armor": 33,
+      "mitigationPct": 2.09,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 130
+        },
+        {
+          "name": "Burst Arrows",
+          "element": "fire",
+          "min": 0,
+          "max": 180
+        },
+        {
+          "name": "Energy Missile",
+          "element": "energy",
+          "min": 90,
+          "max": 180
+        },
+        {
+          "name": "Great Cloud-Energy Beam",
+          "element": "energy",
+          "min": 150,
+          "max": 230
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Warlock"
+    },
+    {
+      "id": "juggernaut",
+      "name": "Juggernaut",
+      "hitpoints": 18000,
+      "elementModifiers": {
+        "physical": 0.7,
+        "earth": 0.8,
+        "fire": 0.7,
+        "death": 1,
+        "energy": 1.1,
+        "holy": 1.05,
+        "ice": 0.9
+      },
+      "armor": 70,
+      "mitigationPct": 2.76,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 700
+        },
+        {
+          "name": "Throws Boulders",
+          "element": "physical",
+          "min": 0,
+          "max": 600
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Juggernaut"
+    },
+    {
+      "id": "grim-reaper",
+      "name": "Grim Reaper",
+      "hitpoints": 3900,
+      "elementModifiers": {
+        "physical": 0.75,
+        "earth": 0.6,
+        "fire": 1.1,
+        "death": 0.2,
+        "energy": 1.1,
+        "holy": 1.1,
+        "ice": 0.35
+      },
+      "armor": 30,
+      "mitigationPct": 1.01,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 320
+        },
+        {
+          "name": "Blood Ball",
+          "element": "death",
+          "min": 225,
+          "max": 275
+        },
+        {
+          "name": "Death Beam",
+          "element": "death",
+          "min": 350,
+          "max": 720
+        },
+        {
+          "name": "Explosion Wave",
+          "element": "physical",
+          "min": 0,
+          "max": 300
+        },
+        {
+          "name": "Physical Sudden Death",
+          "element": "physical",
+          "min": 0,
+          "max": 165
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Grim_Reaper"
+    },
+    {
+      "id": "hellspawn",
+      "name": "Hellspawn",
+      "hitpoints": 3500,
+      "elementModifiers": {
+        "physical": 0.9,
+        "earth": 0.2,
+        "fire": 0.6,
+        "death": 1.05,
+        "energy": 0.9,
+        "holy": 0.7,
+        "ice": 1.1
+      },
+      "armor": 44,
+      "mitigationPct": 2.09,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 350
+        },
+        {
+          "name": "Fire Missile",
+          "element": "fire",
+          "min": 150,
+          "max": 175
+        },
+        {
+          "name": "Burning Strike",
+          "element": "fire",
+          "min": 10,
+          "max": 10
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Hellspawn"
+    },
+    {
+      "id": "guzzlemaw",
+      "name": "Guzzlemaw",
+      "hitpoints": 6400,
+      "elementModifiers": {
+        "physical": 0.95,
+        "earth": 0.8,
+        "fire": 0.9,
+        "death": 0.9,
+        "energy": 0.85,
+        "holy": 1.05,
+        "ice": 0.95
+      },
+      "armor": 74,
+      "mitigationPct": 3.68,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 550
+        },
+        {
+          "name": "Blood Berserk",
+          "element": "physical",
+          "min": 400,
+          "max": 500
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Guzzlemaw"
+    },
+    {
+      "id": "frazzlemaw",
+      "name": "Frazzlemaw",
+      "hitpoints": 4100,
+      "elementModifiers": {
+        "physical": 0.95,
+        "earth": 0.8,
+        "fire": 0.9,
+        "death": 0.9,
+        "energy": 0.85,
+        "holy": 1.05,
+        "ice": 0.95
+      },
+      "armor": 74,
+      "mitigationPct": 3.68,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 450
+        },
+        {
+          "name": "Blood Berserk",
+          "element": "physical",
+          "min": 0,
+          "max": 500
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Frazzlemaw"
+    },
+    {
+      "id": "silencer",
+      "name": "Silencer",
+      "hitpoints": 5400,
+      "elementModifiers": {
+        "physical": 0.95,
+        "earth": 0,
+        "fire": 0.7,
+        "death": 0.35,
+        "energy": 0.85,
+        "holy": 1.25,
+        "ice": 0.85
+      },
+      "armor": 71,
+      "mitigationPct": 2.9,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 350
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Silencer"
+    },
+    {
+      "id": "dawnfire-asura",
+      "name": "Dawnfire Asura",
+      "hitpoints": 2900,
+      "elementModifiers": {
+        "physical": 1.1,
+        "earth": 1,
+        "fire": 0,
+        "death": 0.8,
+        "energy": 1.05,
+        "holy": 1.1,
+        "ice": 1.1
+      },
+      "armor": 48,
+      "mitigationPct": 2.31,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 252
+        },
+        {
+          "name": "Flame Strike",
+          "element": "fire",
+          "min": 0,
+          "max": 175
+        },
+        {
+          "name": "3x3 Fire Strike",
+          "element": "fire",
+          "min": 10,
+          "max": 10
+        },
+        {
+          "name": "Sudden Death explosion",
+          "element": "death",
+          "min": 0,
+          "max": 312
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Dawnfire_Asura"
+    },
+    {
+      "id": "midnight-asura",
+      "name": "Midnight Asura",
+      "hitpoints": 3100,
+      "elementModifiers": {
+        "physical": 1,
+        "earth": 1.1,
+        "fire": 0.9,
+        "death": 0,
+        "energy": 1.1,
+        "holy": 0.7,
+        "ice": 0.9
+      },
+      "armor": 55,
+      "mitigationPct": 2.54,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 387
+        },
+        {
+          "name": "Great Death Beam",
+          "element": "death",
+          "min": 0,
+          "max": 209
+        },
+        {
+          "name": "Sudden Death",
+          "element": "death",
+          "min": 0,
+          "max": 209
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Midnight_Asura"
+    },
+    {
+      "id": "true-dawnfire-asura",
+      "name": "True Dawnfire Asura",
+      "hitpoints": 8500,
+      "elementModifiers": {
+        "physical": 1.1,
+        "earth": 1,
+        "fire": 0,
+        "death": 0.8,
+        "energy": 1.1,
+        "holy": 1.1,
+        "ice": 1.05
+      },
+      "armor": 77,
+      "mitigationPct": 3.45,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 700
+        },
+        {
+          "name": "Death Ball",
+          "element": "death",
+          "min": 550,
+          "max": 750
+        },
+        {
+          "name": "Fire Missile",
+          "element": "fire",
+          "min": 450,
+          "max": 830
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/True_Dawnfire_Asura"
+    },
+    {
+      "id": "true-midnight-asura",
+      "name": "True Midnight Asura",
+      "hitpoints": 9000,
+      "elementModifiers": {
+        "physical": 1,
+        "earth": 1.1,
+        "fire": 0.9,
+        "death": 0,
+        "energy": 1.1,
+        "holy": 0.7,
+        "ice": 0.9
+      },
+      "armor": 75,
+      "mitigationPct": 3.45,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 450
+        },
+        {
+          "name": "Death Missile",
+          "element": "death",
+          "min": 500,
+          "max": 650
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/True_Midnight_Asura"
+    },
+    {
+      "id": "falcon-knight",
+      "name": "Falcon Knight",
+      "hitpoints": 9000,
+      "elementModifiers": {
+        "physical": 0.7,
+        "earth": 1,
+        "fire": 1,
+        "death": 0.5,
+        "energy": 1,
+        "holy": 1.1,
+        "ice": 1
+      },
+      "armor": 86,
+      "mitigationPct": 3.78,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 400
+        },
+        {
+          "name": "Earth Berserk",
+          "element": "earth",
+          "min": 400,
+          "max": 500
+        },
+        {
+          "name": "Holy Beam",
+          "element": "holy",
+          "min": 290,
+          "max": 360
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Falcon_Knight"
+    },
+    {
+      "id": "falcon-paladin",
+      "name": "Falcon Paladin",
+      "hitpoints": 8500,
+      "elementModifiers": {
+        "physical": 0.9,
+        "earth": 1,
+        "fire": 1,
+        "death": 0.5,
+        "energy": 1,
+        "holy": 1.1,
+        "ice": 1
+      },
+      "armor": 82,
+      "mitigationPct": 3.68,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 250
+        },
+        {
+          "name": "Royal Spear",
+          "element": "physical",
+          "min": 400,
+          "max": 550
+        },
+        {
+          "name": "Bolt",
+          "element": "physical",
+          "min": 200,
+          "max": 500
+        },
+        {
+          "name": "Energy Burst Power Bolt",
+          "element": "energy",
+          "min": 350,
+          "max": 530
+        },
+        {
+          "name": "Energy Beam",
+          "element": "energy",
+          "min": 250,
+          "max": 350
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Falcon_Paladin"
+    },
+    {
+      "id": "burster-spectre",
+      "name": "Burster Spectre",
+      "hitpoints": 6500,
+      "elementModifiers": {
+        "physical": 0,
+        "earth": 1,
+        "fire": 1.2,
+        "death": 1,
+        "energy": 1,
+        "holy": 1,
+        "ice": 0.3
+      },
+      "armor": 70,
+      "mitigationPct": 3.36,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 400
+        },
+        {
+          "name": "Ice Wave",
+          "element": "ice",
+          "min": 370,
+          "max": 370
+        },
+        {
+          "name": "Icicle",
+          "element": "ice",
+          "min": 300,
+          "max": 400
+        },
+        {
+          "name": "Avalanche",
+          "element": "ice",
+          "min": 300,
+          "max": 400
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Burster_Spectre"
+    },
+    {
+      "id": "cloak-of-terror",
+      "name": "Cloak of Terror",
+      "hitpoints": 28000,
+      "elementModifiers": {
+        "physical": 1,
+        "earth": 1.05,
+        "fire": 1,
+        "death": 1.2,
+        "energy": 0.4,
+        "holy": 0.6,
+        "ice": 1
+      },
+      "armor": 107,
+      "mitigationPct": 5.12,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 650
+        },
+        {
+          "name": "Spark Ball on itself",
+          "element": "energy",
+          "min": 1100,
+          "max": 1400
+        },
+        {
+          "name": "Energy Strike",
+          "element": "energy",
+          "min": 1500,
+          "max": 1700
+        },
+        {
+          "name": "Shoots spectral bolts",
+          "element": "holy",
+          "min": 600,
+          "max": 1300
+        },
+        {
+          "name": "Small Holy Ball",
+          "element": "holy",
+          "min": 900,
+          "max": 1100
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Cloak_of_Terror"
+    },
+    {
+      "id": "brachiodemon",
+      "name": "Brachiodemon",
+      "hitpoints": 25000,
+      "elementModifiers": {
+        "physical": 1,
+        "earth": 1,
+        "fire": 0.7,
+        "death": 0.5,
+        "energy": 1,
+        "holy": 1.35,
+        "ice": 1.25
+      },
+      "armor": 100,
+      "mitigationPct": 4.39,
+      "attacks": [
+        {
+          "name": "Small Blast Explosion",
+          "element": "fire",
+          "min": 700,
+          "max": 700
+        },
+        {
+          "name": "Death Ball",
+          "element": "death",
+          "min": 800,
+          "max": 800
+        },
+        {
+          "name": "Sudden Death",
+          "element": "death",
+          "min": 500,
+          "max": 500
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Brachiodemon"
+    },
+    {
+      "id": "turbulent-elemental",
+      "name": "Turbulent Elemental",
+      "hitpoints": 28000,
+      "elementModifiers": {
+        "physical": 0.9,
+        "earth": 0.6,
+        "fire": 1.2,
+        "death": 1,
+        "energy": 1.1,
+        "holy": 1,
+        "ice": 0.7
+      },
+      "armor": 105,
+      "mitigationPct": 4.34,
+      "attacks": [
+        {
+          "name": "Terra Wave",
+          "element": "earth",
+          "min": 1000,
+          "max": 1000
+        },
+        {
+          "name": "Small Ice Explosion",
+          "element": "ice",
+          "min": 800,
+          "max": 800
+        },
+        {
+          "name": "Snow Ball",
+          "element": "ice",
+          "min": 480,
+          "max": 480
+        },
+        {
+          "name": "Poison Spear",
+          "element": "earth",
+          "min": 950,
+          "max": 950
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Turbulent_Elemental"
+    },
+    {
+      "id": "rotten-golem",
+      "name": "Rotten Golem",
+      "hitpoints": 28000,
+      "elementModifiers": {
+        "physical": 0.8,
+        "earth": 0.6,
+        "fire": 1.25,
+        "death": 1.2,
+        "energy": 1.15,
+        "holy": 0.5,
+        "ice": 1
+      },
+      "armor": 108,
+      "mitigationPct": 4.87,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 700
+        },
+        {
+          "name": "Smaller Earth Explosion",
+          "element": "earth",
+          "min": 1100,
+          "max": 1300
+        },
+        {
+          "name": "Energy Chain (Through nearby characters)",
+          "element": "holy",
+          "min": 1000,
+          "max": 1200
+        },
+        {
+          "name": "Holy Strike",
+          "element": "holy",
+          "min": 1200,
+          "max": 1400
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Rotten_Golem"
+    },
+    {
+      "id": "sopping-corpus",
+      "name": "Sopping Corpus",
+      "hitpoints": 33400,
+      "elementModifiers": {
+        "physical": 0.6,
+        "earth": 0.5,
+        "fire": 0.7,
+        "death": 0.9,
+        "energy": 1.2,
+        "holy": 1.05,
+        "ice": 1.1
+      },
+      "armor": 112,
+      "mitigationPct": 5.21,
+      "attacks": [],
+      "source": "https://tibia.fandom.com/wiki/Sopping_Corpus"
+    },
+    {
+      "id": "vexclaw",
+      "name": "Vexclaw",
+      "hitpoints": 8500,
+      "elementModifiers": {
+        "physical": 0.95,
+        "earth": 0.6,
+        "fire": 0.25,
+        "death": 0.8,
+        "energy": 0.9,
+        "holy": 1.1,
+        "ice": 1.05
+      },
+      "armor": 55,
+      "mitigationPct": 3.03,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 550
+        },
+        {
+          "name": "Energy Bomb",
+          "element": "energy",
+          "min": 400,
+          "max": 500
+        },
+        {
+          "name": "Burst Arrow",
+          "element": "fire",
+          "min": 350,
+          "max": 450
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Vexclaw"
+    },
+    {
+      "id": "grimeleech",
+      "name": "Grimeleech",
+      "hitpoints": 9500,
+      "elementModifiers": {
+        "physical": 1,
+        "earth": 0.6,
+        "fire": 0.8,
+        "death": 0.4,
+        "energy": 1.05,
+        "holy": 1,
+        "ice": 1
+      },
+      "armor": 65,
+      "mitigationPct": 2.76,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 450
+        },
+        {
+          "name": "Death Bomb",
+          "element": "death",
+          "min": 350,
+          "max": 400
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Grimeleech"
+    },
+    {
+      "id": "hellflayer",
+      "name": "Hellflayer",
+      "hitpoints": 14000,
+      "elementModifiers": {
+        "physical": 1,
+        "earth": 0.8,
+        "fire": 0.3,
+        "death": 0.75,
+        "energy": 1.05,
+        "holy": 1.05,
+        "ice": 0.95
+      },
+      "armor": 55,
+      "mitigationPct": 2.54,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 0
+        },
+        {
+          "name": "Death Beam",
+          "element": "death",
+          "min": 850,
+          "max": 1250
+        },
+        {
+          "name": "Shoots Flaming Arrows",
+          "element": "fire",
+          "min": 450,
+          "max": 650
+        },
+        {
+          "name": "Throws stars",
+          "element": "physical",
+          "min": 400,
+          "max": 550
+        },
+        {
+          "name": "Shoots Burst Arrows",
+          "element": "fire",
+          "min": 300,
+          "max": 500
+        },
+        {
+          "name": "Physical Bomb",
+          "element": "physical",
+          "min": 400,
+          "max": 500
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Hellflayer"
+    },
+    {
+      "id": "werelion",
+      "name": "Werelion",
+      "hitpoints": 2800,
+      "elementModifiers": {
+        "physical": 1,
+        "earth": 0.5,
+        "fire": 0.75,
+        "death": 0.55,
+        "energy": 1,
+        "holy": 1,
+        "ice": 1.25
+      },
+      "armor": 38,
+      "mitigationPct": 1.44,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 325
+        },
+        {
+          "name": "Fire Ball",
+          "element": "fire",
+          "min": 0,
+          "max": 350
+        },
+        {
+          "name": "Holy Strike",
+          "element": "holy",
+          "min": 0,
+          "max": 425
+        },
+        {
+          "name": "Holy Wave",
+          "element": "holy",
+          "min": 0,
+          "max": 250
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Werelion"
+    },
+    {
+      "id": "werelioness",
+      "name": "Werelioness",
+      "hitpoints": 3000,
+      "elementModifiers": {
+        "physical": 1,
+        "earth": 0.6,
+        "fire": 0.65,
+        "death": 0.5,
+        "energy": 1,
+        "holy": 1.05,
+        "ice": 1.25
+      },
+      "armor": 38,
+      "mitigationPct": 1.44,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 350
+        },
+        {
+          "name": "Fire Wave",
+          "element": "fire",
+          "min": 0,
+          "max": 375
+        },
+        {
+          "name": "Divine Strike",
+          "element": "holy",
+          "min": 0,
+          "max": 350
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Werelioness"
+    },
+    {
+      "id": "burning-gladiator",
+      "name": "Burning Gladiator",
+      "hitpoints": 10000,
+      "elementModifiers": {
+        "physical": 0.8,
+        "earth": 1,
+        "fire": 0.7,
+        "death": 1,
+        "energy": 0.8,
+        "holy": 1,
+        "ice": 1.2
+      },
+      "armor": 89,
+      "mitigationPct": 3.92,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 550
+        },
+        {
+          "name": "Fire Ring around itself",
+          "element": "fire",
+          "min": 300,
+          "max": 500
+        },
+        {
+          "name": "Fire Plus around itself",
+          "element": "fire",
+          "min": 300,
+          "max": 500
+        },
+        {
+          "name": "Fire X around itself",
+          "element": "fire",
+          "min": 300,
+          "max": 500
+        },
+        {
+          "name": "Energy Beam",
+          "element": "energy",
+          "min": 300,
+          "max": 500
+        },
+        {
+          "name": "Damage Reflection",
+          "element": "fire",
+          "min": 33,
+          "max": 33
+        },
+        {
+          "name": "Damage Reflection",
+          "element": "physical",
+          "min": 100,
+          "max": 100
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Burning_Gladiator"
+    },
+    {
+      "id": "priestess-of-the-wild-sun",
+      "name": "Priestess of the Wild Sun",
+      "hitpoints": 8500,
+      "elementModifiers": {
+        "physical": 1,
+        "earth": 1,
+        "fire": 0.8,
+        "death": 1,
+        "energy": 0.85,
+        "holy": 1,
+        "ice": 1.25
+      },
+      "armor": 82,
+      "mitigationPct": 3.59,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 350
+        },
+        {
+          "name": "Fire Cross on target",
+          "element": "fire",
+          "min": 350,
+          "max": 500
+        },
+        {
+          "name": "Fire X on target",
+          "element": "fire",
+          "min": 350,
+          "max": 500
+        },
+        {
+          "name": "Fire Ring on target",
+          "element": "fire",
+          "min": 300,
+          "max": 400
+        },
+        {
+          "name": "Energy Berserk",
+          "element": "energy",
+          "min": 250,
+          "max": 400
+        },
+        {
+          "name": "Energy Wave",
+          "element": "energy",
+          "min": 250,
+          "max": 350
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Priestess_of_the_Wild_Sun"
+    },
+    {
+      "id": "cobra-assassin",
+      "name": "Cobra Assassin",
+      "hitpoints": 8200,
+      "elementModifiers": {
+        "physical": 0.8,
+        "earth": 0,
+        "fire": 1,
+        "death": 1,
+        "energy": 1,
+        "holy": 1,
+        "ice": 1
+      },
+      "armor": 81,
+      "mitigationPct": 3.54,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 500
+        },
+        {
+          "name": "Groundshaker",
+          "element": "physical",
+          "min": 300,
+          "max": 510
+        },
+        {
+          "name": "Earth Wave",
+          "element": "earth",
+          "min": 300,
+          "max": 360
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Cobra_Assassin"
+    },
+    {
+      "id": "cobra-scout",
+      "name": "Cobra Scout",
+      "hitpoints": 8500,
+      "elementModifiers": {
+        "physical": 1,
+        "earth": 0,
+        "fire": 1,
+        "death": 1,
+        "energy": 1,
+        "holy": 1,
+        "ice": 1
+      },
+      "armor": 81,
+      "mitigationPct": 3.45,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 350
+        },
+        {
+          "name": "Earth Arrow",
+          "element": "earth",
+          "min": 0,
+          "max": 430
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Cobra_Scout"
+    },
+    {
+      "id": "cobra-vizier",
+      "name": "Cobra Vizier",
+      "hitpoints": 8500,
+      "elementModifiers": {
+        "physical": 0.9,
+        "earth": 0,
+        "fire": 1,
+        "death": 1,
+        "energy": 1,
+        "holy": 1.1,
+        "ice": 1
+      },
+      "armor": 82,
+      "mitigationPct": 3.68,
+      "attacks": [
+        {
+          "name": "Melee",
+          "element": "physical",
+          "min": 0,
+          "max": 500
+        },
+        {
+          "name": "Poison Hit",
+          "element": "earth",
+          "min": 300,
+          "max": 550
+        },
+        {
+          "name": "Death Missile",
+          "element": "death",
+          "min": 600,
+          "max": 900
+        }
+      ],
+      "source": "https://tibia.fandom.com/wiki/Cobra_Vizier"
+    }
+  ]
+}

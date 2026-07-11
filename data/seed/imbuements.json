@@ -1,0 +1,762 @@
+{
+  "dataVersion": "15.x",
+  "generatedAt": "2026-07-10",
+  "imbuements": [
+    {
+      "id": "basic-scorch",
+      "name": "Basic Scorch",
+      "tier": "basic",
+      "category": "elementalDamage",
+      "effect": {
+        "kind": "elementalConversion",
+        "element": "fire",
+        "pct": 10
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "intricate-scorch",
+      "name": "Intricate Scorch",
+      "tier": "intricate",
+      "category": "elementalDamage",
+      "effect": {
+        "kind": "elementalConversion",
+        "element": "fire",
+        "pct": 25
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "powerful-scorch",
+      "name": "Powerful Scorch",
+      "tier": "powerful",
+      "category": "elementalDamage",
+      "effect": {
+        "kind": "elementalConversion",
+        "element": "fire",
+        "pct": 50
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "basic-venom",
+      "name": "Basic Venom",
+      "tier": "basic",
+      "category": "elementalDamage",
+      "effect": {
+        "kind": "elementalConversion",
+        "element": "earth",
+        "pct": 10
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "intricate-venom",
+      "name": "Intricate Venom",
+      "tier": "intricate",
+      "category": "elementalDamage",
+      "effect": {
+        "kind": "elementalConversion",
+        "element": "earth",
+        "pct": 25
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "powerful-venom",
+      "name": "Powerful Venom",
+      "tier": "powerful",
+      "category": "elementalDamage",
+      "effect": {
+        "kind": "elementalConversion",
+        "element": "earth",
+        "pct": 50
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "basic-frost",
+      "name": "Basic Frost",
+      "tier": "basic",
+      "category": "elementalDamage",
+      "effect": {
+        "kind": "elementalConversion",
+        "element": "ice",
+        "pct": 10
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "intricate-frost",
+      "name": "Intricate Frost",
+      "tier": "intricate",
+      "category": "elementalDamage",
+      "effect": {
+        "kind": "elementalConversion",
+        "element": "ice",
+        "pct": 25
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "powerful-frost",
+      "name": "Powerful Frost",
+      "tier": "powerful",
+      "category": "elementalDamage",
+      "effect": {
+        "kind": "elementalConversion",
+        "element": "ice",
+        "pct": 50
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "basic-electrify",
+      "name": "Basic Electrify",
+      "tier": "basic",
+      "category": "elementalDamage",
+      "effect": {
+        "kind": "elementalConversion",
+        "element": "energy",
+        "pct": 10
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "intricate-electrify",
+      "name": "Intricate Electrify",
+      "tier": "intricate",
+      "category": "elementalDamage",
+      "effect": {
+        "kind": "elementalConversion",
+        "element": "energy",
+        "pct": 25
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "powerful-electrify",
+      "name": "Powerful Electrify",
+      "tier": "powerful",
+      "category": "elementalDamage",
+      "effect": {
+        "kind": "elementalConversion",
+        "element": "energy",
+        "pct": 50
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "basic-reap",
+      "name": "Basic Reap",
+      "tier": "basic",
+      "category": "elementalDamage",
+      "effect": {
+        "kind": "elementalConversion",
+        "element": "death",
+        "pct": 10
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "intricate-reap",
+      "name": "Intricate Reap",
+      "tier": "intricate",
+      "category": "elementalDamage",
+      "effect": {
+        "kind": "elementalConversion",
+        "element": "death",
+        "pct": 25
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "powerful-reap",
+      "name": "Powerful Reap",
+      "tier": "powerful",
+      "category": "elementalDamage",
+      "effect": {
+        "kind": "elementalConversion",
+        "element": "death",
+        "pct": 50
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "basic-strike",
+      "name": "Basic Strike",
+      "tier": "basic",
+      "category": "critical",
+      "effect": {
+        "kind": "critical",
+        "chancePct": 5,
+        "extraDmgPct": 5
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "intricate-strike",
+      "name": "Intricate Strike",
+      "tier": "intricate",
+      "category": "critical",
+      "effect": {
+        "kind": "critical",
+        "chancePct": 5,
+        "extraDmgPct": 15
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "powerful-strike",
+      "name": "Powerful Strike",
+      "tier": "powerful",
+      "category": "critical",
+      "effect": {
+        "kind": "critical",
+        "chancePct": 5,
+        "extraDmgPct": 40
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "basic-vampirism",
+      "name": "Basic Vampirism",
+      "tier": "basic",
+      "category": "leechHp",
+      "effect": {
+        "kind": "leech",
+        "resource": "hp",
+        "pct": 5
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "basic-void",
+      "name": "Basic Void",
+      "tier": "basic",
+      "category": "leechMana",
+      "effect": {
+        "kind": "leech",
+        "resource": "mana",
+        "pct": 3
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "intricate-vampirism",
+      "name": "Intricate Vampirism",
+      "tier": "intricate",
+      "category": "leechHp",
+      "effect": {
+        "kind": "leech",
+        "resource": "hp",
+        "pct": 10
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "intricate-void",
+      "name": "Intricate Void",
+      "tier": "intricate",
+      "category": "leechMana",
+      "effect": {
+        "kind": "leech",
+        "resource": "mana",
+        "pct": 5
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "powerful-vampirism",
+      "name": "Powerful Vampirism",
+      "tier": "powerful",
+      "category": "leechHp",
+      "effect": {
+        "kind": "leech",
+        "resource": "hp",
+        "pct": 25
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "powerful-void",
+      "name": "Powerful Void",
+      "tier": "powerful",
+      "category": "leechMana",
+      "effect": {
+        "kind": "leech",
+        "resource": "mana",
+        "pct": 8
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "basic-slash",
+      "name": "Basic Slash",
+      "tier": "basic",
+      "category": "skillBoost",
+      "effect": {
+        "kind": "skillBoost",
+        "skill": "sword",
+        "value": 1
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "intricate-slash",
+      "name": "Intricate Slash",
+      "tier": "intricate",
+      "category": "skillBoost",
+      "effect": {
+        "kind": "skillBoost",
+        "skill": "sword",
+        "value": 2
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "powerful-slash",
+      "name": "Powerful Slash",
+      "tier": "powerful",
+      "category": "skillBoost",
+      "effect": {
+        "kind": "skillBoost",
+        "skill": "sword",
+        "value": 4
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "basic-chop",
+      "name": "Basic Chop",
+      "tier": "basic",
+      "category": "skillBoost",
+      "effect": {
+        "kind": "skillBoost",
+        "skill": "axe",
+        "value": 1
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "intricate-chop",
+      "name": "Intricate Chop",
+      "tier": "intricate",
+      "category": "skillBoost",
+      "effect": {
+        "kind": "skillBoost",
+        "skill": "axe",
+        "value": 2
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "powerful-chop",
+      "name": "Powerful Chop",
+      "tier": "powerful",
+      "category": "skillBoost",
+      "effect": {
+        "kind": "skillBoost",
+        "skill": "axe",
+        "value": 4
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "basic-bash",
+      "name": "Basic Bash",
+      "tier": "basic",
+      "category": "skillBoost",
+      "effect": {
+        "kind": "skillBoost",
+        "skill": "club",
+        "value": 1
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "intricate-bash",
+      "name": "Intricate Bash",
+      "tier": "intricate",
+      "category": "skillBoost",
+      "effect": {
+        "kind": "skillBoost",
+        "skill": "club",
+        "value": 2
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "powerful-bash",
+      "name": "Powerful Bash",
+      "tier": "powerful",
+      "category": "skillBoost",
+      "effect": {
+        "kind": "skillBoost",
+        "skill": "club",
+        "value": 4
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "basic-punch",
+      "name": "Basic Punch",
+      "tier": "basic",
+      "category": "skillBoost",
+      "effect": {
+        "kind": "skillBoost",
+        "skill": "fist",
+        "value": 1
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "intricate-punch",
+      "name": "Intricate Punch",
+      "tier": "intricate",
+      "category": "skillBoost",
+      "effect": {
+        "kind": "skillBoost",
+        "skill": "fist",
+        "value": 2
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "powerful-punch",
+      "name": "Powerful Punch",
+      "tier": "powerful",
+      "category": "skillBoost",
+      "effect": {
+        "kind": "skillBoost",
+        "skill": "fist",
+        "value": 4
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "basic-precision",
+      "name": "Basic Precision",
+      "tier": "basic",
+      "category": "skillBoost",
+      "effect": {
+        "kind": "skillBoost",
+        "skill": "distance",
+        "value": 1
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "intricate-precision",
+      "name": "Intricate Precision",
+      "tier": "intricate",
+      "category": "skillBoost",
+      "effect": {
+        "kind": "skillBoost",
+        "skill": "distance",
+        "value": 2
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "powerful-precision",
+      "name": "Powerful Precision",
+      "tier": "powerful",
+      "category": "skillBoost",
+      "effect": {
+        "kind": "skillBoost",
+        "skill": "distance",
+        "value": 4
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "basic-blockade",
+      "name": "Basic Blockade",
+      "tier": "basic",
+      "category": "skillBoost",
+      "effect": {
+        "kind": "skillBoost",
+        "skill": "shielding",
+        "value": 1
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "intricate-blockade",
+      "name": "Intricate Blockade",
+      "tier": "intricate",
+      "category": "skillBoost",
+      "effect": {
+        "kind": "skillBoost",
+        "skill": "shielding",
+        "value": 2
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "powerful-blockade",
+      "name": "Powerful Blockade",
+      "tier": "powerful",
+      "category": "skillBoost",
+      "effect": {
+        "kind": "skillBoost",
+        "skill": "shielding",
+        "value": 4
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "basic-epiphany",
+      "name": "Basic Epiphany",
+      "tier": "basic",
+      "category": "skillBoost",
+      "effect": {
+        "kind": "skillBoost",
+        "skill": "magic",
+        "value": 1
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "intricate-epiphany",
+      "name": "Intricate Epiphany",
+      "tier": "intricate",
+      "category": "skillBoost",
+      "effect": {
+        "kind": "skillBoost",
+        "skill": "magic",
+        "value": 2
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "powerful-epiphany",
+      "name": "Powerful Epiphany",
+      "tier": "powerful",
+      "category": "skillBoost",
+      "effect": {
+        "kind": "skillBoost",
+        "skill": "magic",
+        "value": 4
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "basic-dragon-hide",
+      "name": "Basic Dragon Hide",
+      "tier": "basic",
+      "category": "protection",
+      "effect": {
+        "kind": "protection",
+        "element": "fire",
+        "pct": 3
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "intricate-dragon-hide",
+      "name": "Intricate Dragon Hide",
+      "tier": "intricate",
+      "category": "protection",
+      "effect": {
+        "kind": "protection",
+        "element": "fire",
+        "pct": 8
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "powerful-dragon-hide",
+      "name": "Powerful Dragon Hide",
+      "tier": "powerful",
+      "category": "protection",
+      "effect": {
+        "kind": "protection",
+        "element": "fire",
+        "pct": 15
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "basic-quara-scale",
+      "name": "Basic Quara Scale",
+      "tier": "basic",
+      "category": "protection",
+      "effect": {
+        "kind": "protection",
+        "element": "ice",
+        "pct": 3
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "intricate-quara-scale",
+      "name": "Intricate Quara Scale",
+      "tier": "intricate",
+      "category": "protection",
+      "effect": {
+        "kind": "protection",
+        "element": "ice",
+        "pct": 8
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "powerful-quara-scale",
+      "name": "Powerful Quara Scale",
+      "tier": "powerful",
+      "category": "protection",
+      "effect": {
+        "kind": "protection",
+        "element": "ice",
+        "pct": 15
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "basic-cloud-fabric",
+      "name": "Basic Cloud Fabric",
+      "tier": "basic",
+      "category": "protection",
+      "effect": {
+        "kind": "protection",
+        "element": "energy",
+        "pct": 3
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "intricate-cloud-fabric",
+      "name": "Intricate Cloud Fabric",
+      "tier": "intricate",
+      "category": "protection",
+      "effect": {
+        "kind": "protection",
+        "element": "energy",
+        "pct": 8
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "powerful-cloud-fabric",
+      "name": "Powerful Cloud Fabric",
+      "tier": "powerful",
+      "category": "protection",
+      "effect": {
+        "kind": "protection",
+        "element": "energy",
+        "pct": 15
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "basic-snake-skin",
+      "name": "Basic Snake Skin",
+      "tier": "basic",
+      "category": "protection",
+      "effect": {
+        "kind": "protection",
+        "element": "earth",
+        "pct": 3
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "intricate-snake-skin",
+      "name": "Intricate Snake Skin",
+      "tier": "intricate",
+      "category": "protection",
+      "effect": {
+        "kind": "protection",
+        "element": "earth",
+        "pct": 8
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "powerful-snake-skin",
+      "name": "Powerful Snake Skin",
+      "tier": "powerful",
+      "category": "protection",
+      "effect": {
+        "kind": "protection",
+        "element": "earth",
+        "pct": 15
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "basic-demon-presence",
+      "name": "Basic Demon Presence",
+      "tier": "basic",
+      "category": "protection",
+      "effect": {
+        "kind": "protection",
+        "element": "holy",
+        "pct": 3
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "intricate-demon-presence",
+      "name": "Intricate Demon Presence",
+      "tier": "intricate",
+      "category": "protection",
+      "effect": {
+        "kind": "protection",
+        "element": "holy",
+        "pct": 8
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "powerful-demon-presence",
+      "name": "Powerful Demon Presence",
+      "tier": "powerful",
+      "category": "protection",
+      "effect": {
+        "kind": "protection",
+        "element": "holy",
+        "pct": 15
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "basic-lich-shroud",
+      "name": "Basic Lich Shroud",
+      "tier": "basic",
+      "category": "protection",
+      "effect": {
+        "kind": "protection",
+        "element": "death",
+        "pct": 2
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "intricate-lich-shroud",
+      "name": "Intricate Lich Shroud",
+      "tier": "intricate",
+      "category": "protection",
+      "effect": {
+        "kind": "protection",
+        "element": "death",
+        "pct": 5
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    },
+    {
+      "id": "powerful-lich-shroud",
+      "name": "Powerful Lich Shroud",
+      "tier": "powerful",
+      "category": "protection",
+      "effect": {
+        "kind": "protection",
+        "element": "death",
+        "pct": 10
+      },
+      "source": "https://tibia.fandom.com/wiki/Imbuing"
+    }
+  ]
+}
