@@ -99,8 +99,15 @@ export default function CreditosPage() {
       <section className="space-y-2 text-parchment-300">
         <h2 className="text-xl text-gold-400">Contato / takedown</h2>
         <p>
-          Problemas com dados, licenças ou pedidos de remoção: abra uma issue no repositório do
-          projeto.
+          Problemas com dados, licenças ou pedidos de remoção: abra uma issue em{' '}
+          <a
+            className="text-gold-300 underline"
+            href="https://github.com/AlexAuler/TibiaSimulator/issues"
+            rel="noopener noreferrer"
+          >
+            github.com/AlexAuler/TibiaSimulator/issues
+          </a>
+          .
         </p>
       </section>
     </article>
