@@ -1,0 +1,10 @@
+node_modules
+.next
+out
+coverage
+pnpm-lock.yaml
+public/sprites
+docs/PLANO-MVP.md
+files
+*.md
+!README.md
