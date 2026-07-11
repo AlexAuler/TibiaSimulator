@@ -28,7 +28,9 @@ verdade — em conflito, o plano vence).
   e páginas correlatas, citando a URL na constante correspondente.
 - Testes ANTES da implementação em tudo que for fórmula (`src/engine`).
   Golden tests com a derivação em comentário.
-- Nenhum sprite/asset da CipSoft no repositório. Ícones próprios ou livres.
+- Sprites © CipSoft (via TibiaWiki) foram autorizados pelo dono do projeto
+  em 2026-07-10, com atribuição e política de takedown em `/creditos`.
+  Novos assets seguem o mesmo padrão: `scripts/fetch-sprites.mjs` + crédito.
 - Nomes de itens/criaturas/spells sempre em inglês (como no jogo);
   textos de UI em pt-BR, centralizados para futura i18n.
 - Nada de backend no MVP: permalink é a build serializada na URL.
@@ -36,6 +38,11 @@ verdade — em conflito, o plano vence).
   `src/engine/schemas/`.
 
 ## Fluxo de trabalho
+- NUNCA commitar/pushar direto na `main`. Toda alteração vai por Pull
+  Request de uma branch criada a partir da `main` atualizada
+  (`<tipo>/<slug>`, ex.: `feat/item-picker`), aguardando revisão do dono
+  do repositório. A `main` tem branch protection (1 aprovação obrigatória
+  + status check `verify`).
 - Trabalhar UM milestone por vez (Seção 9 do plano). Antes de codar,
   reler a seção do milestone; ao terminar, rodar lint + test +
   validate:data + build e conferir o Definition of Done.
